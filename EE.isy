@@ -164,11 +164,11 @@
   68 23 m
   68 16 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   64 25 m
   72 25 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   64 23 m
   72 23 l
   </path>
@@ -185,11 +185,11 @@
   68 23 m
   68 16 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   64 25 m
   72 25 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   64 23 m
   72 23 l
   </path>
@@ -198,7 +198,7 @@
 
 <symbol name="Basic/Diode right">
   <group matrix="1 0 0 1 0 -16">
-  <path stroke="black">
+  <path stroke="black" cap="2">
   0 16 m
   16 16 l
   </path>
@@ -225,15 +225,15 @@
   8 4 m
   8 12 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   16 16 m
   10 10 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   16 0 m
   10 6 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   8 8 m
   0 8 l
   </path>
@@ -346,7 +346,7 @@
 
 <symbol name="Basic/Ground">
   <group matrix="1 0 0 1 -32 -16">
-  <path stroke="black">
+  <path stroke="black" cap="2">
   32 16 m
   32 8 l
   </path>
@@ -354,11 +354,11 @@
   28 8 m
   38 8 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   28 6 m
   36 6 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   30 4 m
   34 4 l
   </path>
@@ -374,11 +374,11 @@
   24 16 l
   h
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   0 16 m
   8 16 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   24 16 m
   32 16 l
   </path>
@@ -394,11 +394,11 @@
   24 16 l
   h
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   0 16 m
   8 16 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   24 16 m
   32 16 l
   </path>
@@ -409,15 +409,15 @@
   <group matrix="1 0 0 1 -104 -48">
   <use name="mark/fdisk(sfx)" pos="116 48" size="normal" stroke="black" fill="white"/>
   <use name="mark/fdisk(sfx)" pos="108 48" size="normal" stroke="black" fill="white"/>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   104 48 m
   107 48 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   117 48 m
   120 48 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   109 48.5 m
   115.155 51.5777 l
   </path>
@@ -426,31 +426,31 @@
 
 <symbol name="Basic/Switch closed">
   <group>
-  <use name="Basic/Resistor horizontal" pos="16 0"/>
-  <path matrix="1 0 0 0.5 0 0.5" stroke="black">
-  12 1 m
-  12 3 l
+  <path stroke="black">
+  4 0 m
+  12 2 l
+  12 0 l
   </path>
-  <use matrix="1 0 0 1 -104 -48" name="mark/fdisk(sfx)" pos="116 48" size="normal" stroke="black" fill="white"/>
-  <use matrix="1 0 0 1 -104 -48" name="mark/fdisk(sfx)" pos="108 48" size="normal" stroke="black" fill="white"/>
-  <path matrix="1 0 0 1 -104 -48" stroke="black">
-  104 48 m
-  107 48 l
+  <path matrix="1 0 0 1 -64 -68" stroke="black" fill="white" cap="2">
+  1 0 0 1 76 68 e
   </path>
-  <path matrix="1 0 0 1 -104 -48" stroke="black">
-  117 48 m
-  120 48 l
+  <path matrix="1 0 0 1 -64 -68" stroke="black" cap="2">
+  64 68 m
+  67 68 l
   </path>
-  <path matrix="1.29967 0 0 0.487376 -136.664 -23.1377" stroke="black">
-  109 48.5 m
-  115.155 51.5777 l
+  <path matrix="1 0 0 1 -64 -68" stroke="black" cap="2">
+  80 68 m
+  77 68 l
+  </path>
+  <path matrix="1 0 0 1 -64 -68" stroke="black" fill="white" cap="2">
+  1 0 0 1 68 68 e
   </path>
   </group>
 </symbol>
 
 <symbol name="Basic/Thyristor right">
 <group>
-<path stroke="black">
+<path stroke="black" cap="2">
 8 1.33333 m
 8 4 l
 </path>
@@ -489,7 +489,7 @@
   10 6 m
   14 2 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   0 0 m
   10 0 l
   </path>
@@ -633,7 +633,7 @@
 
 <symbol name="Sensors/Voltage meter vertical">
   <group matrix="1 0 0 1 -56 -64">
-  <path stroke="black">
+  <path stroke="black" cap="2">
   6 0 0 6 56 56 e
   </path>
   <path stroke="black" cap="2">
@@ -644,7 +644,7 @@
   56 50 m
   56 48 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   54 59 m
   56 53 l
   58 59 l
@@ -681,7 +681,7 @@
   22 24 m
   32 24 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   28 16 m
   30 16 l
   31 19 l
@@ -705,7 +705,7 @@
   22 24 m
   32 24 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   28 16 m
   30 16 l
   31 19 l
@@ -726,13 +726,13 @@
   22 24 m
   32 24 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   22 48 m
   22 58 l
   32 58 l
   32 54 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   32 42 m
   32 32 l
   </path>
@@ -740,7 +740,7 @@
   26 48 m
   38 48 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   32 42 m
   32 32 l
   </path>
@@ -781,11 +781,11 @@
 
 <symbol name="Sources/Voltage source horizontal">
   <group>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   0 0 m
   32 0 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   6 0 0 6 16 0 e
   </path>
   </group>
@@ -793,10 +793,10 @@
 
 <symbol name="Sources/Voltage source vertical">
   <group matrix="1 0 0 1 -64 -48">
-  <path stroke="black">
+  <path stroke="black" cap="2">
   6 0 0 6 64 32 e
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   64 48 m
   64 16 l
   </path>
@@ -805,18 +805,18 @@
 
 <symbol name="Sources/Current source horizontal">
   <group matrix="0 1 -1 0 64 -64">
-  <path stroke="black">
+  <path stroke="black" cap="2">
   6 0 0 6 64 48 e
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   64 64 m
   64 54 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   64 42 m
   64 32 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   58 48 m
   70 48 l
   </path>
@@ -825,18 +825,18 @@
 
 <symbol name="Sources/Current source vertical">
   <group matrix="1 0 0 1 -64 -64">
-  <path stroke="black">
+  <path stroke="black" cap="2">
   6 0 0 6 64 48 e
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   64 64 m
   64 54 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   64 42 m
   64 32 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   58 48 m
   70 48 l
   </path>
@@ -871,7 +871,7 @@
 <path matrix="1 0 0 1 16 0" stroke="black">
 11.3137 0 0 11.3137 112 56 e
 </path>
-<path stroke="black">
+<path stroke="black" cap="2">
 112 64 m
 120 64 l
 </path>
@@ -879,7 +879,7 @@
 112 56 m
 120 56 l
 </path>
-<path stroke="black">
+<path stroke="black" cap="2">
 112 48 m
 120 48 l
 </path>
@@ -894,22 +894,22 @@
   <path matrix="1 0 0 1 4 0" stroke="black">
   8 0 0 8 64 64 e
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   53.0718 68 m
   48 68 l
   48 80 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   53.0718 60 m
   48 60 l
   48 48 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   74.9282 60 m
   80 60 l
   80 48 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   74.9282 68 m
   80 68 l
   80 80 l
