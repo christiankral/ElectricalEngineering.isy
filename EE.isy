@@ -844,24 +844,24 @@
 </symbol>
 
 <symbol name="Machines/DC Machine vertical">
-  <group matrix="1 0 0 1 -16 -32">
-  <path stroke="black" fill="black">
-  14 26 m
-  14 6 l
-  18 6 l
-  18 26 l
+  <group matrix="1 0 0 1 -32 -64">
+  <path stroke="black" fill="black" cap="2">
+  30 58 m
+  30 38 l
+  34 38 l
+  34 58 l
   h
   </path>
-  <path stroke="black" fill="white">
-  8 0 0 8 16 16 e
+  <path stroke="black" fill="white" cap="2">
+  8 0 0 8 32 48 e
   </path>
-  <path stroke="black">
-  16 32 m
-  16 26 l
+  <path stroke="black" cap="2">
+  32 64 m
+  32 58 l
   </path>
-  <path matrix="1 0 0 1.5 0 0" stroke="black">
-  16 4 m
-  16 0 l
+  <path stroke="black" cap="2">
+  32 38 m
+  32 32 l
   </path>
   </group>
 </symbol>
