@@ -496,6 +496,241 @@
   </group>
 </symbol>
 
+<symbol name="Basic/Winding horizontal">
+  <group matrix="0 -1 1.14286 0 -20.5714 24">
+  <group matrix="1 0 0 0.5 -100 -302">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <group matrix="1 0 0 0.5 -100 -306">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <group matrix="1 0 0 0.5 -100 -310">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <path matrix="1 0 0 0.5 -100 -302" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -0.5 172 364" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="1 0 0 1 -132 -634" stroke="black">
+  160 652 m
+  156 652 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Basic/Winding vertical">
+  <group matrix="1 0 0 1.14286 -24 -36.5714">
+  <group matrix="1 0 0 0.5 -100 -302">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <group matrix="1 0 0 0.5 -100 -306">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <group matrix="1 0 0 0.5 -100 -310">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <path matrix="1 0 0 0.5 -100 -302" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -0.5 172 364" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="1 0 0 1 -132 -634" stroke="black">
+  160 652 m
+  156 652 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Basic/Winding vertical big">
+  <group matrix="1 0 0 1.06667 -64 -51.2">
+  <group matrix="1 0 0 0.857143 24 6.85714">
+  <group matrix="1 0 0 0.571429 -84 -333.714">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <group matrix="1 0 0 0.571429 -84 -338.286">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <group matrix="1 0 0 0.571429 -84 -342.857">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <path matrix="1 0 0 0.571429 -84 -333.714" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -0.571429 188 427.429" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <group matrix="1 0 0 0.489796 -60.0001 -291.224">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <group matrix="1 0 0 0.489796 -60.0001 -295.143">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <group matrix="1 0 0 0.489796 -60.0001 -299.061">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <group matrix="1 0 0 0.489796 -60.0001 -303.224">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <path matrix="2 0 0 1 -64 0" stroke="black">
+  64 18 m
+  66 18 l
+  </path>
+  </group>
+</symbol>
+
 <symbol name="Arrows/Current right">
   <group matrix="0 -1 1 0 16 0">
   <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2">
