@@ -71,19 +71,17 @@
   <anglesize name="22.5 deg" value="22.5"/>
   <symbol name="mark/circle(sx)" transformations="translations">
   <path fill="sym-stroke">
-  0.6 0 0 0.6 0 0 e 0.4 0 0 0.4 0 0 e
+  0.4 0 0 0.4 0 0 e 0.2 0 0 0.2 0 0 e
   </path></symbol>
-
   <symbol name="mark/disk(sx)" transformations="translations">
   <path fill="sym-stroke">
-  0.5 0 0 0.5 0 0 e
+  0.4 0 0 0.4 0 0 e
   </path></symbol>
   <symbol name="mark/fdisk(sfx)" transformations="translations">
   <group><path fill="sym-fill">
   0.4 0 0 0.4 0 0 e
-
   </path><path fill="sym-stroke" fillrule="eofill">
-  0.5 0 0 0.5 0 0 e 0.3 0 0 0.3 0 0 e
+  0.4 0 0 0.4 0 0 e 0.2 0 0 0.2 0 0 e
   </path></group></symbol>
   <symbol name="mark/box(sx)" transformations="translations">
   <path fill="sym-stroke" fillrule="eofill">
