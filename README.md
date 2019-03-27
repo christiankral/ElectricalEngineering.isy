@@ -6,13 +6,12 @@ To start IPE from the command line with `ElectricalEngineering.isy` use: `/usr/b
 ```bash
 #!/bin/bash
 /usr/bin/ipe -sheet /path_to/ElectricalEngineering.isy $*
-# /usr/bin/ipe $*
 ```
 ## Example
 
 ### Induction machine
 
-- Stored in `Resources/InductionMachine.ipe` 
+- Stored in `Resources/InductionMachine.ipe`
 
 ![Induction machine](https://raw.githubusercontent.com/christiankral/ElectricalEngineering.isy/master/Resources/png/InductionMachine.png?raw=true)
 
