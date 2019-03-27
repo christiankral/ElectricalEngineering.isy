@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.11">
-<info created="D:20190327143248" modified="D:20190327143248"/>
+<info created="D:20190327143248" modified="D:20190327145308"/>
 <ipestyle name="EE">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -1160,13 +1160,14 @@ h
 <pen name="fat" value="1.2"/>
 <pen name="ultrafat" value="1.5"/>
 <symbolsize name="large" value="5"/>
-<symbolsize name="small" value="2"/>
 <symbolsize name="tiny" value="1.1"/>
+<symbolsize name="small" value="2"/>
 <arrowsize name="normal" value="5"/>
 <arrowsize name="large" value="7"/>
-<arrowsize name="small" value="5"/>
 <arrowsize name="tiny" value="3"/>
+<arrowsize name="small" value="5"/>
 <arrowsize name="very large" value="10"/>
+<color name="gray" value="0.745"/>
 <color name="red" value="1 0 0"/>
 <color name="green" value="0 1 0"/>
 <color name="blue" value="0 0 1"/>
@@ -1174,7 +1175,6 @@ h
 <color name="orange" value="1 0.647 0"/>
 <color name="gold" value="1 0.843 0"/>
 <color name="purple" value="0.627 0.125 0.941"/>
-<color name="gray" value="0.745"/>
 <color name="brown" value="0.647 0.165 0.165"/>
 <color name="navy" value="0 0 0.502"/>
 <color name="pink" value="1 0.753 0.796"/>
@@ -1198,13 +1198,13 @@ h
 <dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
 <dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
 <textsize name="large" value="\large"/>
+<textsize name="tiny" value="\tiny"/>
 <textsize name="small" value="\small"/>
 <textsize name="Large" value="\Large"/>
 <textsize name="LARGE" value="\LARGE"/>
 <textsize name="huge" value="\huge"/>
 <textsize name="Huge" value="\Huge"/>
 <textsize name="footnote" value="\footnotesize"/>
-<textsize name="tiny" value="\tiny"/>
 <textstyle name="center" begin="\begin{center}" end="\end{center}"/>
 <textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
 <textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
@@ -1235,21 +1235,21 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<use layer="alpha" name="Basic/Resistor horizontal" pos="128 704"/>
+<use layer="alpha" matrix="1 0 0 1 -8 0" name="Basic/Resistor horizontal" pos="128 704"/>
 <use name="Arrows/Current right" pos="112 704"/>
-<use name="Basic/Inductor horizontal" pos="152 704"/>
-<use name="Arrows/Current down" pos="184 704"/>
-<use name="Basic/Inductor vertical" pos="184 696"/>
-<use matrix="1 0 0 1 32 0" name="Basic/Inductor horizontal" pos="152 704"/>
-<use matrix="1 0 0 1 80 0" name="Basic/Resistor horizontal" pos="128 704"/>
-<use name="Arrows/Current left" pos="232 704"/>
-<path stroke="black">
+<use matrix="1 0 0 1 -8 0" name="Basic/Inductor horizontal" pos="152 704"/>
+<use matrix="1 0 0 1 -8 0" name="Arrows/Current down" pos="184 704"/>
+<use matrix="1 0 0 1 -8 0" name="Basic/Inductor vertical" pos="184 696"/>
+<use matrix="1 0 0 1 24 0" name="Basic/Inductor horizontal" pos="152 704"/>
+<use matrix="1 0 0 1 72 0" name="Basic/Resistor horizontal" pos="128 704"/>
+<use matrix="1 0 0 1 -8 0" name="Arrows/Current left" pos="232 704"/>
+<path matrix="0.941176 0 0 1 6.58824 0" stroke="black">
 112 664 m
 248 664 l
 248 704 l
 </path>
-<use name="mark/disk(sx)" pos="184 664" size="normal" stroke="black"/>
-<use name="mark/fdisk(sfx)" pos="184 704" size="normal" stroke="black"/>
+<use matrix="1 0 0 1 -8 0" name="mark/disk(sx)" pos="184 664" size="normal" stroke="black"/>
+<use matrix="1 0 0 1 -8 0" name="mark/disk(sx)" pos="184 704" size="normal" stroke="black"/>
 <use name="mark/fdisk(sfx)" pos="112 704" size="normal" stroke="black" fill="white"/>
 <use name="mark/fdisk(sfx)" pos="112 664" size="normal" stroke="black" fill="white"/>
 <path stroke="black" arrow="normal/normal">
@@ -1258,12 +1258,13 @@ h
 </path>
 <text transformations="translations" pos="116 684" stroke="black" type="label" width="11.294" height="6.408" depth="3.1" valign="center" style="math">\underline V_s</text>
 <text matrix="1 0 0 1 4 24" transformations="translations" pos="116 684" stroke="black" type="label" width="8.404" height="6.408" depth="3.1" halign="center" valign="bottom" style="math">\underline I_s</text>
-<text matrix="1 0 0 1 28 24" transformations="translations" pos="116 684" stroke="black" type="label" width="9.959" height="6.416" depth="1.55" halign="center" valign="bottom" style="math">R_s</text>
-<text matrix="1 0 0 1 52 24" transformations="translations" pos="116 684" stroke="black" type="label" width="15.415" height="6.416" depth="1.55" halign="center" valign="bottom" style="math">X_{s\sigma}</text>
-<text matrix="1 0 0 1 84 24" transformations="translations" pos="116 684" stroke="black" type="label" width="15.922" height="7.555" depth="2.52" halign="center" valign="bottom" style="math">X_{r\sigma}&apos;</text>
-<text matrix="1 0 0 1 108 24" transformations="translations" pos="116 684" stroke="black" type="label" width="10.577" height="11.15" depth="3.5" halign="center" valign="bottom" style="math">\frac{R_r&apos;}{s}</text>
-<text matrix="1 0 0 1 108 24" transformations="translations" pos="116 684" stroke="black" type="label" width="10.577" height="11.15" depth="3.5" halign="center" valign="bottom" style="math">\frac{R_r&apos;}{s}</text>
-<text matrix="1 0 0 1 124 24" transformations="translations" pos="116 684" stroke="black" type="label" width="8.912" height="7.551" depth="3.1" halign="center" valign="bottom" style="math">\underline I_r&apos;</text>
-<text matrix="1 0 0 1 72 -4" transformations="translations" pos="116 684" stroke="black" type="label" width="14.014" height="6.416" depth="1.55" valign="center" style="math">X_m</text>
+<text matrix="1 0 0 1 20 24" transformations="translations" pos="116 684" stroke="black" type="label" width="9.959" height="6.416" depth="1.55" halign="center" valign="bottom" style="math">R_s</text>
+<text matrix="1 0 0 1 44 24" transformations="translations" pos="116 684" stroke="black" type="label" width="15.415" height="6.416" depth="1.55" halign="center" valign="bottom" style="math">X_{s\sigma}</text>
+<text matrix="1 0 0 1 76 24" transformations="translations" pos="116 684" stroke="black" type="label" width="15.922" height="7.555" depth="2.52" halign="center" valign="bottom" style="math">X_{r\sigma}&apos;</text>
+<text matrix="1 0 0 1 100 24" transformations="translations" pos="116 684" stroke="black" type="label" width="10.577" height="11.15" depth="3.5" halign="center" valign="bottom" style="math">\frac{R_r&apos;}{s}</text>
+<text matrix="1 0 0 1 100 24" transformations="translations" pos="116 684" stroke="black" type="label" width="10.577" height="11.15" depth="3.5" halign="center" valign="bottom" style="math">\frac{R_r&apos;}{s}</text>
+<text matrix="1 0 0 1 116 24" transformations="translations" pos="116 684" stroke="black" type="label" width="8.912" height="7.551" depth="3.1" halign="center" valign="bottom" style="math">\underline I_r&apos;</text>
+<text matrix="1 0 0 1 64 -4" transformations="translations" pos="116 684" stroke="black" type="label" width="14.014" height="6.416" depth="1.55" valign="center" style="math">X_m</text>
+<text matrix="1 0 0 1 64 10" transformations="translations" pos="116 684" stroke="black" type="label" width="11.842" height="6.408" depth="3.1" valign="center" style="math">\underline I_m</text>
 </page>
 </ipe>
