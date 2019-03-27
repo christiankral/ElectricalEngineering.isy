@@ -10,6 +10,10 @@ To start IPE from the command line with `ElectricalEngineering.isy` use: `/usr/b
 ```
 ## Example
 
+### Induction machine
+
+- Stored in `Resources/InductionMachine.ipe` 
+
 ![Induction machine](https://raw.githubusercontent.com/christiankral/ElectricalEngineering.isy/master/Resources/png/InductionMachine.png?raw=true)
 
 ## Circuit components
