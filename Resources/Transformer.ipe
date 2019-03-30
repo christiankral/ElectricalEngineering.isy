@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.11">
-<info created="D:20190329204948" modified="D:20190330113516"/>
+<info created="D:20190329204948" modified="D:20190330114310"/>
 <ipestyle name="EE">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -1277,10 +1277,10 @@ h
 260 780 m
 260 756 l
 </path>
-<use name="mark/fdisk(sfx)" pos="188 784" size="normal" stroke="black" fill="gray"/>
-<use name="mark/fdisk(sfx)" pos="188 752" size="normal" stroke="black" fill="gray"/>
-<use name="mark/fdisk(sfx)" pos="260 752" size="normal" stroke="black" fill="gray"/>
-<use name="mark/fdisk(sfx)" pos="260 784" size="normal" stroke="black" fill="gray"/>
+<use name="mark/fdisk(sfx)" pos="188 784" size="normal" stroke="black" fill="white"/>
+<use name="mark/fdisk(sfx)" pos="188 752" size="normal" stroke="black" fill="white"/>
+<use name="mark/fdisk(sfx)" pos="260 752" size="normal" stroke="black" fill="white"/>
+<use name="mark/fdisk(sfx)" pos="260 784" size="normal" stroke="black" fill="white"/>
 <text matrix="1 0 0 1 2 0" transformations="translations" pos="196 788" stroke="black" type="label" width="7.65" height="6.62" depth="1.49" halign="center" valign="bottom" style="math">i_1</text>
 <text matrix="1 0 0 1 54 0" transformations="translations" pos="196 788" stroke="black" type="label" width="7.65" height="6.62" depth="1.49" halign="center" valign="bottom" style="math">i_2</text>
 <text transformations="translations" pos="190 768" stroke="black" type="label" width="9.563" height="4.537" depth="1.49" valign="center" style="math">v_1</text>
