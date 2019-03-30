@@ -15,6 +15,13 @@ To start IPE from the command line with `ElectricalEngineering.isy` use: `/usr/b
 
 ![Induction machine](https://raw.githubusercontent.com/christiankral/ElectricalEngineering.isy/master/Resources/png/InductionMachine.png?raw=true)
 
+### Transformer
+
+- Stored in `Resources/Transformer.ipe`
+
+![Transformer](https://raw.githubusercontent.com/christiankral/ElectricalEngineering.isy/master/Resources/png/Transformer.png?raw=true)
+
+
 ## Circuit components
 
 - Basic
