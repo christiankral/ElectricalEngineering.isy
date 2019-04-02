@@ -14,7 +14,7 @@ For using the `ElectricalEngineering` package it is very useful to add a shortcu
 In the proposed customization ipelet `ipelets/customize.lua` the following additional shortcuts are introduced  
 
 - `Shift+S` to add symbol
-- `Alt+Ctrl+I` to switch to spline mode  
+- `Alt+Ctrl+I` to add splines  
 
 This ipelet shall be stored in the `ipelets` folder which is located under `~/.ipe/ipelets` in Linux systems.
 
