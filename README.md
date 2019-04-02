@@ -7,6 +7,17 @@ To start IPE from the command line with `ElectricalEngineering.isy` use: `/usr/b
 #!/bin/bash
 /usr/bin/ipe -sheet /path_to/ElectricalEngineering.isy $*
 ```
+
+## Additional shortcuts
+
+For using the `ElectricalEngineering` package it is very useful to add a shortcut to open the symbol library.
+In the proposed customization ipelet `ipelets/customize.lua` the following additional shortcuts are introduced  
+
+- `Shift+S` to add symbol
+- `Alt+Ctrl+I` to switch to spline mode  
+
+This ipelet shall be stored in the `ipelets` folder which is located under `~/.ipe/ipelets` in Linux systems.
+
 ## Example
 
 ### Induction machine
