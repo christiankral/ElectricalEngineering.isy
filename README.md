@@ -4,7 +4,7 @@ The package `ElectricalEngineering.isy` provides electrical engineering circuits
 ## Additional customization
 
 For using the `ElectricalEngineering` package it is very useful to
-- [include](https://github.com/christiankral/ElectricalEngineering.isy/issues/1) the file `ElectricalEngineering.isy` in the startup and
+- [include](https://github.com/christiankral/ElectricalEngineering.isy/issues/1) the file `ElectricalEngineering.isy` when creating a new file and
 - add a shortcut to open the symbol library.
 
 In the proposed customization ipelet `ipelets/customize.lua` the following additional shortcuts are introduced  
