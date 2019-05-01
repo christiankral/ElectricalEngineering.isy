@@ -1,16 +1,12 @@
 The package `ElectricalEngineering.isy` provides electrical engineering circuits components for
 [IPE](http://ipe.otfried.org/).
 
-To start IPE from the command line with `ElectricalEngineering.isy` use: `/usr/bin/ipe -sheet /path_to/ElectricalEngineering.isy`, where `path_to` represents the absolute path of the file `ElectricalEngineering.isy`. Alternatively one can create start script (in Linux):
+## Additional customization
 
-```bash
-#!/bin/bash
-/usr/bin/ipe -sheet /path_to/ElectricalEngineering.isy $*
-```
+For using the `ElectricalEngineering` package it is very useful to
+- [include](https://github.com/christiankral/ElectricalEngineering.isy/issues/1) the file `ElectricalEngineering.isy` in the startup and
+- add a shortcut to open the symbol library.
 
-## Additional shortcuts
-
-For using the `ElectricalEngineering` package it is very useful to add a shortcut to open the symbol library.
 In the proposed customization ipelet `ipelets/customize.lua` the following additional shortcuts are introduced  
 
 - `Shift+S` to add symbol
