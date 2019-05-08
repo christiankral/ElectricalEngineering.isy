@@ -383,8 +383,8 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Switch open">
-  <group matrix="1 0 0 1 -104 -48">
+<symbol name="Basic/Switch open" snap"-8 0 8 0">
+  <group matrix="1 0 0 1 -112 -48">
   <use name="mark/fdisk(sfx)" pos="116 48" size="normal" stroke="black" fill="white"/>
   <use name="mark/fdisk(sfx)" pos="108 48" size="normal" stroke="black" fill="white"/>
   <path stroke="black" cap="2">
