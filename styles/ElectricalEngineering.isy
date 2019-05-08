@@ -383,7 +383,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Switch open" snap"-8 0 8 0">
+<symbol name="Basic/Switch open" snap="-8 0 8 0">
   <group matrix="1 0 0 1 -112 -48">
   <use name="mark/fdisk(sfx)" pos="116 48" size="normal" stroke="black" fill="white"/>
   <use name="mark/fdisk(sfx)" pos="108 48" size="normal" stroke="black" fill="white"/>
@@ -403,26 +403,22 @@
 </symbol>
 
 <symbol name="Basic/Switch closed">
-  <group>
+  <group matrix="1 0 0 1 -56 -36">
   <path stroke="black">
-  4 0 m
-  12 2 l
-  12 0 l
+  60 37 m
+  60 38 l
+  52 36 l
   </path>
-  <path matrix="1 0 0 1 -64 -68" stroke="black" fill="white" cap="2">
-  1 0 0 1 76 68 e
+  <path stroke="black">
+  48 36 m
+  52 36 l
   </path>
-  <path matrix="1 0 0 1 -64 -68" stroke="black" cap="2">
-  64 68 m
-  67 68 l
+  <path stroke="black">
+  64 36 m
+  60 36 l
   </path>
-  <path matrix="1 0 0 1 -64 -68" stroke="black" cap="2">
-  80 68 m
-  77 68 l
-  </path>
-  <path matrix="1 0 0 1 -64 -68" stroke="black" fill="white" cap="2">
-  1 0 0 1 68 68 e
-  </path>
+  <use name="mark/fdisk(sfx)" pos="52 36" size="normal" stroke="black"/>
+  <use name="mark/fdisk(sfx)" pos="60 36" size="normal" stroke="black" fill="white"/>
   </group>
 </symbol>
 
