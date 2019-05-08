@@ -363,42 +363,22 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Resistor horizontal">
+<symbol name="Basic/Resistor" snap="-16 0 16 0">
   <group matrix="1 0 0 1 0 -16">
   <path matrix="1 0 0 1 0 1.9" stroke="black">
-  8 16 m
+  -8 16 m
+  -8 12 l
   8 12 l
-  24 12 l
-  24 16 l
+  8 16 l
   h
   </path>
   <path stroke="black" cap="2">
-  0 16 m
-  8 16 l
+  -16 16 m
+  -8 16 l
   </path>
   <path stroke="black" cap="2">
-  24 16 m
-  32 16 l
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Basic/Resistor vertical">
-  <group matrix="0 1 -1 0 16 -32">
-  <path matrix="1 0 0 1 0 1.9" stroke="black">
   8 16 m
-  8 12 l
-  24 12 l
-  24 16 l
-  h
-  </path>
-  <path stroke="black" cap="2">
-  0 16 m
-  8 16 l
-  </path>
-  <path stroke="black" cap="2">
-  24 16 m
-  32 16 l
+  16 16 l
   </path>
   </group>
 </symbol>
