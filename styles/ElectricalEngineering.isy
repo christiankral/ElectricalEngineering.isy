@@ -404,16 +404,16 @@
 
 <symbol name="Basic/Switch closed">
   <group matrix="1 0 0 1 -56 -36">
-  <path stroke="black">
+  <path stroke="black" cap="2">
   60 37 m
   60 38 l
   52 36 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   48 36 m
   52 36 l
   </path>
-  <path stroke="black">
+  <path stroke="black" cap="2">
   64 36 m
   60 36 l
   </path>
