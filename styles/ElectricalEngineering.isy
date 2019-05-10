@@ -191,7 +191,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/IGBT">
+<symbol name="Basic/IGBT" snap="-8 0 8 -8 8 8">
   <group matrix="1 0 0 1 0 -8">
   <path matrix="1 0 0 1 2 0" stroke="black">
   -2 4 m
