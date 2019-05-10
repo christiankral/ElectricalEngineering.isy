@@ -220,37 +220,8 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Inductor">
+<symbol name="Basic/Inductor" snap="-16 0 16 0">
   <group matrix="1 0 0 1 -296 -724">
-  <path stroke="black" cap="2">
-  280 724 m
-  288 724 l
-  </path>
-  <path stroke="black" cap="2">
-  304 724 m
-  312 724 l
-  </path>
-  <path matrix="0.5 0 0 0.5 144 362" stroke="black" cap="2">
-  288 724 m
-  4 0 0 -4 292 724 296 724 a
-  </path>
-  <path matrix="0.5 0 0 0.5 148 362" stroke="black" cap="2">
-  288 724 m
-  4 0 0 -4 292 724 296 724 a
-  </path>
-  <path matrix="0.5 0 0 0.5 152 362" stroke="black" cap="2">
-  288 724 m
-  4 0 0 -4 292 724 296 724 a
-  </path>
-  <path matrix="0.5 0 0 0.5 156 362" stroke="black" cap="2">
-  288 724 m
-  4 0 0 -4 292 724 296 724 a
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Basic/Inductor vertical">
-  <group matrix="0 -1 1 0 -724 280">
   <path stroke="black" cap="2">
   280 724 m
   288 724 l
