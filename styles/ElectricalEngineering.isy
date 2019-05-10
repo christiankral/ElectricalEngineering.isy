@@ -249,8 +249,8 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Inductor coil horizontal">
-  <group matrix="1 0 0 1 -112 -56">
+<symbol name="Basic/Inductor coil" snap="-16 0 16 0">
+  <group matrix="1 0 0 1 -120 -56">
   <path stroke="black" cap="2">
   116 56 m
   2 0 0 2 114 56 112 56 a
