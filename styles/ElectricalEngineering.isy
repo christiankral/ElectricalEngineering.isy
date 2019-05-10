@@ -151,45 +151,23 @@
 
 <preamble>\usepackage{fourier,inconsolata}</preamble>
 
-
-<symbol name="Basic/Capacitor horizontal">
-  <group matrix="-0 -1 1 -0 -8 68">
-  <path matrix="1 0 0 2.14286 0 -28.5714" stroke="black">
-  68 32 m
-  68 25 l
-  </path>
-  <path matrix="1 0 0 2.14286 0 -26.2857" stroke="black">
-  68 23 m
-  68 16 l
+<symbol name="Basic/Capacitor" snap="-16 0 16 0">
+  <group matrix="1 0 0 1 -48 -44">
+  <path stroke="black" cap="2">
+  32 44 m
+  47 44 l
   </path>
   <path stroke="black" cap="2">
-  64 25 m
-  72 25 l
+  49 44 m
+  64 44 l
   </path>
   <path stroke="black" cap="2">
-  64 23 m
-  72 23 l
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Basic/Capacitor vertical">
-  <group matrix="1 0 0 1 -68 -40">
-  <path matrix="1 0 0 2.14286 0 -28.5714" stroke="black">
-  68 32 m
-  68 25 l
-  </path>
-  <path matrix="1 0 0 2.14286 0 -26.2857" stroke="black">
-  68 23 m
-  68 16 l
+  47 48 m
+  47 40 l
   </path>
   <path stroke="black" cap="2">
-  64 25 m
-  72 25 l
-  </path>
-  <path stroke="black" cap="2">
-  64 23 m
-  72 23 l
+  49 48 m
+  49 40 l
   </path>
   </group>
 </symbol>
