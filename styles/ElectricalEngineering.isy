@@ -220,8 +220,8 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Inductor horizontal">
-  <group matrix="1 0 0 1 -280 -724">
+<symbol name="Basic/Inductor">
+  <group matrix="1 0 0 1 -296 -724">
   <path stroke="black" cap="2">
   280 724 m
   288 724 l
