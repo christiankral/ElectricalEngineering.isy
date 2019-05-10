@@ -330,7 +330,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Switch closed">
+<symbol name="Basic/Switch closed" snap="-8 0 8 0">
   <group matrix="1 0 0 1 -56 -36">
   <path stroke="black" cap="2">
   60 37 m
