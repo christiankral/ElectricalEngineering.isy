@@ -270,28 +270,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Inductor coil vertical">
-  <group matrix="-0 -1 1 -0 -56 112">
-  <path stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
-  </path>
-  <path matrix="1 0 0 1 4 0" stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
-  </path>
-  <path matrix="1 0 0 1 8 0" stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
-  </path>
-  <path matrix="1 0 0 1 12 0" stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Basic/Ground">
+<symbol name="Basic/Ground" snap="0 0">
   <group matrix="1 0 0 1 -32 -16">
   <path stroke="black" cap="2">
   32 16 m
