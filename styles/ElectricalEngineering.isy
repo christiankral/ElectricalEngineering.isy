@@ -172,21 +172,21 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Diode right">
+<symbol name="Basic/Diode">
   <group matrix="1 0 0 1 0 -16">
   <path stroke="black" cap="2">
-  0 16 m
-  16 16 l
+  -8 16 m
+  8 16 l
   </path>
   <path matrix="1 0 0 1 -2 0" stroke="black">
-  12 12 m
-  12 20 l
+  4 12 m
+  4 20 l
   </path>
   <path matrix="1 0 0 1 -2 0" stroke="black">
-  12 16 m
-  6 20 l
-  6 12 l
-  12 16 l
+  4 16 m
+  -2 20 l
+  -2 12 l
+  4 16 l
   </path>
   </group>
 </symbol>
