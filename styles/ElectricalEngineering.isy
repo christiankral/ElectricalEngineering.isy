@@ -172,7 +172,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Diode">
+<symbol name="Basic/Diode" snap="-8 0 8 0">
   <group matrix="1 0 0 1 0 -16">
   <path stroke="black" cap="2">
   -8 16 m
@@ -194,28 +194,28 @@
 <symbol name="Basic/IGBT">
   <group matrix="1 0 0 1 0 -8">
   <path matrix="1 0 0 1 2 0" stroke="black">
-  6 4 m
-  6 12 l
+  -2 4 m
+  -2 12 l
   </path>
   <path matrix="1 0 0 1 2 0" stroke="black">
-  8 4 m
-  8 12 l
+  0 4 m
+  0 12 l
   </path>
   <path stroke="black" cap="2">
-  16 16 m
-  10 10 l
+  8 16 m
+  2 10 l
   </path>
   <path stroke="black" cap="2">
-  16 0 m
-  10 6 l
+  8 0 m
+  2 6 l
   </path>
   <path stroke="black" cap="2">
-  8 8 m
-  0 8 l
+  0 8 m
+  -8 8 l
   </path>
   <path stroke="black" arrow="normal/tiny">
-  10 6 m
-  14 2 l
+  2 6 m
+  6 2 l
   </path>
   </group>
 </symbol>
