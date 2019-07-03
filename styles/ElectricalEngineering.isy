@@ -352,8 +352,8 @@
 
 <symbol name="Basic/Thyristor">
 <group>
-<path stroke="black" cap="2">
-0 1.33333 m
+<path stroke="black">
+0 1.43333 m
 0 4 l
 </path>
 <path matrix="1 0 0 1 0 -16" stroke="black">
