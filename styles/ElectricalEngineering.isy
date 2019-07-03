@@ -1085,17 +1085,20 @@
   </group>
 </symbol>
 
-<symbol name="Machines/Transformer with core vertical">
-  <group matrix="1 0 0 1 -32 -32">
-  <use matrix="1 0 0 1 0 -32" name="Basic/Inductor coil" pos="32 64"/>
-  <use matrix="-1 0 -0 -1 76 80" name="Basic/Inductor coil" pos="32 64"/>
-  <path matrix="1 0 0 1 -0.5 0" stroke="black">
-  37 32 m
-  37 16 l
+<symbol name="Machines/Transformer with core" snap="8 0 0 -16 8 -16">
+  <group>
+  <use name="Machines/Transformer with core vertical" pos="112 704"/>
+  <group>
+  <use matrix="0 -1 1 0 0 -8" name="Basic/Inductor coil"/>
+  <use matrix="0 1 -1 0 8 -8" name="Basic/Inductor coil"/>
+  </group>
+  <path matrix="0.5 0 0 1 1.5 0" stroke="black" cap="2">
+  4 0 m
+  4 -16 l
   </path>
-  <path matrix="1 0 0 1 0.5 0" stroke="black">
-  39 32 m
-  39 16 l
+  <path matrix="0.5 0 0 1 2.5 0" stroke="black" cap="2">
+  4 0 m
+  4 -16 l
   </path>
   </group>
 </symbol>
