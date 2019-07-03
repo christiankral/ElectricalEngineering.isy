@@ -291,6 +291,35 @@
   </group>
 </symbol>
 
+<symbol name="Basic/IGBT" snap="16 8 16 -8">
+  <group>
+  <path matrix="1 0 0 1 -8 -8" stroke="black">
+  8 8 m
+  16 8 l
+  </path>
+  <path matrix="1 0 0 1 -8 -8" stroke="black">
+  16 12 m
+  16 4 l
+  </path>
+  <path matrix="1 0 0 1 -8 -8" stroke="black">
+  18 12 m
+  18 4 l
+  </path>
+  <path matrix="1 0 0 1 -8 -8" stroke="black">
+  18 10 m
+  24 16 l
+  </path>
+  <path matrix="1 0 0 1 -8 -8" stroke="black">
+  18 6 m
+  24 0 l
+  </path>
+  <path matrix="1 0 0 1 -8 -8" stroke="black" arrow="normal/tiny">
+  18 6 m
+  22 2 l
+  </path>
+  </group>
+</symbol>
+
 <symbol name="Basic/Resistor" snap="-16 0 16 0">
   <group matrix="1 0 0 1 0 -16">
   <path matrix="1 0 0 1 0 1.9" stroke="black">
