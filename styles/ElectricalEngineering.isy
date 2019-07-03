@@ -373,7 +373,7 @@
 </group>
 </symbol>
 
-<symbol name="Basic/Transistor">
+<symbol name="Basic/Transistor" snap="16 8 16 -8">
   <group>
   <path matrix="1 0 0 1 2 -8" stroke="black">
   8 4 m
