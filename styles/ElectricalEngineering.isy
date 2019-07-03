@@ -1004,30 +1004,30 @@
   </group>
 </symbol>
 
-<symbol name="Machines/DC Machine vertical">
-  <group matrix="1 0 0 1 -32 -64">
-  <path stroke="black" fill="black" cap="2">
-  30 58 m
-  30 38 l
-  34 38 l
-  34 58 l
+<symbol name="Machines/DC Machine" snap="0 16 0 -16">
+  <group>
+  <path stroke="black" fill="black">
+  -2 10 m
+  -2 -10 l
+  2 -10 l
+  2 10 l
   h
   </path>
-  <path stroke="black" fill="white" cap="2">
-  8 0 0 8 32 48 e
+  <path stroke="black" fill="white">
+  8 0 0 8 0 0 e
   </path>
-  <path stroke="black" cap="2">
-  32 64 m
-  32 58 l
+  <path stroke="black" cap="2" join="0">
+  0 16 m
+  0 10 l
   </path>
-  <path stroke="black" cap="2">
-  32 38 m
-  32 32 l
+  <path matrix="1 0 0 1 0 -26" stroke="black" cap="2" join="0">
+  0 16 m
+  0 10 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Machines/Three phase">
+<symbol name="Machines/Three phase" snap="0 -16 0 -32">
 <group matrix="1 0 0 1 -112 -64">
 <path matrix="1 0 0 1 16 0" stroke="black">
 11.3137 0 0 11.3137 112 56 e
@@ -1080,15 +1080,15 @@
 
 <symbol name="Machines/Transformer vertical">
   <group matrix="1 0 0 1 -32 -64">
-  <use name="Basic/Inductor coil vertical" pos="32 64"/>
-  <use matrix="-1 0 -0 -1 72 112" name="Basic/Inductor coil vertical" pos="32 64"/>
+  <use name="Basic/Inductor coil" pos="32 64"/>
+  <use matrix="-1 0 -0 -1 72 112" name="Basic/Inductor coil" pos="32 64"/>
   </group>
 </symbol>
 
 <symbol name="Machines/Transformer with core vertical">
   <group matrix="1 0 0 1 -32 -32">
-  <use matrix="1 0 0 1 0 -32" name="Basic/Inductor coil vertical" pos="32 64"/>
-  <use matrix="-1 0 -0 -1 76 80" name="Basic/Inductor coil vertical" pos="32 64"/>
+  <use matrix="1 0 0 1 0 -32" name="Basic/Inductor coil" pos="32 64"/>
+  <use matrix="-1 0 -0 -1 76 80" name="Basic/Inductor coil" pos="32 64"/>
   <path matrix="1 0 0 1 -0.5 0" stroke="black">
   37 32 m
   37 16 l
