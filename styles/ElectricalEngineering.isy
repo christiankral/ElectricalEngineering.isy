@@ -350,7 +350,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Thyristor">
+<symbol name="Basic/Thyristor" snap="16 8 16 -8">
 <group>
 <path stroke="black">
 0 1.43333 m
