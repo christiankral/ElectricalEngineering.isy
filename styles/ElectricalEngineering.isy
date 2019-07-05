@@ -767,27 +767,27 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Current meter vertical" snap="0 0 0 -16">
-  <group matrix="1 0 0 1 -20 -16">
-  <path matrix="-1 0 -0 -1 88 56" stroke="black">
+<symbol name="Sensors/Current meter vertical" snap="0 8 0 -8">
+  <group>
+  <path matrix="0 -1 1 0 -48 68" stroke="black">
   6 0 0 6 68 48 e
   </path>
-  <path matrix="-1 0 -0 -1 88 56" stroke="black" cap="2">
-  68 54 m
-  68 56 l
-  </path>
-  <path matrix="-1 0 -0 -1 88 56" stroke="black" cap="2">
-  68 42 m
-  68 40 l
-  </path>
-  <path matrix="-1 0 -0 -0.857143 88 48.7143" stroke="black">
+  <path matrix="-1 0 0 -0.857143 68 40.7143" stroke="black">
   66 51 m
   68 44 l
   70 51 l
   </path>
-  <path matrix="1 -0 0 1 4 0" stroke="black">
+  <path matrix="1 0 0 1 -16 -8" stroke="black">
   14.6667 7 m
   17.3333 7 l
+  </path>
+  <path stroke="black" cap="2">
+  0 8 m
+  0 6 l
+  </path>
+  <path stroke="black" cap="2">
+  0 -6 m
+  0 -8 l
   </path>
   </group>
 </symbol>
