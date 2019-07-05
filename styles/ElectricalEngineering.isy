@@ -747,11 +747,11 @@
   <path matrix="0 -1 1 0 -28 76" stroke="black">
   6 0 0 6 68 48 e
   </path>
-  <path matrix="0 -1 1 0 -28 76" stroke="black">
+  <path matrix="0 -1 1 0 -28 76" stroke="black" cap="2">
   68 54 m
   68 56 l
   </path>
-  <path matrix="0 -1 1 0 -28 76" stroke="black">
+  <path matrix="0 -1 1 0 -28 76" stroke="black" cap="2">
   68 42 m
   68 40 l
   </path>
@@ -772,11 +772,11 @@
   <path matrix="-1 0 -0 -1 88 56" stroke="black">
   6 0 0 6 68 48 e
   </path>
-  <path matrix="-1 0 -0 -1 88 56" stroke="black">
+  <path matrix="-1 0 -0 -1 88 56" stroke="black" cap="2">
   68 54 m
   68 56 l
   </path>
-  <path matrix="-1 0 -0 -1 88 56" stroke="black">
+  <path matrix="-1 0 -0 -1 88 56" stroke="black" cap="2">
   68 42 m
   68 40 l
   </path>
