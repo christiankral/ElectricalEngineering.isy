@@ -742,7 +742,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Current meter horizontal">
+<symbol name="Sensors/Current meter horizontal" snap="0 0 16 0">
   <group matrix="1 0 0 1 -12 -8">
   <path matrix="0 -1 1 0 -28 76" stroke="black">
   6 0 0 6 68 48 e
@@ -767,7 +767,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Current meter vertical">
+<symbol name="Sensors/Current meter vertical" snap="0 0 0 -16">
   <group matrix="1 0 0 1 -20 -16">
   <path matrix="-1 0 -0 -1 88 56" stroke="black">
   6 0 0 6 68 48 e
