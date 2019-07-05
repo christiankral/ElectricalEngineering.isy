@@ -845,7 +845,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Oscilloscope horizontal" snap="0 0 16 0">
+<symbol name="Sensors/Oscilloscope horizontal" snap="-8 0 8 0">
   <group matrix="1 0 0 1 -8 0">
   <group matrix="1 0 0 1 8 0">
   <path matrix="0 -1 1 0 -24 16" stroke="black" fill="white">
@@ -871,7 +871,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Oscilloscope vertical" snap="0 0 0 -16">
+<symbol name="Sensors/Oscilloscope vertical" snap="0 8 0 -8">
   <group>
   <group>
   <path matrix="0 -1 1 0 -24 16" stroke="black" fill="white">
