@@ -340,6 +340,30 @@
   </group>
 </symbol>
 
+<symbol name="Basic/Resistor variable" snap="-16 0 16 0 8 -8">
+  <group>
+  <path matrix="0.8 0 0 0.8 -152 -564.8" stroke="black" rarrow="normal/tiny">
+  180 716 m
+  200 696 l
+  </path>
+  <path matrix="1 0 0 1 0 -14.1" stroke="black">
+  -8 16 m
+  -8 12 l
+  8 12 l
+  8 16 l
+  h
+  </path>
+  <path matrix="1 0 0 1 0 -16" stroke="black" cap="2">
+  -16 16 m
+  -8 16 l
+  </path>
+  <path matrix="1 0 0 1 0 -16" stroke="black" cap="2">
+  8 16 m
+  16 16 l
+  </path>
+  </group>
+</symbol>
+
 <symbol name="Basic/Switch open" snap="-8 0 8 0">
   <group matrix="1 0 0 1 -112 -48">
   <use name="mark/fdisk(sfx)" pos="116 48" size="normal" stroke="black" fill="white"/>
