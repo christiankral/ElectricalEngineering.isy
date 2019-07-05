@@ -249,23 +249,45 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Inductor coil" snap="-16 0 16 0">
-  <group matrix="1 0 0 1 -120 -56">
+<symbol name="Basic/Lamp" snap="-16 0 16 0">
+  <path matrix="1 0 0 1 -80 -88" stroke="black">
+  6 0 0 6 80 88 e
+  </path>
+  <path matrix="1 0 0 1 -80 -88" stroke="black" cap="2">
+  64 88 m
+  74 88 l
+  </path>
+  <path matrix="1 0 0 1 -80 -88" stroke="black" cap="2">
+  86 88 m
+  96 88 l
+  </path>
+  <path matrix="1 0 0 1 -80 -88" stroke="black">
+  76 84 m
+  84 92 l
+  </path>
+  <path matrix="1 0 0 1 -80 -88" stroke="black">
+  76 92 m
+  84 84 l
+  </path>
+</symbol>
+
+<symbol name="Basic/Ground" snap="0 0">
+  <group matrix="1 0 0 1 -32 -16">
   <path stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
+  32 16 m
+  32 8 l
   </path>
-  <path matrix="1 0 0 1 4 0" stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
+  <path matrix="1.2 0 0 1 -7.6 0" stroke="black">
+  28 8 m
+  38 8 l
   </path>
-  <path matrix="1 0 0 1 8 0" stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
+  <path stroke="black" cap="2">
+  28 6 m
+  36 6 l
   </path>
-  <path matrix="1 0 0 1 12 0" stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
+  <path stroke="black" cap="2">
+  30 4 m
+  34 4 l
   </path>
   </group>
 </symbol>
