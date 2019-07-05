@@ -846,43 +846,39 @@
 </symbol>
 
 <symbol name="Sensors/Oscilloscope horizontal">
-  <group matrix="1 0 0 1 -16 -16">
-  <path matrix="1 0 0 1 16 -8" stroke="black">
+  <group>
+  <group matrix="1 0 0 1 8 0">
+  <path matrix="0 -1 1 0 -24 16" stroke="black" fill="white">
   6 0 0 6 16 24 e
   </path>
-  <path matrix="1 0 0 1 16 -8" stroke="black">
-  0 24 m
-  10 24 l
-  </path>
-  <path matrix="1 0 0 1 16 -8" stroke="black">
-  22 24 m
-  32 24 l
-  </path>
-  <path stroke="black" cap="2">
+  <path matrix="1 0 0 1 -32 -16" stroke="black">
   28 16 m
   30 16 l
   31 19 l
   33 13 l
   34 16 l
   36 16 l
+  </path>
+  </group>
+  <path matrix="1 0 0 1 -20 -12" stroke="black" cap="2">
+  20 12 m
+  22 12 l
+  </path>
+  <path matrix="1 0 0 1 -20 -12" stroke="black" cap="2">
+  34 12 m
+  36 12 l
   </path>
   </group>
 </symbol>
 
 <symbol name="Sensors/Oscilloscope vertical">
-  <group matrix="1 0 0 1 -32 -32">
-  <path matrix="0 -1 1 0 8 32" stroke="black">
+  <ipeselection pos="22 -2">
+  <group matrix="1 0 0 1 -8 -8">
+  <group matrix="1 0 0 1 8 0">
+  <path matrix="0 -1 1 0 -24 16" stroke="black" fill="white">
   6 0 0 6 16 24 e
   </path>
-  <path matrix="0 -1 1 0 8 32" stroke="black">
-  0 24 m
-  10 24 l
-  </path>
-  <path matrix="0 -1 1 0 8 32" stroke="black">
-  22 24 m
-  32 24 l
-  </path>
-  <path stroke="black" cap="2">
+  <path matrix="1 0 0 1 -32 -16" stroke="black">
   28 16 m
   30 16 l
   31 19 l
@@ -891,46 +887,52 @@
   36 16 l
   </path>
   </group>
+  <path stroke="black" cap="2">
+  8 8 m
+  8 6 l
+  </path>
+  <path stroke="black" cap="2">
+  8 -6 m
+  8 -8 l
+  </path>
+  </group>
+  </ipeselection>
 </symbol>
 
-<symbol name="Sensors/Power meter horizontal">
-  <group matrix="1 0 0 1 -16 -48">
-  <path matrix="1 0 0 1 16 24" stroke="black">
+<symbol name="Sensors/Power meter horizontal" snap="-8 0 8 0 0 -8 0 8">
+  <group matrix="1 0 0 1 -8 0">
+  <path matrix="0.2 0 0 1 0 -24" stroke="black">
   0 24 m
   10 24 l
   </path>
-  <path matrix="1 0 0 1 16 24" stroke="black">
+  <path matrix="1 0 0 1 -16 -24" stroke="black">
   22 24 m
   32 24 l
   </path>
-  <path stroke="black" cap="2">
-  22 48 m
-  22 58 l
-  32 58 l
-  32 54 l
-  </path>
-  <path stroke="black" cap="2">
-  32 42 m
-  32 32 l
-  </path>
-  <path stroke="gray">
+  <path matrix="1 0 0 1 -24 -48" stroke="gray">
   26 48 m
   38 48 l
   </path>
-  <path stroke="black" cap="2">
+  <path matrix="1 0 0 0.2 -24 -14.4" stroke="black" cap="2">
   32 42 m
   32 32 l
   </path>
-  <use name="mark/disk(sx)" pos="22 48" size="normal" stroke="black"/>
-  <path matrix="1.5 0 0 0.857143 17 10.7143" stroke="black">
+  <use matrix="1 0 0 1 -22 -48" name="mark/disk(sx)" pos="22 48" size="normal" stroke="black"/>
+  <path matrix="1.5 0 0 0.857143 -7 -37.2857" stroke="black" cap="1" join="1">
   8 47 m
   9 40 l
   10 47 l
   11 40 l
   12 47 l
   </path>
-  <path matrix="1 0 0 1 16 24" stroke="black">
+  <path matrix="1 0 0 1 -8 -24" stroke="black">
   6 0 0 6 16 24 e
+  </path>
+  <path matrix="1 0 0 1 -16 -16" stroke="black" cap="2" join="0">
+  16 16 m
+  16 24 l
+  24 24 l
+  24 22 l
   </path>
   </group>
 </symbol>
