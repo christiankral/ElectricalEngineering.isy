@@ -792,16 +792,16 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Voltage meter horizontal">
+<symbol name="Sensors/Voltage meter horizontal" snap="0 0 16 0">
   <group matrix="0 -1 1 0 0 12">
   <path matrix="1 0 0 1 -56 -40" stroke="black">
   6 0 0 6 68 48 e
   </path>
-  <path matrix="1 0 0 1 -56 -40" stroke="black">
+  <path matrix="1 0 0 1 -56 -40" stroke="black" cap="2">
   68 54 m
   68 56 l
   </path>
-  <path matrix="1 0 0 1 -56 -40" stroke="black">
+  <path matrix="1 0 0 1 -56 -40" stroke="black" cap="2">
   68 42 m
   68 40 l
   </path>
@@ -813,7 +813,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Voltage meter vertical">
+<symbol name="Sensors/Voltage meter vertical" snap="0 0 0 -16">
   <group matrix="1 0 0 1 -56 -64">
   <path stroke="black" cap="2">
   6 0 0 6 56 56 e
