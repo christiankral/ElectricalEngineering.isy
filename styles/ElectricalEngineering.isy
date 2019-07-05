@@ -662,54 +662,15 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/Current right">
-  <group matrix="0 -1 1 0 16 0">
-  <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2">
-  32 16 m
-  48 16 l
+<symbol name="Arrows/Current">
+  <group matrix="1 0 0 1 -24 -16">
+  <path stroke="black">
+  16 16 m
+  32 16 l
   </path>
-  <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2" arrow="normal/normal">
-  32 16 m
-  44 16 l
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Arrows/Current left">
-  <group matrix="-0 1 -1 -0 0 -0">
-  <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2">
-  32 16 m
-  48 16 l
-  </path>
-  <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2" arrow="normal/normal">
-  32 16 m
-  44 16 l
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Arrows/Current up">
-  <group>
-  <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2">
-  32 16 m
-  48 16 l
-  </path>
-  <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2" arrow="normal/normal">
-  32 16 m
-  44 16 l
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Arrows/Current down">
-  <group>
-  <path matrix="0 -1 1 0 -16 32" stroke="black" cap="2">
-  32 16 m
-  48 16 l
-  </path>
-  <path matrix="0 -1 1 0 -16 32" stroke="black" cap="2" arrow="normal/normal">
-  32 16 m
-  44 16 l
+  <path stroke="black" arrow="normal/normal">
+  20 16 m
+  28 16 l
   </path>
   </group>
 </symbol>
