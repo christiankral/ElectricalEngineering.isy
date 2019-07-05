@@ -994,27 +994,36 @@
   </group>
 </symbol>
 
-<symbol name="Sources/Voltage source horizontal">
+<symbol name="Sources/Voltage source" snap="0 -16 0 16">
   <group>
-  <path stroke="black" cap="2">
-  0 0 m
-  32 0 l
+  <path matrix="1 0 0 1 -64 -32" stroke="black" cap="2">
+  6 0 0 6 64 32 e
   </path>
-  <path stroke="black" cap="2">
-  6 0 0 6 16 0 e
+  <path matrix="1 0 0 1 -64 -32" stroke="black" cap="2">
+  64 48 m
+  64 16 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Sources/Voltage source vertical">
-  <group matrix="1 0 0 1 -64 -48">
-  <path stroke="black" cap="2">
+<symbol name="Sources/Voltage source +" snap="0 -16 0 16">
+  <group>
+  <path matrix="1 0 0 1 -26 -12" stroke="black">
+  28 24 m
+  32 24 l
+  </path>
+  <path matrix="1 0 0 1 -26 -12" stroke="black">
+  30 26 m
+  30 22 l
+  </path>
+  <path matrix="1 0 0 1 -64 -32" stroke="black" cap="2">
   6 0 0 6 64 32 e
   </path>
-  <path stroke="black" cap="2">
+  <path matrix="1 0 0 1 -64 -32" stroke="black" cap="2">
   64 48 m
   64 16 l
   </path>
+  <use matrix="1 0 0 1 -26 0" name="mark/fdisk(sfx)" pos="26 12" size="normal" stroke="black"/>
   </group>
 </symbol>
 
