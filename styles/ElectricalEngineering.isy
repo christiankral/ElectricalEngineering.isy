@@ -151,99 +151,77 @@
 
 <preamble>\usepackage{fourier,inconsolata}</preamble>
 
-
-<symbol name="Basic/Capacitor horizontal">
-  <group matrix="-0 -1 1 -0 -8 68">
-  <path matrix="1 0 0 2.14286 0 -28.5714" stroke="black">
-  68 32 m
-  68 25 l
-  </path>
-  <path matrix="1 0 0 2.14286 0 -26.2857" stroke="black">
-  68 23 m
-  68 16 l
+<symbol name="Basic/Capacitor" snap="-16 0 16 0">
+  <group matrix="1 0 0 1 -48 -44">
+  <path stroke="black" cap="2">
+  32 44 m
+  47 44 l
   </path>
   <path stroke="black" cap="2">
-  64 25 m
-  72 25 l
+  49 44 m
+  64 44 l
   </path>
   <path stroke="black" cap="2">
-  64 23 m
-  72 23 l
+  47 48 m
+  47 40 l
+  </path>
+  <path stroke="black" cap="2">
+  49 48 m
+  49 40 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Basic/Capacitor vertical">
-  <group matrix="1 0 0 1 -68 -40">
-  <path matrix="1 0 0 2.14286 0 -28.5714" stroke="black">
-  68 32 m
-  68 25 l
-  </path>
-  <path matrix="1 0 0 2.14286 0 -26.2857" stroke="black">
-  68 23 m
-  68 16 l
-  </path>
-  <path stroke="black" cap="2">
-  64 25 m
-  72 25 l
-  </path>
-  <path stroke="black" cap="2">
-  64 23 m
-  72 23 l
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Basic/Diode right">
+<symbol name="Basic/Diode" snap="-8 0 8 0">
   <group matrix="1 0 0 1 0 -16">
   <path stroke="black" cap="2">
-  0 16 m
-  16 16 l
+  -8 16 m
+  8 16 l
   </path>
   <path matrix="1 0 0 1 -2 0" stroke="black">
-  12 12 m
-  12 20 l
+  4 12 m
+  4 20 l
   </path>
   <path matrix="1 0 0 1 -2 0" stroke="black">
-  12 16 m
-  6 20 l
-  6 12 l
-  12 16 l
+  4 16 m
+  -2 20 l
+  -2 12 l
+  4 16 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Basic/IGBT">
+<symbol name="Basic/IGBT" snap="-8 0 8 -8 8 8">
   <group matrix="1 0 0 1 0 -8">
   <path matrix="1 0 0 1 2 0" stroke="black">
-  6 4 m
-  6 12 l
+  -2 4 m
+  -2 12 l
   </path>
   <path matrix="1 0 0 1 2 0" stroke="black">
-  8 4 m
-  8 12 l
+  0 4 m
+  0 12 l
   </path>
   <path stroke="black" cap="2">
-  16 16 m
-  10 10 l
+  8 16 m
+  2 10 l
   </path>
   <path stroke="black" cap="2">
-  16 0 m
-  10 6 l
+  8 0 m
+  2 6 l
   </path>
   <path stroke="black" cap="2">
-  8 8 m
-  0 8 l
+  0 8 m
+  -8 8 l
   </path>
   <path stroke="black" arrow="normal/tiny">
-  10 6 m
-  14 2 l
+  2 6 m
+  6 2 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Basic/Inductor horizontal">
-  <group matrix="1 0 0 1 -280 -724">
+<symbol name="Basic/Inductor" snap="-16 0 16 0">
+  <group matrix="1 0 0 1 -296 -724">
   <path stroke="black" cap="2">
   280 724 m
   288 724 l
@@ -271,78 +249,31 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Inductor vertical">
-  <group matrix="0 -1 1 0 -724 280">
-  <path stroke="black" cap="2">
-  280 724 m
-  288 724 l
+<symbol name="Basic/Lamp" snap="-16 0 16 0">
+  <group>
+  <path matrix="1 0 0 1 -80 -88" stroke="black">
+  6 0 0 6 80 88 e
   </path>
-  <path stroke="black" cap="2">
-  304 724 m
-  312 724 l
+  <path matrix="1 0 0 1 -80 -88" stroke="black" cap="2">
+  64 88 m
+  74 88 l
   </path>
-  <path matrix="0.5 0 0 0.5 144 362" stroke="black" cap="2">
-  288 724 m
-  4 0 0 -4 292 724 296 724 a
+  <path matrix="1 0 0 1 -80 -88" stroke="black" cap="2">
+  86 88 m
+  96 88 l
   </path>
-  <path matrix="0.5 0 0 0.5 148 362" stroke="black" cap="2">
-  288 724 m
-  4 0 0 -4 292 724 296 724 a
+  <path matrix="1 0 0 1 -80 -88" stroke="black">
+  76 84 m
+  84 92 l
   </path>
-  <path matrix="0.5 0 0 0.5 152 362" stroke="black" cap="2">
-  288 724 m
-  4 0 0 -4 292 724 296 724 a
-  </path>
-  <path matrix="0.5 0 0 0.5 156 362" stroke="black" cap="2">
-  288 724 m
-  4 0 0 -4 292 724 296 724 a
+  <path matrix="1 0 0 1 -80 -88" stroke="black">
+  76 92 m
+  84 84 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Basic/Inductor coil horizontal">
-  <group matrix="1 0 0 1 -112 -56">
-  <path stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
-  </path>
-  <path matrix="1 0 0 1 4 0" stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
-  </path>
-  <path matrix="1 0 0 1 8 0" stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
-  </path>
-  <path matrix="1 0 0 1 12 0" stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Basic/Inductor coil vertical">
-  <group matrix="-0 -1 1 -0 -56 112">
-  <path stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
-  </path>
-  <path matrix="1 0 0 1 4 0" stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
-  </path>
-  <path matrix="1 0 0 1 8 0" stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
-  </path>
-  <path matrix="1 0 0 1 12 0" stroke="black" cap="2">
-  116 56 m
-  2 0 0 2 114 56 112 56 a
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Basic/Ground">
+<symbol name="Basic/Ground" snap="0 0">
   <group matrix="1 0 0 1 -32 -16">
   <path stroke="black" cap="2">
   32 16 m
@@ -363,48 +294,118 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Resistor horizontal">
+<symbol name="Basic/Fuse" snap="0 -16 0 16">
+  <group>
+  <path matrix="1 0 0 1 0 -14.1" stroke="black">
+  -8 16 m
+  -8 12 l
+  8 12 l
+  8 16 l
+  h
+  </path>
+  <path matrix="4 0 0 1 48 -16" stroke="black" cap="2">
+  -16 16 m
+  -8 16 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Basic/Ground" snap="0 0">
+  <group matrix="1 0 0 1 -32 -16">
+  <path stroke="black" cap="2">
+  32 16 m
+  32 8 l
+  </path>
+  <path matrix="1.2 0 0 1 -7.6 0" stroke="black">
+  28 8 m
+  38 8 l
+  </path>
+  <path stroke="black" cap="2">
+  28 6 m
+  36 6 l
+  </path>
+  <path stroke="black" cap="2">
+  30 4 m
+  34 4 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Basic/IGBT" snap="16 8 16 -8">
+  <group>
+  <path matrix="1 0 0 1 -8 -8" stroke="black">
+  8 8 m
+  16 8 l
+  </path>
+  <path matrix="1 0 0 1 -8 -8" stroke="black">
+  16 12 m
+  16 4 l
+  </path>
+  <path matrix="1 0 0 1 -8 -8" stroke="black">
+  18 12 m
+  18 4 l
+  </path>
+  <path matrix="1 0 0 1 -8 -8" stroke="black">
+  18 10 m
+  24 16 l
+  </path>
+  <path matrix="1 0 0 1 -8 -8" stroke="black">
+  18 6 m
+  24 0 l
+  </path>
+  <path matrix="1 0 0 1 -8 -8" stroke="black" arrow="normal/tiny">
+  18 6 m
+  22 2 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Basic/Resistor" snap="-16 0 16 0">
   <group matrix="1 0 0 1 0 -16">
   <path matrix="1 0 0 1 0 1.9" stroke="black">
-  8 16 m
+  -8 16 m
+  -8 12 l
   8 12 l
-  24 12 l
-  24 16 l
+  8 16 l
   h
   </path>
   <path stroke="black" cap="2">
-  0 16 m
-  8 16 l
+  -16 16 m
+  -8 16 l
   </path>
   <path stroke="black" cap="2">
-  24 16 m
-  32 16 l
+  8 16 m
+  16 16 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Basic/Resistor vertical">
-  <group matrix="0 1 -1 0 16 -32">
-  <path matrix="1 0 0 1 0 1.9" stroke="black">
-  8 16 m
+<symbol name="Basic/Resistor variable" snap="-16 0 16 0 8 -8">
+  <group>
+  <path matrix="0.8 0 0 0.8 -152 -564.8" stroke="black" rarrow="normal/tiny">
+  180 716 m
+  200 696 l
+  </path>
+  <path matrix="1 0 0 1 0 -14.1" stroke="black">
+  -8 16 m
+  -8 12 l
   8 12 l
-  24 12 l
-  24 16 l
+  8 16 l
   h
   </path>
-  <path stroke="black" cap="2">
-  0 16 m
-  8 16 l
+  <path matrix="1 0 0 1 0 -16" stroke="black" cap="2">
+  -16 16 m
+  -8 16 l
   </path>
-  <path stroke="black" cap="2">
-  24 16 m
-  32 16 l
+  <path matrix="1 0 0 1 0 -16" stroke="black" cap="2">
+  8 16 m
+  16 16 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Basic/Switch open">
-  <group matrix="1 0 0 1 -104 -48">
+<symbol name="Basic/Switch open" snap="-8 0 8 0">
+  <group matrix="1 0 0 1 -112 -48">
   <use name="mark/fdisk(sfx)" pos="116 48" size="normal" stroke="black" fill="white"/>
   <use name="mark/fdisk(sfx)" pos="108 48" size="normal" stroke="black" fill="white"/>
   <path stroke="black" cap="2">
@@ -422,54 +423,50 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Switch closed">
-  <group>
-  <path stroke="black">
-  4 0 m
-  12 2 l
-  12 0 l
+<symbol name="Basic/Switch closed" snap="-8 0 8 0">
+  <group matrix="1 0 0 1 -56 -36">
+  <path stroke="black" cap="2">
+  60 37 m
+  60 38 l
+  52 36 l
   </path>
-  <path matrix="1 0 0 1 -64 -68" stroke="black" fill="white" cap="2">
-  1 0 0 1 76 68 e
+  <path stroke="black" cap="2">
+  48 36 m
+  52 36 l
   </path>
-  <path matrix="1 0 0 1 -64 -68" stroke="black" cap="2">
-  64 68 m
-  67 68 l
+  <path stroke="black" cap="2">
+  64 36 m
+  60 36 l
   </path>
-  <path matrix="1 0 0 1 -64 -68" stroke="black" cap="2">
-  80 68 m
-  77 68 l
-  </path>
-  <path matrix="1 0 0 1 -64 -68" stroke="black" fill="white" cap="2">
-  1 0 0 1 68 68 e
-  </path>
+  <use name="mark/fdisk(sfx)" pos="52 36" size="normal" stroke="black"/>
+  <use name="mark/fdisk(sfx)" pos="60 36" size="normal" stroke="black" fill="white"/>
   </group>
 </symbol>
 
-<symbol name="Basic/Thyristor right">
+<symbol name="Basic/Thyristor" snap="16 8 16 -8">
 <group>
-<path stroke="black" cap="2">
-8 1.33333 m
-8 4 l
+<path stroke="black">
+0 1.43333 m
+0 4 l
 </path>
 <path matrix="1 0 0 1 0 -16" stroke="black">
-0 16 m
-16 16 l
+-8 16 m
+8 16 l
 </path>
 <path matrix="1 0 0 1 -2 -16" stroke="black">
-12 12 m
-12 20 l
+4 12 m
+4 20 l
 </path>
 <path matrix="1 0 0 1 -2 -16" stroke="black">
-12 16 m
-6 20 l
-6 12 l
-12 16 l
+4 16 m
+-2 20 l
+-2 12 l
+4 16 l
 </path>
 </group>
 </symbol>
 
-<symbol name="Basic/Transistor">
+<symbol name="Basic/Transistor" snap="16 8 16 -8">
   <group>
   <path matrix="1 0 0 1 2 -8" stroke="black">
   8 4 m
@@ -729,134 +726,150 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/Current right">
-  <group matrix="0 -1 1 0 16 0">
-  <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2">
-  32 16 m
-  48 16 l
+<symbol name="Arrows/Current">
+  <group matrix="1 0 0 1 -24 -16">
+  <path stroke="black">
+  16 16 m
+  32 16 l
   </path>
-  <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2" arrow="normal/normal">
-  32 16 m
-  44 16 l
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Arrows/Current left">
-  <group matrix="-0 1 -1 -0 0 -0">
-  <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2">
-  32 16 m
-  48 16 l
-  </path>
-  <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2" arrow="normal/normal">
-  32 16 m
-  44 16 l
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Arrows/Current up">
-  <group>
-  <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2">
-  32 16 m
-  48 16 l
-  </path>
-  <path matrix="0 1 -1 0 16 -48" stroke="black" cap="2" arrow="normal/normal">
-  32 16 m
-  44 16 l
-  </path>
-  </group>
-</symbol>
-
-<symbol name="Arrows/Current down">
-  <group>
-  <path matrix="0 -1 1 0 -16 32" stroke="black" cap="2">
-  32 16 m
-  48 16 l
-  </path>
-  <path matrix="0 -1 1 0 -16 32" stroke="black" cap="2" arrow="normal/normal">
-  32 16 m
-  44 16 l
+  <path stroke="black" arrow="normal/normal">
+  20 16 m
+  28 16 l
   </path>
   </group>
 </symbol>
 
 <symbol name="Arrows/S curve fdisk">
+  <group matrix="1 0 0 1 -28 -32">
+  <path matrix="1 0 0 1 -36 -656" stroke="black">
+  64 688 m
+  66 681
+  66 676
+  62 684
+  62 679
+  64 672 c
+  </path>
+  <use matrix="1 0 0 1 -48 -656" name="mark/disk(sx)" pos="76 688" size="normal" stroke="black"/>
+  </group>
+</symbol>
+
+<symbol name="Arrows/S curve long fdisk">
+  <group matrix="1 0 0 1 -64 -40">
+  <path matrix="1 0 0 1 -32 -656" stroke="black">
+  96 696 m
+  98 684
+  98 672
+  94 688
+  94 676
+  96 664 c
+  </path>
+  <use matrix="1 0 0 1 -48 -656" name="mark/disk(sx)" pos="112 696" size="normal" stroke="black"/>
+  </group>
+</symbol>
+
+<symbol name="Arrows/S curve arrow">
+  <group matrix="1 0 0 1 -16 -32">
+  <path matrix="1 0 0 1 -48 -656" stroke="black" rarrow="normal/normal">
+  64 688 m
+  66 681
+  66 676
+  62 684
+  62 679
+  64 672 c
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Arrows/S curve arrow">
+  <group matrix="1 0 0 1 -16 -32">
+  <path matrix="1 0 0 1 -48 -656" stroke="black" rarrow="normal/normal">
+  64 688 m
+  66 681
+  66 676
+  62 684
+  62 679
+  64 672 c
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Arrows/S curve long arrow">
+  <group matrix="1 0 0 1 -48 -40">
+  <path matrix="1 0 0 1 -48 -656" stroke="black" rarrow="normal/normal">
+  96 696 m
+  98 684
+  98 672
+  94 688
+  94 676
+  96 664 c
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Sensors/Current meter horizontal" snap="-8 0 8 0">
+  <group matrix="1 0 0 1 -8 0">
+  <path matrix="0 -1 1 0 -40 68" stroke="black">
+  6 0 0 6 68 48 e
+  </path>
+  <path matrix="0 -1 1 0 -40 68" stroke="black" cap="2">
+  68 54 m
+  68 56 l
+  </path>
+  <path matrix="0 -1 1 0 -40 68" stroke="black" cap="2">
+  68 42 m
+  68 40 l
+  </path>
+  <path matrix="-1 0 0 -0.857143 76 40.7143" stroke="black">
+  66 51 m
+  68 44 l
+  70 51 l
+  </path>
+  <path matrix="1 0 0 1 -8 -8" stroke="black">
+  14.6667 7 m
+  17.3333 7 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Sensors/Current meter vertical" snap="0 8 0 -8">
   <group>
-  <path matrix="1 0 0 1 -152 -64" stroke="black">
-  152 32 m
-  146 76
-  158 20
-  152 64 c
-  </path>
-  <use name="mark/disk(sx)" size="normal" stroke="black"/>
-  </group>
-</symbol>
-
-<symbol name="Sensors/Current meter horizontal">
-  <group matrix="1 0 0 1 -12 -8">
-  <path matrix="0 -1 1 0 -28 76" stroke="black">
+  <path matrix="0 -1 1 0 -48 68" stroke="black">
   6 0 0 6 68 48 e
   </path>
-  <path matrix="0 -1 1 0 -28 76" stroke="black">
-  68 54 m
-  68 56 l
-  </path>
-  <path matrix="0 -1 1 0 -28 76" stroke="black">
-  68 42 m
-  68 40 l
-  </path>
-  <path matrix="-1 0 -0 -0.857143 88 48.7143" stroke="black">
+  <path matrix="-1 0 0 -0.857143 68 40.7143" stroke="black">
   66 51 m
   68 44 l
   70 51 l
   </path>
-  <path matrix="1 0 0 1 4 0" stroke="black">
+  <path matrix="1 0 0 1 -16 -8" stroke="black">
   14.6667 7 m
   17.3333 7 l
   </path>
-  </group>
-</symbol>
-
-<symbol name="Sensors/Current meter vertical">
-  <group matrix="1 0 0 1 -20 -16">
-  <path matrix="-1 0 -0 -1 88 56" stroke="black">
-  6 0 0 6 68 48 e
+  <path stroke="black" cap="2">
+  0 8 m
+  0 6 l
   </path>
-  <path matrix="-1 0 -0 -1 88 56" stroke="black">
-  68 54 m
-  68 56 l
-  </path>
-  <path matrix="-1 0 -0 -1 88 56" stroke="black">
-  68 42 m
-  68 40 l
-  </path>
-  <path matrix="-1 0 -0 -0.857143 88 48.7143" stroke="black">
-  66 51 m
-  68 44 l
-  70 51 l
-  </path>
-  <path matrix="1 -0 0 1 4 0" stroke="black">
-  14.6667 7 m
-  17.3333 7 l
+  <path stroke="black" cap="2">
+  0 -6 m
+  0 -8 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Sensors/Voltage meter horizontal">
-  <group matrix="0 -1 1 0 0 12">
+<symbol name="Sensors/Voltage meter horizontal" snap="-8 0 8 0">
+  <group matrix="0 -1 1 0 -8 12">
   <path matrix="1 0 0 1 -56 -40" stroke="black">
   6 0 0 6 68 48 e
   </path>
-  <path matrix="1 0 0 1 -56 -40" stroke="black">
+  <path matrix="1 0 0 1 -56 -40" stroke="black" cap="2">
   68 54 m
   68 56 l
   </path>
-  <path matrix="1 0 0 1 -56 -40" stroke="black">
+  <path matrix="1 0 0 1 -56 -40" stroke="black" cap="2">
   68 42 m
   68 40 l
   </path>
-  <path matrix="-0 1 -0.857143 -0 52.7143 -60" stroke="black">
+  <path matrix="0 1 -0.857143 0 52.7143 -60" stroke="black">
   66 51 m
   68 44 l
   70 51 l
@@ -864,18 +877,23 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Voltage meter vertical">
-  <group matrix="1 0 0 1 -56 -64">
-  <path stroke="black" cap="2">
-  6 0 0 6 56 56 e
+<symbol name="Sensors/Voltage meter vertical" snap="0 -8 0 8">
+  <group>
+  <path matrix="0 -1 1 0 -48 68" stroke="black">
+  6 0 0 6 68 48 e
+  </path>
+  <path matrix="1 0 0 0.857143 -68 -40.7143" stroke="black">
+  66 51 m
+  68 44 l
+  70 51 l
   </path>
   <path stroke="black" cap="2">
-  56 64 m
-  56 62 l
+  0 8 m
+  0 6 l
   </path>
   <path stroke="black" cap="2">
-  56 50 m
-  56 48 l
+  0 -6 m
+  0 -8 l
   </path>
   </group>
 </symbol>
@@ -896,20 +914,13 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Oscilloscope horizontal">
-  <group matrix="1 0 0 1 -16 -16">
-  <path matrix="1 0 0 1 16 -8" stroke="black">
+<symbol name="Sensors/Oscilloscope horizontal" snap="-8 0 8 0">
+  <group matrix="1 0 0 1 -8 0">
+  <group matrix="1 0 0 1 8 0">
+  <path matrix="0 -1 1 0 -24 16" stroke="black" fill="white">
   6 0 0 6 16 24 e
   </path>
-  <path matrix="1 0 0 1 16 -8" stroke="black">
-  0 24 m
-  10 24 l
-  </path>
-  <path matrix="1 0 0 1 16 -8" stroke="black">
-  22 24 m
-  32 24 l
-  </path>
-  <path stroke="black" cap="2">
+  <path matrix="1 0 0 1 -32 -16" stroke="black">
   28 16 m
   30 16 l
   31 19 l
@@ -918,22 +929,24 @@
   36 16 l
   </path>
   </group>
+  <path matrix="1 0 0 1 -20 -12" stroke="black" cap="2">
+  20 12 m
+  22 12 l
+  </path>
+  <path matrix="1 0 0 1 -20 -12" stroke="black" cap="2">
+  34 12 m
+  36 12 l
+  </path>
+  </group>
 </symbol>
 
-<symbol name="Sensors/Oscilloscope vertical">
-  <group matrix="1 0 0 1 -32 -32">
-  <path matrix="0 -1 1 0 8 32" stroke="black">
+<symbol name="Sensors/Oscilloscope vertical" snap="0 8 0 -8">
+  <group>
+  <group>
+  <path matrix="0 -1 1 0 -24 16" stroke="black" fill="white">
   6 0 0 6 16 24 e
   </path>
-  <path matrix="0 -1 1 0 8 32" stroke="black">
-  0 24 m
-  10 24 l
-  </path>
-  <path matrix="0 -1 1 0 8 32" stroke="black">
-  22 24 m
-  32 24 l
-  </path>
-  <path stroke="black" cap="2">
+  <path matrix="1 0 0 1 -32 -16" stroke="black">
   28 16 m
   30 16 l
   31 19 l
@@ -942,92 +955,139 @@
   36 16 l
   </path>
   </group>
+  <path matrix="1 0 0 1 -8 0" stroke="black" cap="2">
+  8 8 m
+  8 6 l
+  </path>
+  <path matrix="1 0 0 1 -8 0" stroke="black" cap="2">
+  8 -6 m
+  8 -8 l
+  </path>
+  </group>
 </symbol>
 
-<symbol name="Sensors/Power meter horizontal">
-  <group matrix="1 0 0 1 -16 -48">
-  <path matrix="1 0 0 1 16 24" stroke="black">
+<symbol name="Sensors/Power meter horizontal" snap="-8 0 8 0 0 -8 0 8">
+  <group matrix="1 0 0 1 -8 0">
+  <path matrix="0.2 0 0 1 0 -24" stroke="black">
   0 24 m
   10 24 l
   </path>
-  <path matrix="1 0 0 1 16 24" stroke="black">
+  <path matrix="1 0 0 1 -16 -24" stroke="black">
   22 24 m
   32 24 l
   </path>
-  <path stroke="black" cap="2">
-  22 48 m
-  22 58 l
-  32 58 l
-  32 54 l
-  </path>
-  <path stroke="black" cap="2">
-  32 42 m
-  32 32 l
-  </path>
-  <path stroke="gray">
+  <path matrix="1 0 0 1 -24 -48" stroke="gray">
   26 48 m
   38 48 l
   </path>
-  <path stroke="black" cap="2">
+  <path matrix="1 0 0 0.2 -24 -14.4" stroke="black" cap="2">
   32 42 m
   32 32 l
   </path>
-  <use name="mark/disk(sx)" pos="22 48" size="normal" stroke="black"/>
-  <path matrix="1.5 0 0 0.857143 17 10.7143" stroke="black">
+  <use matrix="1 0 0 1 -22 -48" name="mark/disk(sx)" pos="22 48" size="normal" stroke="black"/>
+  <path matrix="1.5 0 0 0.857143 -7 -37.2857" stroke="black" cap="1" join="1">
   8 47 m
   9 40 l
   10 47 l
   11 40 l
   12 47 l
   </path>
-  <path matrix="1 0 0 1 16 24" stroke="black">
+  <path matrix="1 0 0 1 -8 -24" stroke="black">
   6 0 0 6 16 24 e
+  </path>
+  <path matrix="1 0 0 1 -16 -16" stroke="black" cap="2" join="0">
+  16 16 m
+  16 24 l
+  24 24 l
+  24 22 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Sources/Voltage battery vertical">
+<symbol name="Sources/Battery" snap="0 -16 0 16">
   <group>
-  <path matrix="1 0 0 2.14286 -24 -68.5714" stroke="black">
+  <path matrix="1 0 0 2.14286 -24 -52.5714" stroke="black">
   24 25 m
   24 32 l
   </path>
-  <path matrix="1 0 0 1 -24 -40" stroke="black">
+  <path matrix="1 0 0 1 -24 -24" stroke="black">
   16 25 m
   32 25 l
   </path>
-  <path matrix="1 0 0 1 -24 -40" stroke="black">
+  <path matrix="1 0 0 1 -24 -24" stroke="black">
   22 23 m
   26 23 l
   </path>
-  <path matrix="1 0 0 1 -16 -32" stroke="black">
+  <path matrix="1 0 0 1 -16 -16" stroke="black">
   16 15 m
   16 0 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Sources/Voltage source horizontal">
+<symbol name="Sources/Battery +-" snap="0 -16 0 16">
   <group>
-  <path stroke="black" cap="2">
-  0 0 m
-  32 0 l
+  <path matrix="1 0 0 1 -26 -18" stroke="black">
+  28 24 m
+  32 24 l
   </path>
-  <path stroke="black" cap="2">
-  6 0 0 6 16 0 e
+  <path matrix="1 0 0 1 -26 -18" stroke="black">
+  30 26 m
+  30 22 l
+  </path>
+  <path matrix="1 0 0 1 -26 -14" stroke="black">
+  28 8 m
+  32 8 l
+  </path>
+  <path matrix="1 0 0 2.14286 -24 -52.5714" stroke="black">
+  24 25 m
+  24 32 l
+  </path>
+  <path matrix="1 0 0 1 -24 -24" stroke="black">
+  16 25 m
+  32 25 l
+  </path>
+  <path matrix="1 0 0 1 -24 -24" stroke="black">
+  22 23 m
+  26 23 l
+  </path>
+  <path matrix="1 0 0 1 -16 -16" stroke="black">
+  16 15 m
+  16 0 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Sources/Voltage source vertical">
-  <group matrix="1 0 0 1 -64 -48">
-  <path stroke="black" cap="2">
+<symbol name="Sources/Voltage source" snap="0 -16 0 16">
+  <group>
+  <path matrix="1 0 0 1 -64 -32" stroke="black" cap="2">
   6 0 0 6 64 32 e
   </path>
-  <path stroke="black" cap="2">
+  <path matrix="1 0 0 1 -64 -32" stroke="black" cap="2">
   64 48 m
   64 16 l
   </path>
+  </group>
+</symbol>
+
+<symbol name="Sources/Voltage source +" snap="0 -16 0 16">
+  <group>
+  <path matrix="1 0 0 1 -26 -12" stroke="black">
+  28 24 m
+  32 24 l
+  </path>
+  <path matrix="1 0 0 1 -26 -12" stroke="black">
+  30 26 m
+  30 22 l
+  </path>
+  <path matrix="1 0 0 1 -64 -32" stroke="black" cap="2">
+  6 0 0 6 64 32 e
+  </path>
+  <path matrix="1 0 0 1 -64 -32" stroke="black" cap="2">
+  64 48 m
+  64 16 l
+  </path>
+  <use matrix="1 0 0 1 -26 0" name="mark/fdisk(sfx)" pos="26 12" size="normal" stroke="black"/>
   </group>
 </symbol>
 
@@ -1051,8 +1111,8 @@
   </group>
 </symbol>
 
-<symbol name="Sources/Current source vertical">
-  <group matrix="1 0 0 1 -64 -64">
+<symbol name="Sources/Current source vertical" snap="0 -16 0 16">
+  <group matrix="1 0 0 1 -64 -48">
   <path stroke="black" cap="2">
   6 0 0 6 64 48 e
   </path>
@@ -1071,30 +1131,54 @@
   </group>
 </symbol>
 
-<symbol name="Machines/DC Machine vertical">
-  <group matrix="1 0 0 1 -32 -64">
-  <path stroke="black" fill="black" cap="2">
-  30 58 m
-  30 38 l
-  34 38 l
-  34 58 l
-  h
+<symbol name="Sources/Current source arrow vertical" snap="0 -16 0 16">
+  <group>
+  <path stroke="black" arrow="normal/tiny">
+  0 8 m
+  0 12 l
   </path>
-  <path stroke="black" fill="white" cap="2">
-  8 0 0 8 32 48 e
+  <path matrix="1 0 0 1 -64 -48" stroke="black" cap="2">
+  6 0 0 6 64 48 e
   </path>
-  <path stroke="black" cap="2">
-  32 64 m
-  32 58 l
+  <path matrix="1 0 0 1 -64 -48" stroke="black" cap="2">
+  64 64 m
+  64 54 l
   </path>
-  <path stroke="black" cap="2">
-  32 38 m
-  32 32 l
+  <path matrix="1 0 0 1 -64 -48" stroke="black" cap="2">
+  64 42 m
+  64 32 l
+  </path>
+  <path matrix="1 0 0 1 -64 -48" stroke="black" cap="2">
+  58 48 m
+  70 48 l
   </path>
   </group>
 </symbol>
 
-<symbol name="Machines/Three phase">
+<symbol name="Machines/DC Machine" snap="0 16 0 -16">
+  <group>
+  <path stroke="black" fill="black">
+  -2 10 m
+  -2 -10 l
+  2 -10 l
+  2 10 l
+  h
+  </path>
+  <path stroke="black" fill="white">
+  8 0 0 8 0 0 e
+  </path>
+  <path stroke="black" cap="2" join="0">
+  0 16 m
+  0 10 l
+  </path>
+  <path matrix="1 0 0 1 0 -26" stroke="black" cap="2" join="0">
+  0 16 m
+  0 10 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Machines/Three phase" snap="0 -16 0 -32">
 <group matrix="1 0 0 1 -112 -64">
 <path matrix="1 0 0 1 16 0" stroke="black">
 11.3137 0 0 11.3137 112 56 e
@@ -1145,24 +1229,27 @@
   </group>
 </symbol>
 
-<symbol name="Machines/Transformer vertical">
-  <group matrix="1 0 0 1 -32 -64">
-  <use name="Basic/Inductor coil vertical" pos="32 64"/>
-  <use matrix="-1 0 -0 -1 72 112" name="Basic/Inductor coil vertical" pos="32 64"/>
+<symbol name="Machines/Transformer" snap="8 0 0 -16 8 -16">
+  <group>
+  <use matrix="0 -1 1 0 0 -8" name="Basic/Inductor coil"/>
+  <use matrix="0 1 -1 0 8 -8" name="Basic/Inductor coil"/>
   </group>
 </symbol>
 
-<symbol name="Machines/Transformer with core vertical">
-  <group matrix="1 0 0 1 -32 -32">
-  <use matrix="1 0 0 1 0 -32" name="Basic/Inductor coil vertical" pos="32 64"/>
-  <use matrix="-1 0 -0 -1 76 80" name="Basic/Inductor coil vertical" pos="32 64"/>
-  <path matrix="1 0 0 1 -0.5 0" stroke="black">
-  37 32 m
-  37 16 l
+<symbol name="Machines/Transformer with core" snap="8 0 0 -16 8 -16">
+  <group>
+  <use name="Machines/Transformer with core vertical" pos="112 704"/>
+  <group>
+  <use matrix="0 -1 1 0 0 -8" name="Basic/Inductor coil"/>
+  <use matrix="0 1 -1 0 8 -8" name="Basic/Inductor coil"/>
+  </group>
+  <path matrix="0.5 0 0 1 1.5 0" stroke="black" cap="2">
+  4 0 m
+  4 -16 l
   </path>
-  <path matrix="1 0 0 1 0.5 0" stroke="black">
-  39 32 m
-  39 16 l
+  <path matrix="0.5 0 0 1 2.5 0" stroke="black" cap="2">
+  4 0 m
+  4 -16 l
   </path>
   </group>
 </symbol>
