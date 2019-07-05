@@ -250,6 +250,7 @@
 </symbol>
 
 <symbol name="Basic/Lamp" snap="-16 0 16 0">
+  <group>
   <path matrix="1 0 0 1 -80 -88" stroke="black">
   6 0 0 6 80 88 e
   </path>
@@ -269,6 +270,7 @@
   76 92 m
   84 84 l
   </path>
+  </group>
 </symbol>
 
 <symbol name="Basic/Ground" snap="0 0">
