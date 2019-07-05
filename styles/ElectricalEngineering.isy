@@ -845,8 +845,8 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Oscilloscope horizontal">
-  <group>
+<symbol name="Sensors/Oscilloscope horizontal" snap="0 0 16 0">
+  <group matrix="1 0 0 1 -8 0">
   <group matrix="1 0 0 1 8 0">
   <path matrix="0 -1 1 0 -24 16" stroke="black" fill="white">
   6 0 0 6 16 24 e
@@ -871,10 +871,9 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Oscilloscope vertical">
-  <ipeselection pos="22 -2">
-  <group matrix="1 0 0 1 -8 -8">
-  <group matrix="1 0 0 1 8 0">
+<symbol name="Sensors/Oscilloscope vertical" snap="0 0 0 -16">
+  <group>
+  <group>
   <path matrix="0 -1 1 0 -24 16" stroke="black" fill="white">
   6 0 0 6 16 24 e
   </path>
@@ -887,16 +886,15 @@
   36 16 l
   </path>
   </group>
-  <path stroke="black" cap="2">
+  <path matrix="1 0 0 1 -8 0" stroke="black" cap="2">
   8 8 m
   8 6 l
   </path>
-  <path stroke="black" cap="2">
+  <path matrix="1 0 0 1 -8 0" stroke="black" cap="2">
   8 -6 m
   8 -8 l
   </path>
   </group>
-  </ipeselection>
 </symbol>
 
 <symbol name="Sensors/Power meter horizontal" snap="-8 0 8 0 0 -8 0 8">
