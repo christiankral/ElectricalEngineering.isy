@@ -1047,8 +1047,8 @@
   </group>
 </symbol>
 
-<symbol name="Sources/Current source vertical">
-  <group matrix="1 0 0 1 -64 -64">
+<symbol name="Sources/Current source vertical" snap="0 -16 0 16">
+  <group matrix="1 0 0 1 -64 -48">
   <path stroke="black" cap="2">
   6 0 0 6 64 48 e
   </path>
@@ -1061,6 +1061,30 @@
   64 32 l
   </path>
   <path stroke="black" cap="2">
+  58 48 m
+  70 48 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Sources/Current source arrow vertical" snap="0 -16 0 16">
+  <group>
+  <path stroke="black" arrow="normal/tiny">
+  0 8 m
+  0 12 l
+  </path>
+  <path matrix="1 0 0 1 -64 -48" stroke="black" cap="2">
+  6 0 0 6 64 48 e
+  </path>
+  <path matrix="1 0 0 1 -64 -48" stroke="black" cap="2">
+  64 64 m
+  64 54 l
+  </path>
+  <path matrix="1 0 0 1 -64 -48" stroke="black" cap="2">
+  64 42 m
+  64 32 l
+  </path>
+  <path matrix="1 0 0 1 -64 -48" stroke="black" cap="2">
   58 48 m
   70 48 l
   </path>
