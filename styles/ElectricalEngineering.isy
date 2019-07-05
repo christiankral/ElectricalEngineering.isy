@@ -676,14 +676,69 @@
 </symbol>
 
 <symbol name="Arrows/S curve fdisk">
-  <group>
-  <path matrix="1 0 0 1 -152 -64" stroke="black">
-  152 32 m
-  146 76
-  158 20
-  152 64 c
+  <group matrix="1 0 0 1 -28 -32">
+  <path matrix="1 0 0 1 -36 -656" stroke="black">
+  64 688 m
+  66 681
+  66 676
+  62 684
+  62 679
+  64 672 c
   </path>
-  <use name="mark/disk(sx)" size="normal" stroke="black"/>
+  <use matrix="1 0 0 1 -48 -656" name="mark/disk(sx)" pos="76 688" size="normal" stroke="black"/>
+  </group>
+</symbol>
+
+<symbol name="Arrows/S curve long fdisk">
+  <group matrix="1 0 0 1 -64 -40">
+  <path matrix="1 0 0 1 -32 -656" stroke="black">
+  96 696 m
+  98 684
+  98 672
+  94 688
+  94 676
+  96 664 c
+  </path>
+  <use matrix="1 0 0 1 -48 -656" name="mark/disk(sx)" pos="112 696" size="normal" stroke="black"/>
+  </group>
+</symbol>
+
+<symbol name="Arrows/S curve arrow">
+  <group matrix="1 0 0 1 -16 -32">
+  <path matrix="1 0 0 1 -48 -656" stroke="black" rarrow="normal/normal">
+  64 688 m
+  66 681
+  66 676
+  62 684
+  62 679
+  64 672 c
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Arrows/S curve arrow">
+  <group matrix="1 0 0 1 -16 -32">
+  <path matrix="1 0 0 1 -48 -656" stroke="black" rarrow="normal/normal">
+  64 688 m
+  66 681
+  66 676
+  62 684
+  62 679
+  64 672 c
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Arrows/S curve long arrow">
+  <group matrix="1 0 0 1 -48 -40">
+  <path matrix="1 0 0 1 -48 -656" stroke="black" rarrow="normal/normal">
+  96 696 m
+  98 684
+  98 672
+  94 688
+  94 676
+  96 664 c
+  </path>
   </group>
 </symbol>
 
