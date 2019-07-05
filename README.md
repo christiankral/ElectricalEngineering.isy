@@ -34,10 +34,13 @@ This ipelet shall be stored in the `ipelets` folder which is located under `~/.i
 - Basic
   - Capacitor
   - Diode
+  - Fuse
+  - Ground
+  - IGBT
   - Inductor
   - IGBT
-  - Ground
   - Resistor
+  - Resistor variable
   - Switch open/close
   - Thyrisotor
   - Transistor
@@ -49,5 +52,6 @@ This ipelet shall be stored in the `ipelets` folder which is located under `~/.i
   - Current source
   - Voltage source
 - Machines
+  - DC machine
   - Three phase
   - Transformer
