@@ -898,6 +898,66 @@
   </group>
 </symbol>
 
+<symbol name="Sensors/Ohm meter horizontal" snap="0 -8 0 8">
+  <group>
+  <path matrix="1 0 0 1 -72 -8" stroke="black">
+  6 0 0 6 72 8 e
+  </path>
+  <path matrix="1 0 0 1 -72 -8" stroke="black" cap="2">
+  78 8 m
+  80 8 l
+  </path>
+  <path matrix="1 0 0 1 -72 -8" stroke="black" cap="2">
+  64 8 m
+  66 8 l
+  </path>
+  <path matrix="1 0 0 1 -72 -7" stroke="black" cap="1">
+  73 6 m
+  2.23607 0 0 2.23607 72 8 71 6 a
+  </path>
+  <path matrix="1 0 0 1 -71 -9" stroke="black" cap="1">
+  70 8 m
+  70 6 l
+  68 6 l
+  </path>
+  <path matrix="1 0 0 1 -73 -9" stroke="black" cap="1">
+  74 8 m
+  74 6 l
+  76 6 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Sensors/Ohm meter vertical" snap="0 -8 0 8">
+  <group>
+  <path matrix="1 0 0 1 -72 -8" stroke="black">
+  6 0 0 6 72 8 e
+  </path>
+  <path matrix="1 0 0 1 -72 -7" stroke="black" cap="1">
+  73 6 m
+  2.23607 0 0 2.23607 72 8 71 6 a
+  </path>
+  <path matrix="1 0 0 1 -71 -9" stroke="black" cap="1">
+  70 8 m
+  70 6 l
+  68 6 l
+  </path>
+  <path matrix="1 0 0 1 -73 -9" stroke="black" cap="1">
+  74 8 m
+  74 6 l
+  76 6 l
+  </path>
+  <path stroke="black" cap="2" join="2">
+  0 8 m
+  0 6 l
+  </path>
+  <path stroke="black" cap="2" join="2">
+  0 -6 m
+  0 -8 l
+  </path>
+  </group>
+</symbol>
+
 <symbol name="Sensors/Oscilloscope">
   <group>
   <path matrix="0 -1 1 0 -24 16" stroke="black" fill="white">
