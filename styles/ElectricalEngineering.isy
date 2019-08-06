@@ -741,7 +741,7 @@
 
 <symbol name="Arrows/S curve fdisk">
   <group matrix="1 0 0 1 -28 -32">
-  <path matrix="1 0 0 1 -36 -656" stroke="black">
+  <path matrix="1 0 0 1 -36 -656" stroke="black" pen="small">
   64 688 m
   66 681
   66 676
@@ -755,7 +755,7 @@
 
 <symbol name="Arrows/S curve long fdisk">
   <group matrix="1 0 0 1 -64 -40">
-  <path matrix="1 0 0 1 -32 -656" stroke="black">
+  <path matrix="1 0 0 1 -32 -656" stroke="black" pen="small">
   96 696 m
   98 684
   98 672
@@ -769,7 +769,7 @@
 
 <symbol name="Arrows/S curve arrow">
   <group matrix="1 0 0 1 -16 -32">
-  <path matrix="1 0 0 1 -48 -656" stroke="black" rarrow="normal/normal">
+  <path matrix="1 0 0 1 -48 -656" stroke="black" pen="small" rarrow="normal/normal">
   64 688 m
   66 681
   66 676
@@ -782,7 +782,7 @@
 
 <symbol name="Arrows/S curve arrow">
   <group matrix="1 0 0 1 -16 -32">
-  <path matrix="1 0 0 1 -48 -656" stroke="black" rarrow="normal/normal">
+  <path matrix="1 0 0 1 -48 -656" stroke="black" pen="small" rarrow="normal/normal">
   64 688 m
   66 681
   66 676
@@ -795,7 +795,7 @@
 
 <symbol name="Arrows/S curve long arrow">
   <group matrix="1 0 0 1 -48 -40">
-  <path matrix="1 0 0 1 -48 -656" stroke="black" rarrow="normal/normal">
+  <path matrix="1 0 0 1 -48 -656" stroke="black" pen="small" rarrow="normal/normal">
   96 696 m
   98 684
   98 672
