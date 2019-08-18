@@ -739,9 +739,9 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/Current in small">
+<symbol name="Arrows/Arrow in small">
   <group>
-  <path stroke="black">
+  <path stroke="black" fill="white">
   2 0 0 2 0 0 e
   </path>
   <path stroke="black">
@@ -755,9 +755,9 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/Current in normal">
+<symbol name="Arrows/Arrow in normal">
   <group>
-  <path stroke="black">
+  <path stroke="black" fill="white">
   3 0 0 3 0 0 e
   </path>
   <path stroke="black">
@@ -771,27 +771,23 @@
   </group>
 </symbol>
 
-
-<symbol name="Arrows/Current out small">
+<symbol name="Arrows/Arrow out small">
   <group>
-  <path stroke="black">
+  <path stroke="black" fill="white">
   2 0 0 2 0 0 e
   </path>
-  <use matrix="1 0 0 1 -80 -784" name="mark/disk(sx)" pos="80 784" size="normal" stroke="black"/>
+  <use name="mark/disk(sx)" size="normal" stroke="black"/>
   </group>
 </symbol>
 
-<symbol name="Arrows/Current out normal">
-  <group matrix="1 0 0 1 -17 -22">
-  <path matrix="1 0 0 1 -63 -762" stroke="black">
-  3 0 0 3 80 784 e
+<symbol name="Arrows/Arrow out normal">
+  <group>
+  <path stroke="black" fill="white">
+  3 0 0 3 0 0 e
   </path>
-  <use matrix="1 0 0 1 -63 -762" name="mark/disk(sx)" pos="80 784" size="normal" stroke="black"/>
+  <use name="mark/disk(sx)" size="normal" stroke="black"/>
   </group>
 </symbol>
-
-
-
 
 <symbol name="Arrows/S curve fdisk">
   <group matrix="1 0 0 1 -28 -32">
