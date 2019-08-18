@@ -739,6 +739,60 @@
   </group>
 </symbol>
 
+<symbol name="Arrows/Current in small">
+  <group>
+  <path stroke="black">
+  2 0 0 2 0 0 e
+  </path>
+  <path stroke="black">
+  -1.41421 1.41421 m
+  1.41421 -1.41421 l
+  </path>
+  <path stroke="black">
+  1.41421 1.41421 m
+  -1.41421 -1.41421 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Arrows/Current in normal">
+  <group>
+  <path stroke="black">
+  3 0 0 3 0 0 e
+  </path>
+  <path stroke="black">
+  -2.12132 2.12132 m
+  2.12132 -2.12132 l
+  </path>
+  <path stroke="black">
+  2.12132 2.12132 m
+  -2.12132 -2.12132 l
+  </path>
+  </group>
+</symbol>
+
+
+<symbol name="Arrows/Current out small">
+  <group>
+  <path stroke="black">
+  2 0 0 2 0 0 e
+  </path>
+  <use matrix="1 0 0 1 -80 -784" name="mark/disk(sx)" pos="80 784" size="normal" stroke="black"/>
+  </group>
+</symbol>
+
+<symbol name="Arrows/Current out normal">
+  <group matrix="1 0 0 1 -17 -22">
+  <path matrix="1 0 0 1 -63 -762" stroke="black">
+  3 0 0 3 80 784 e
+  </path>
+  <use matrix="1 0 0 1 -63 -762" name="mark/disk(sx)" pos="80 784" size="normal" stroke="black"/>
+  </group>
+</symbol>
+
+
+
+
 <symbol name="Arrows/S curve fdisk">
   <group matrix="1 0 0 1 -28 -32">
   <path matrix="1 0 0 1 -36 -656" stroke="black" pen="small">
