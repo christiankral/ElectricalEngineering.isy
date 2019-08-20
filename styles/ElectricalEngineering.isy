@@ -513,19 +513,19 @@
 </symbol>
 
 <symbol name="Basic/Winding air" snap="0 8">
-  <group matrix="1 0 0 1 -4 -24">
+  <group matrix="1 0 0 1 -16 -32">
   <path stroke="black" cap="1">
-  4 24 m
-  6 24
-  11 16
-  8 3
-  5 16
-  7 20 c
+  16 32 m
+  18 32
+  23 24
+  20 11
+  17 24
+  18.698 27.32 c
   </path>
-  <path matrix="1 0 0 1 -156 -704" stroke="black" cap="1">
-  164.106 725.565 m
-  166 728
-  168 728 c
+  <path stroke="black" cap="1">
+  20.3356 30.1176 m
+  22 32
+  24 32 c
   </path>
   </group>
 </symbol>
