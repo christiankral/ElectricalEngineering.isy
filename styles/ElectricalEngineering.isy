@@ -530,6 +530,21 @@
   </group>
 </symbol>
 
+<symbol name="Basic/Winding air overlap" snap="0 8">
+  <group matrix="1 0 0 1 -28 -20">
+  <path matrix="1 0 0 1 -122 -708" stroke="black">
+  150 728 m
+  152 728
+  157 720
+  154 708
+  151 720
+  154 726
+  156 728
+  158 728 c
+  </path>
+  </group>
+</symbol>
+
 <symbol name="Basic/Winding core">
   <group matrix="1 0 0 1.14286 -24 -36.5714">
   <group matrix="1 0 0 0.5 -100 -302">
