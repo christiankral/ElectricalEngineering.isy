@@ -545,7 +545,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Winding core 8pt">
+<symbol name="Basic/Winding core 8pt" snap="0 -16">
   <group matrix="1 0 0 1.14286 -24 -36.5714">
   <group matrix="1 0 0 0.5 -100 -302">
   <path matrix="1 0 0 1 -8 -4" stroke="black">
@@ -604,7 +604,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Winding core 16pt">
+<symbol name="Basic/Winding core 16pt" snap="0 -16">
   <group matrix="1 0 0 1 -16.0003 -32.0002">
   <path matrix="0.333333 0 0 0.57143 -25.333 -349.715" stroke="black">
   124 668 m
