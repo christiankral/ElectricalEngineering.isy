@@ -315,7 +315,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Fuse" snap="0 -16 0 16">
+<symbol name="Basic/Fuse" snap="0 -16 0 16 0 0">
   <group>
   <path matrix="1 0 0 1 0 -14.1" stroke="black">
   -8 16 m
@@ -352,7 +352,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/IGBT" snap="16 8 16 -8">
+<symbol name="Basic/IGBT" snap="0 0 16 8 16 -8">
   <group>
   <path matrix="1 0 0 1 -8 -8" stroke="black">
   8 8 m
@@ -381,7 +381,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Resistor" snap="-16 0 16 0">
+<symbol name="Basic/Resistor" snap="-16 0 16 0 0">
   <group matrix="1 0 0 1 0 -16">
   <path matrix="1 0 0 1 0 1.9" stroke="black">
   -8 16 m
@@ -401,7 +401,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Resistor variable" snap="-16 0 16 0 8 -8">
+<symbol name="Basic/Resistor variable" snap="-16 0 16 0 8 -8 0 0">
   <group>
   <path matrix="0.8 0 0 0.8 -152 -564.8" stroke="black" rarrow="normal/tiny">
   180 716 m
@@ -425,7 +425,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Switch open" snap="-8 0 8 0">
+<symbol name="Basic/Switch open" snap="-8 0 8 0 0 0">
   <group matrix="1 0 0 1 -112 -48">
   <use name="mark/fdisk(sfx)" pos="116 48" size="normal" stroke="black" fill="white"/>
   <use name="mark/fdisk(sfx)" pos="108 48" size="normal" stroke="black" fill="white"/>
@@ -444,7 +444,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Switch closed" snap="-8 0 8 0">
+<symbol name="Basic/Switch closed" snap="-8 0 8 0 0 0">
   <group matrix="1 0 0 1 -56 -36">
   <path stroke="black" cap="2">
   60 37 m
@@ -464,7 +464,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Thyristor" snap="16 8 16 -8">
+<symbol name="Basic/Thyristor" snap="16 8 16 -8 0 0 0 4">
 <group>
 <path stroke="black">
 0 1.43333 m
@@ -487,7 +487,7 @@
 </group>
 </symbol>
 
-<symbol name="Basic/Transistor" snap="16 8 16 -8">
+<symbol name="Basic/Transistor" snap="0 0 16 8 16 -8">
   <group>
   <path matrix="1 0 0 1 2 -8" stroke="black">
   8 4 m
@@ -512,7 +512,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Winding air" snap="0 8">
+<symbol name="Basic/Winding air" snap="0 0 0 8">
   <group matrix="1 0 0 1 -16 -32">
   <path stroke="black" cap="1">
   16 32 m
@@ -530,7 +530,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Winding air overlap" snap="0 8">
+<symbol name="Basic/Winding air overlap" snap="0 0 0 8">
   <group matrix="1 0 0 1 -28 -20">
   <path matrix="1 0 0 1 -122 -708" stroke="black">
   150 728 m
@@ -545,7 +545,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Winding core 8pt" snap="0 -16">
+<symbol name="Basic/Winding core 8pt" snap="0 0 0 -16">
   <group matrix="1 0 0 1.14286 -24 -36.5714">
   <group matrix="1 0 0 0.5 -100 -302">
   <path matrix="1 0 0 1 -8 -4" stroke="black">
@@ -604,7 +604,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Winding core 16pt" snap="0 -16">
+<symbol name="Basic/Winding core 16pt" snap="0 0 0 -16">
   <group matrix="1 0 0 1 -16.0003 -32.0002">
   <path matrix="0.333333 0 0 0.57143 -25.333 -349.715" stroke="black">
   124 668 m
