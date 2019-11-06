@@ -151,7 +151,7 @@
 
 <preamble>\usepackage{fourier,inconsolata}</preamble>
 
-<symbol name="Basic/Capacitor" snap="-16 0 16 0">
+<symbol name="Basic/Capacitor" snap="-16 0 16 0 0 0">
   <group matrix="1 0 0 1 -48 -44">
   <path stroke="black" cap="2">
   32 44 m
@@ -172,7 +172,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Diode" snap="-8 0 8 0">
+<symbol name="Basic/Diode" snap="-8 0 8 0 0 0">
   <group matrix="1 0 0 1 0 -16">
   <path stroke="black" cap="2">
   -8 16 m
@@ -220,7 +220,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Inductor" snap="-16 0 16 0">
+<symbol name="Basic/Inductor" snap="-16 0 16 0 0 0">
   <group matrix="1 0 0 1 -296 -724">
   <path stroke="black" cap="2">
   280 724 m
@@ -249,7 +249,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Inductor coil" snap="-8 0 8 0">
+<symbol name="Basic/Inductor coil" snap="-8 0 8 0 0 0">
   <group matrix="1 0 0 1 -296 -724">
   <path matrix="0.5 0 0 0.5 144 362" stroke="black" cap="2">
   288 724 m
@@ -270,7 +270,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Lamp" snap="-16 0 16 0">
+<symbol name="Basic/Lamp" snap="-16 0 16 0 0 0">
   <group>
   <path matrix="1 0 0 1 -80 -88" stroke="black">
   6 0 0 6 80 88 e
