@@ -191,7 +191,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/IGBT" snap="-8 0 8 -8 8 8">
+<symbol name="Basic/IGBT" snap="-8 0 8 -8 8 8 0 0">
   <group matrix="1 0 0 1 0 -8">
   <path matrix="1 0 0 1 2 0" stroke="black">
   -2 4 m
@@ -466,7 +466,7 @@
 </group>
 </symbol>
 
-<symbol name="Basic/Transistor" snap="0 0 16 8 16 -8">
+<symbol name="Basic/Transistor" snap="0 0 16 8 16 -8 0 0">
   <group>
   <path matrix="1 0 0 1 2 -8" stroke="black">
   8 4 m
@@ -757,7 +757,7 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/Current">
+<symbol name="Arrows/Current" snap="-8 0 0 8 0 0">
   <group matrix="1 0 0 1 -24 -16">
   <path stroke="black">
   16 16 m
