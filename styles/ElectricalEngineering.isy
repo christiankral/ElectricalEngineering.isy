@@ -294,27 +294,6 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Ground" snap="0 0">
-  <group matrix="1 0 0 1 -32 -16">
-  <path stroke="black" cap="2">
-  32 16 m
-  32 8 l
-  </path>
-  <path matrix="1.2 0 0 1 -7.6 0" stroke="black">
-  28 8 m
-  38 8 l
-  </path>
-  <path stroke="black" cap="2">
-  28 6 m
-  36 6 l
-  </path>
-  <path stroke="black" cap="2">
-  30 4 m
-  34 4 l
-  </path>
-  </group>
-</symbol>
-
 <symbol name="Basic/Fuse" snap="0 -16 0 16 0 0">
   <group>
   <path matrix="1 0 0 1 0 -14.1" stroke="black">
