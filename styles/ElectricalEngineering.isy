@@ -1385,7 +1385,7 @@
   </group>
 </symbol>
 
-<symbol name="Machines/Transformer" snap="8 0 0 -16 8 -16">
+<symbol name="Machines/Transformer" snap="8 0 0 -16 8 -16 8 0 4 -8">
   <group>
   <use matrix="0 -1 1 0 0 -8" name="Basic/Inductor coil"/>
   <use matrix="0 1 -1 0 8 -8" name="Basic/Inductor coil"/>
