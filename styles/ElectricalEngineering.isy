@@ -887,7 +887,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Current meter horizontal" snap="-8 0 8 0">
+<symbol name="Sensors/Current meter horizontal" snap="-8 0 8 0 0 0">
   <group matrix="1 0 0 1 -8 0">
   <path matrix="0 -1 1 0 -40 68" stroke="black">
   6 0 0 6 68 48 e
@@ -912,7 +912,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Current meter vertical" snap="0 8 0 -8">
+<symbol name="Sensors/Current meter vertical" snap="0 8 0 -8 0 0">
   <group>
   <path matrix="0 -1 1 0 -48 68" stroke="black">
   6 0 0 6 68 48 e
@@ -937,7 +937,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Voltage meter horizontal" snap="-8 0 8 0">
+<symbol name="Sensors/Voltage meter horizontal" snap="-8 0 8 0 0 0">
   <group matrix="0 -1 1 0 -8 12">
   <path matrix="1 0 0 1 -56 -40" stroke="black">
   6 0 0 6 68 48 e
@@ -958,7 +958,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Voltage meter vertical" snap="0 -8 0 8">
+<symbol name="Sensors/Voltage meter vertical" snap="0 -8 0 8 0 0">
   <group>
   <path matrix="0 -1 1 0 -48 68" stroke="black">
   6 0 0 6 68 48 e
@@ -979,7 +979,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Ohm meter horizontal" snap="0 -8 0 8">
+<symbol name="Sensors/Ohm meter horizontal" snap="0 -8 0 8 0 0">
   <group>
   <path matrix="1 0 0 1 -72 -8" stroke="black">
   6 0 0 6 72 8 e
@@ -1009,7 +1009,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Ohm meter vertical" snap="0 -8 0 8">
+<symbol name="Sensors/Ohm meter vertical" snap="0 -8 0 8 0 0">
   <group>
   <path matrix="1 0 0 1 -72 -8" stroke="black">
   6 0 0 6 72 8 e
@@ -1055,7 +1055,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Oscilloscope horizontal" snap="-8 0 8 0">
+<symbol name="Sensors/Oscilloscope horizontal" snap="-8 0 8 0 0 0">
   <group matrix="1 0 0 1 -8 0">
   <group matrix="1 0 0 1 8 0">
   <path matrix="0 -1 1 0 -24 16" stroke="black" fill="white">
@@ -1081,7 +1081,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Oscilloscope vertical" snap="0 8 0 -8">
+<symbol name="Sensors/Oscilloscope vertical" snap="0 8 0 -8 0 0">
   <group>
   <group>
   <path matrix="0 -1 1 0 -24 16" stroke="black" fill="white">
@@ -1107,7 +1107,7 @@
   </group>
 </symbol>
 
-<symbol name="Sensors/Power meter horizontal" snap="-8 0 8 0 0 -8 0 8">
+<symbol name="Sensors/Power meter horizontal" snap="-8 0 8 0 0 -8 0 8 0 0">
   <group matrix="1 0 0 1 -8 0">
   <path matrix="0.2 0 0 1 0 -24" stroke="black">
   0 24 m
