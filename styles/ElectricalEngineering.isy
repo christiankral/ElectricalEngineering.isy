@@ -1311,7 +1311,7 @@
   </group>
 </symbol>
 
-<symbol name="Machines/DC Machine" snap="0 16 0 -16">
+<symbol name="Machines/DC Machine" snap="0 16 0 -16 0 0">
   <group>
   <path stroke="black" fill="black">
   -2 10 m
