@@ -1145,7 +1145,7 @@
   </group>
 </symbol>
 
-<symbol name="Sources/Battery" snap="0 -16 0 16">
+<symbol name="Sources/Battery" snap="0 -16 0 16 0 0">
   <group>
   <path matrix="1 0 0 2.14286 -24 -52.5714" stroke="black">
   24 25 m
@@ -1166,7 +1166,7 @@
   </group>
 </symbol>
 
-<symbol name="Sources/Battery +-" snap="0 -16 0 16">
+<symbol name="Sources/Battery +-" snap="0 -16 0 16 0 0">
   <group>
   <path matrix="1 0 0 1 -26 -18" stroke="black">
   28 24 m
@@ -1199,7 +1199,7 @@
   </group>
 </symbol>
 
-<symbol name="Sources/Voltage source" snap="0 -16 0 16">
+<symbol name="Sources/Voltage source" snap="0 -16 0 16 0 0">
   <group>
   <path matrix="1 0 0 1 -64 -32" stroke="black" cap="2">
   6 0 0 6 64 32 e
@@ -1211,7 +1211,7 @@
   </group>
 </symbol>
 
-<symbol name="Sources/Voltage source +" snap="0 -16 0 16">
+<symbol name="Sources/Voltage source +" snap="0 -16 0 16 0 0">
   <group>
   <path matrix="1 0 0 1 -26 -12" stroke="black">
   28 24 m
@@ -1233,7 +1233,7 @@
 </symbol>
 
 
-<symbol name="Sources/Current source" snap="0 -16 0 16">
+<symbol name="Sources/Current source" snap="0 -16 0 16 0 0">
   <group matrix="1 0 0 1 -64 -48">
   <path stroke="black" cap="2">
   6 0 0 6 64 48 e
@@ -1253,7 +1253,7 @@
   </group>
 </symbol>
 
-<symbol name="Sources/Current source +" snap="0 -16 0 16">
+<symbol name="Sources/Current source +" snap="0 -16 0 16 0 0">
   <group>
   <group>
   <path matrix="1 0 0 1 -24 -8" stroke="black">
@@ -1287,7 +1287,7 @@
 </symbol>
 
 
-<symbol name="Sources/Current source arrow" snap="0 -16 0 16">
+<symbol name="Sources/Current source arrow" snap="0 -16 0 16 0 0">
   <group>
   <path stroke="black" arrow="normal/tiny">
   0 8 m
