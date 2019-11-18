@@ -28,10 +28,12 @@
   <color name="lightgray" value="0.827 0.827 0.827"/>
   <color name="lightgreen" value="0.565 0.933 0.565"/>
   <color name="lightyellow" value="1 1 0.878"/>
-  <dashstyle name="dashed" value="[2 2] 0"/>
-  <dashstyle name="dotted" value="[1 3] 0"/>
-  <dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
-  <dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+  <dashstyle name="dashed" value="[3 1] 0"/>
+  <dashstyle name="dashed long" value="[4 1] 0"/>
+  <dashstyle name="dashed short" value="[2 1] 0"/>
+  <dashstyle name="dotted" value="[1 1] 0"/>
+  <dashstyle name="dash dotted" value="[4 1 1 1] 0"/>
+  <dashstyle name="dash dot dotted" value="[4 1 1 1 1 1] 0"/>
   <pen name="small" value="0.5"/>
   <pen name="normal" value="0.7"/>
   <pen name="heavier" value="1.0"/>
