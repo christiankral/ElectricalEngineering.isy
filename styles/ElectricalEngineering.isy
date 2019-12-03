@@ -175,20 +175,20 @@
 </symbol>
 
 <symbol name="Basic/Diode" snap="-8 0 8 0 0 0">
-  <group matrix="1 0 0 1 0 -16">
-  <path stroke="black" cap="2">
-  -8 16 m
-  8 16 l
+  <group>
+  <path matrix="1 0 0 1 -64 -748" stroke="black">
+  56 748 m
+  72 748 l
   </path>
-  <path matrix="1 0 0 1 -2 0" stroke="black">
-  4 12 m
-  4 20 l
+  <path matrix="1 0 0 1 -63 -748" stroke="black" cap="1">
+  60 744 m
+  60 752 l
+  66 748 l
+  60 744 l
   </path>
-  <path matrix="1 0 0 1 -2 0" stroke="black">
-  4 16 m
-  -2 20 l
-  -2 12 l
-  4 16 l
+  <path matrix="1 0 0 1 -63 -748" stroke="black" cap="1">
+  66 752 m
+  66 744 l
   </path>
   </group>
 </symbol>
