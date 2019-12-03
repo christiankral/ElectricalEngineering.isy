@@ -545,7 +545,7 @@
 </group>
 </symbol>
 
-<symbol name="Basic/Transistor" snap="0 0 16 8 16 -8 0 0">
+<symbol name="Basic/Transistor NPN" snap="0 0 16 8 16 -8 0 0">
   <group>
   <path matrix="1 0 0 1 2 -8" stroke="black">
   8 4 m
@@ -564,6 +564,31 @@
   14 2 l
   </path>
   <path stroke="black" cap="2">
+  0 0 m
+  10 0 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Basic/Transistor PNP" snap="0 0 16 8 16 -8 0 0">
+  <group>
+  <path matrix="1 0 0 -1 -6 8" stroke="black">
+  8 4 m
+  8 12 l
+  </path>
+  <path matrix="1 0 0 -1 -8 8" stroke="black">
+  16 16 m
+  10 10 l
+  </path>
+  <path matrix="1 0 0 -1 -8 8" stroke="black">
+  16 0 m
+  10 6 l
+  </path>
+  <path matrix="-1 0 0 1 18 2" stroke="black" arrow="normal/tiny">
+  10 6 m
+  14 2 l
+  </path>
+  <path matrix="1 0 0 -1 -8 0" stroke="black" cap="2">
   0 0 m
   10 0 l
   </path>
