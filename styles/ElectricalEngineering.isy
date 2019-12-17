@@ -991,6 +991,19 @@
   </group>
 </symbol>
 
+<symbol name="Arrows/Coordinate system xyz">
+  <group matrix="1 0 0 1 -48 -40">
+  <path matrix="1 0 0 1 -48 -656" stroke="black" pen="small" rarrow="normal/normal">
+  96 696 m
+  98 684
+  98 672
+  94 688
+  94 676
+  96 664 c
+  </path>
+  </group>
+</symbol>
+
 <symbol name="Sensors/Current sensor horizontal" snap="-8 0 8 0 0 0">
   <group matrix="1 0 0 1 -8 0">
   <path matrix="0 -1 1 0 -40 68" stroke="black">
