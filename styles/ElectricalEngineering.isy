@@ -991,16 +991,37 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/Coordinate system xyz">
-  <group matrix="1 0 0 1 -48 -40">
-  <path matrix="1 0 0 1 -48 -656" stroke="black" pen="small" rarrow="normal/normal">
-  96 696 m
-  98 684
-  98 672
-  94 688
-  94 676
-  96 664 c
+<symbol name="Arrows/Coordinate system xy">
+  <group>
+  <path matrix="1.14286 0 0 1 -93.7143 -720" stroke="black" cap="1" join="1" arrow="normal/normal">
+  82 720 m
+  96 720 l
   </path>
+  <path matrix="1 0 0 1.14286 -80 -825.143" stroke="black" cap="1" join="1" arrow="normal/normal">
+  80 722 m
+  80 736 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Arrows/Coordinate system xyz">
+  <group matrix="1 0 0 1 -80 -720">
+  <use name="Arrows/Arrow out small" pos="80 720"/>
+  <path stroke="black" arrow="normal/normal">
+  82 720 m
+  96 720 l
+  </path>
+  <path stroke="black" arrow="normal/normal">
+  80 722 m
+  80 736 l
+  </path>
+  <text matrix="1 0 0 1 5 19" transformations="translations" pos="78 717" stroke="black" type="label" width="5.629" height="4.535" depth="2.25" valign="top" style="math">y</text>
+  <text matrix="1 0 0 1 18 6" transformations="translations" pos="78 717" stroke="black" type="label" width="5.569" height="4.543" depth="0.07" halign="right" valign="bottom" style="math">x</text>
+  <group>
+  <group>
+  <text matrix="1 0 0 1 -1 0" transformations="translations" pos="78 717" stroke="black" type="label" width="5.131" height="4.543" depth="0.07" halign="right" valign="top" style="math">z</text>
+  </group>
+  </group>
   </group>
 </symbol>
 
