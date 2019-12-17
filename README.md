@@ -48,16 +48,23 @@ to
   - Ground
   - IGBT
   - Inductor
-  - IGBT
+  - NMOS
+  - PMOS
   - Resistor
   - Resistor variable
   - Switch open/close
   - Thyrisotor
-  - Transistor
-  - Winding
+  - Transistor NPN
+  - Transistor PNP
+  - Windings
 - Arrows
   - Current arrows
   - Curved arrow line
+- Sensors
+  - Current sensor
+  - Voltage sensor
+  - Power sensor
+  - Scope
 - Sources
   - Current source
   - Voltage source
