@@ -1,22 +1,32 @@
-The package `ElectricalEngineering.isy` provides electrical engineering circuits components for
-[IPE](http://ipe.otfried.org/).
+# Purpose
 
-## Additional customization
+The file `styles/ElectricalEngineering.isy` provides electrical engineering circuits components for
+[IPE](http://ipe.otfried.org/). The additional customization file `ipelets/customize.lua` enables the following additional shortcuts:  
 
-For using the `ElectricalEngineering` package it is very useful to
-- [include](https://github.com/christiankral/ElectricalEngineering.isy/issues/1) the file `ElectricalEngineering.isy` when creating a new file and
-- add a shortcut to open the symbol library.
-
-In the proposed customization ipelet `ipelets/customize.lua` the following additional shortcuts are introduced  
-
-- `Shift+S` to add symbol
+- `Shift+S` to add symbols
 - `Alt+Ctrl+I` to add splines  
 
-This ipelet shall be stored in the `ipelets` folder which is located under `~/.ipe/ipelets` in Linux systems.
+# Installation
 
-## Example
+## Linux
 
-### Induction machine
+### Styles file
+
+Copy the styles file `styles/ElectricalEngineering.isy` into the user directory `~/.ipe/styles/` (which may have have to be created first)
+
+### Customization file
+
+Copy the customization file `ipelets/customze.lua` into the user directory `~/.ipe/ipelets/` (which may have have to be created first). You have to [change](https://github.com/christiankral/ElectricalEngineering.isy/issues/1)
+
+`prefs.styles = { "/path/to/ElectricalEngineering.isy" }`
+
+to
+
+`prefs.styles = { "~/.ipe/styles/ElectricalEngineering.isy" }`
+
+# Example
+
+## Induction machine
 
 - Stored in `Resources/InductionMachine.ipe`
 
