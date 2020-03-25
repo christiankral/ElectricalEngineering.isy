@@ -1980,5 +1980,101 @@ h
 </group>
 </symbol>
 
+<symbol name="Mechanics/Pinned support">
+  <group>
+  <path matrix="1 0 0 1 -100 -788" stroke="black" cap="1">
+  100 788 m
+  97.6906 784 l
+  102.309 784 l
+  100 788 l
+  </path>
+  <path matrix="1 0 0 1 -100 -788" stroke="black" fill="white" pen="small">
+  1 0 0 1 100 788 e
+  </path>
+  <path matrix="1 0 0 1 -100 -788" stroke="black">
+  96 784 m
+  104 784 l
+  </path>
+  <path matrix="1 0 0 1 -101 -788" stroke="black" pen="small" cap="1">
+  98 784 m
+  97 782 l
+  </path>
+  <path matrix="1 0 0 1 -101 -788" stroke="black" pen="small" cap="1">
+  100 784 m
+  99 782 l
+  </path>
+  <path matrix="1 0 0 1 -101 -788" stroke="black" pen="small" cap="1">
+  102 784 m
+  101 782 l
+  </path>
+  <path matrix="1 0 0 1 -101 -788" stroke="black" pen="small" cap="1">
+  104 784 m
+  103 782 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Mechanics/Roller support">
+  <group matrix="1 0 0 1 -47 -41">
+  <path matrix="1 0 0 1 -53 -747" stroke="black" cap="1">
+  100 788 m
+  97.6906 784 l
+  102.309 784 l
+  100 788 l
+  </path>
+  <path matrix="1 0 0 1 -53 -747" stroke="black" fill="white" pen="small">
+  1 0 0 1 100 788 e
+  </path>
+  <path matrix="1 0 0 1 -53 -748" stroke="black">
+  96 784 m
+  104 784 l
+  </path>
+  <path matrix="1 0 0 1 -54 -748" stroke="black" pen="small" cap="1">
+  98 784 m
+  97 782 l
+  </path>
+  <path matrix="1 0 0 1 -54 -748" stroke="black" pen="small" cap="1">
+  100 784 m
+  99 782 l
+  </path>
+  <path matrix="1 0 0 1 -54 -748" stroke="black" pen="small" cap="1">
+  102 784 m
+  101 782 l
+  </path>
+  <path matrix="1 0 0 1 -54 -748" stroke="black" pen="small" cap="1">
+  104 784 m
+  103 782 l
+  </path>
+  <path matrix="1 0 0 1 -33 -747" stroke="black">
+  76 784 m
+  84 784 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Mechanics/Fixed support">
+  <group matrix="1 0 0 1 -31 -37">
+  <path matrix="1 0 0 1 -69 -747" stroke="black">
+  96 784 m
+  104 784 l
+  </path>
+  <path matrix="1 0 0 1 -70 -747" stroke="black" pen="small" cap="1">
+  98 784 m
+  97 782 l
+  </path>
+  <path matrix="1 0 0 1 -70 -747" stroke="black" pen="small" cap="1">
+  100 784 m
+  99 782 l
+  </path>
+  <path matrix="1 0 0 1 -70 -747" stroke="black" pen="small" cap="1">
+  102 784 m
+  101 782 l
+  </path>
+  <path matrix="1 0 0 1 -70 -747" stroke="black" pen="small" cap="1">
+  104 784 m
+  103 782 l
+  </path>
+  </group>
+</symbol>
 
 </ipestyle>
