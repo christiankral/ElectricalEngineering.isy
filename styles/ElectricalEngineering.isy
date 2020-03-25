@@ -1540,5 +1540,432 @@
   </path>
   </group>
 </symbol>
+  
+  <symbol name="Logic/AND_2_DIN">
+<group>
+<path matrix="1.33333 0 0 1.33333 4 -12" stroke="black">
+0 12 m
+0 0 l
+9 0 l
+9 12 l
+h
+</path>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<text matrix="1 0 0 1 -1 0" transformations="translations" pos="11 -4" stroke="black" type="label" width="3.885" height="3.692" depth="0.02" halign="center" valign="center" size="tiny" style="math">\&amp;</text>
+</group>
+</symbol>
+<symbol name="Logic/OR_2_DIN">
+<group>
+<path matrix="1.33333 0 0 1.33333 4 -12" stroke="black">
+0 12 m
+0 0 l
+9 0 l
+9 12 l
+h
+</path>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<text matrix="1 0 0 1 -5 -2" transformations="translations" pos="11 -4" stroke="black" type="label" width="7.897" height="3.684" depth="0.04" valign="baseline" size="tiny" style="math">\geq1</text>
+</group>
+</symbol>
+<symbol name="Logic/XOR_2_DIN">
+<group>
+<path matrix="1.33333 0 0 1.33333 4 -12" stroke="black">
+0 12 m
+0 0 l
+9 0 l
+9 12 l
+h
+</path>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<text matrix="1 0 0 1 -5 -2" transformations="translations" pos="11 -4" stroke="black" type="label" width="7.897" height="3.682" depth="0" valign="baseline" size="tiny" style="math">=1</text>
+</group>
+</symbol>
+<symbol name="Logic/NAND_2_DIN">
+<group>
+<path matrix="1.33333 0 0 1.33333 4 -12" stroke="black">
+0 12 m
+0 0 l
+9 0 l
+9 12 l
+h
+</path>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="0.5 0 0 1 10 -12" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<text matrix="1 0 0 1 -1 0" transformations="translations" pos="11 -4" stroke="black" type="label" width="3.885" height="3.692" depth="0.02" halign="center" valign="center" size="tiny" style="math">\&amp;</text>
+<path stroke="black">
+1 0 0 1 17 -4 e
+</path>
+</group>
+</symbol>
+<symbol name="Logic/XNOR_2_DIN">
+<group>
+<path matrix="1.33333 0 0 1.33333 4 -12" stroke="black">
+0 12 m
+0 0 l
+9 0 l
+9 12 l
+h
+</path>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="0.5 0 0 1 10 -12" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<text matrix="1 0 0 1 -1 0" transformations="translations" pos="11 -4" stroke="black" type="label" width="7.897" height="3.682" depth="0" halign="center" valign="center" size="tiny" style="math">=1</text>
+<path stroke="black">
+1 0 0 1 17 -4 e
+</path>
+</group>
+</symbol>
+<symbol name="Logic/NOR_2_DIN">
+<group>
+<path matrix="1.33333 0 0 1.33333 4 -12" stroke="black">
+0 12 m
+0 0 l
+9 0 l
+9 12 l
+h
+</path>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="0.5 0 0 1 10 -12" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<text matrix="1 0 0 1 -1 0" transformations="translations" pos="11 -4" stroke="black" type="label" width="7.897" height="3.684" depth="0.04" halign="center" valign="center" size="tiny" style="math">\geq1</text>
+<path stroke="black">
+1 0 0 1 17 -4 e
+</path>
+</group>
+</symbol>
+<symbol name="Logic/NOT_DIN">
+<group>
+<path matrix="1.33333 0 0 1.33333 4 -8" stroke="black">
+0 12 m
+0 0 l
+9 0 l
+9 12 l
+h
+</path>
+<path matrix="1 0 0 1 0 -4" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="0.5 0 0 1 10 -8" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<text matrix="1 0 0 1 -1 4" transformations="translations" pos="11 -4" stroke="black" type="label" width="2.917" height="3.682" depth="0" halign="center" valign="center" size="tiny" style="math">1</text>
+<path matrix="1 0 0 1 0 4" stroke="black">
+1 0 0 1 17 -4 e
+</path>
+</group>
+</symbol>
+<symbol name="Logic/NOT_ANSI">
+<group>
+<path matrix="1 0 0 1 0 -4" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="0.5 0 0 1 10 -8" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<path matrix="1 0 0 1 0 4" stroke="black">
+1 0 0 1 17 -4 e
+</path>
+<path stroke="black">
+4 0 m
+4 -6 l
+16 0 l
+4 6 l
+4 0 l
+</path>
+</group>
+</symbol>
+<symbol name="Logic/AND_2_ANSI">
+<group>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+8 16 m
+4 16 l
+4 0 l
+8 0 l
+</path>
+<path matrix="1 0 0 1 -4 -12" stroke="black">
+12 16 m
+8 0 0 -8 12 8 12 0 a
+</path>
+</group>
+</symbol>
+<symbol name="Logic/OR_2_ANSI">
+<group>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+1 16 m
+10 0 0 -10 -5 8 1 -0 a
+8 0 l
+11.4018 0 0 11.4018 5 11 16 8 a
+11.4018 0 0 11.4018 5 5 8 16 a
+h
+</path>
+</group>
+</symbol>
+<symbol name="Logic/XOR_2_ANSI">
+<group>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+1 16 m
+10 0 0 -10 -5 8 1 -0 a
+8 0 l
+11.4018 0 0 11.4018 5 11 16 8 a
+11.4018 0 0 11.4018 5 5 8 16 a
+h
+</path>
+<path stroke="black">
+-1 4 m
+8.85664 0 0 -8.85664 -4.8 -4 -1 -12 a
+</path>
+</group>
+</symbol>
+<symbol name="Logic/XNOR_2_ANSI">
+<group>
+<path stroke="black">
+1 0 0 1 17 -4 e
+</path>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="0.5 0 0 1 10 -12" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+1 16 m
+10 0 0 -10 -5 8 1 -0 a
+8 0 l
+11.4018 0 0 11.4018 5 11 16 8 a
+11.4018 0 0 11.4018 5 5 8 16 a
+h
+</path>
+<path stroke="black">
+-1 4 m
+8.85664 0 0 -8.85664 -4.8 -4 -1 -12 a
+</path>
+</group>
+</symbol>
+<symbol name="Logic/NOR_2_ANSI">
+<group>
+<path stroke="black">
+1 0 0 1 17 -4 e
+</path>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="0.5 0 0 1 10 -12" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+1 16 m
+10 0 0 -10 -5 8 1 -0 a
+8 0 l
+11.4018 0 0 11.4018 5 11 16 8 a
+11.4018 0 0 11.4018 5 5 8 16 a
+h
+</path>
+</group>
+</symbol>
+<symbol name="Logic/NAND_2_ANSI">
+<group>
+<path stroke="black">
+1 0 0 1 17 -4 e
+</path>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="0.5 0 0 1 10 -12" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<path stroke="black">
+8 4 m
+4 4 l
+4 -12 l
+8 -12 l
+</path>
+<path stroke="black">
+8 4 m
+8 0 0 -8 8 -4 8 -12 a
+</path>
+</group>
+</symbol>
+<symbol name="Logic/SR_FF">
+<group>
+<path matrix="1 0 0 1 0 -4" stroke="black">
+1 0 0 1 17 -4 e
+</path>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+3 8 m
+4 8 l
+0 8 l
+</path>
+<path matrix="1 0 0 1 0 -12" stroke="black">
+0 4 m
+4 4 l
+</path>
+<path matrix="0.5 0 0 1 10 -16" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<path stroke="black">
+4 4 m
+4 -11 l
+16 -11 l
+16 4 l
+h
+</path>
+<text matrix="1 0 0 1 1 1" transformations="translations" pos="6 -1" stroke="black" type="label" width="2.481" height="3.245" depth="0.09" halign="center" valign="center" size="tiny">S</text>
+<text matrix="1 0 0 1 1 -7" transformations="translations" pos="6 -1" stroke="black" type="label" width="2.949" height="3.243" depth="0" halign="center" valign="center" size="tiny">R</text>
+<path matrix="1 0 0 1 0 -8" stroke="black">
+17 8 m
+16 8 l
+20 8 l
+</path>
+<text matrix="1 0 0 1 7 1" transformations="translations" pos="6 -1" stroke="black" type="label" width="3.492" height="3.25" depth="0.88" halign="center" valign="center" size="tiny">Q</text>
+</group>
+</symbol>
+
 
 </ipestyle>
