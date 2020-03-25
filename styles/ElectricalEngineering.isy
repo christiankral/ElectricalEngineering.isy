@@ -1363,7 +1363,6 @@
   </group>
 </symbol>
 
-
 <symbol name="Sources/Current source" snap="0 -16 0 16 0 0">
   <group matrix="1 0 0 1 -64 -48">
   <path stroke="black" cap="2">
@@ -1540,7 +1539,7 @@
   </path>
   </group>
 </symbol>
-  
+
   <symbol name="Logic/AND_2_DIN">
 <group>
 <path matrix="1.33333 0 0 1.33333 4 -12" stroke="black">
@@ -1567,6 +1566,7 @@ h
 <text matrix="1 0 0 1 -1 0" transformations="translations" pos="11 -4" stroke="black" type="label" width="3.885" height="3.692" depth="0.02" halign="center" valign="center" size="tiny" style="math">\&amp;</text>
 </group>
 </symbol>
+
 <symbol name="Logic/OR_2_DIN">
 <group>
 <path matrix="1.33333 0 0 1.33333 4 -12" stroke="black">
@@ -1593,6 +1593,7 @@ h
 <text matrix="1 0 0 1 -5 -2" transformations="translations" pos="11 -4" stroke="black" type="label" width="7.897" height="3.684" depth="0.04" valign="baseline" size="tiny" style="math">\geq1</text>
 </group>
 </symbol>
+
 <symbol name="Logic/XOR_2_DIN">
 <group>
 <path matrix="1.33333 0 0 1.33333 4 -12" stroke="black">
@@ -1619,6 +1620,7 @@ h
 <text matrix="1 0 0 1 -5 -2" transformations="translations" pos="11 -4" stroke="black" type="label" width="7.897" height="3.682" depth="0" valign="baseline" size="tiny" style="math">=1</text>
 </group>
 </symbol>
+
 <symbol name="Logic/NAND_2_DIN">
 <group>
 <path matrix="1.33333 0 0 1.33333 4 -12" stroke="black">
@@ -1648,6 +1650,7 @@ h
 </path>
 </group>
 </symbol>
+
 <symbol name="Logic/XNOR_2_DIN">
 <group>
 <path matrix="1.33333 0 0 1.33333 4 -12" stroke="black">
@@ -1677,6 +1680,7 @@ h
 </path>
 </group>
 </symbol>
+
 <symbol name="Logic/NOR_2_DIN">
 <group>
 <path matrix="1.33333 0 0 1.33333 4 -12" stroke="black">
@@ -1706,6 +1710,7 @@ h
 </path>
 </group>
 </symbol>
+
 <symbol name="Logic/NOT_DIN">
 <group>
 <path matrix="1.33333 0 0 1.33333 4 -8" stroke="black">
@@ -1730,6 +1735,7 @@ h
 </path>
 </group>
 </symbol>
+
 <symbol name="Logic/NOT_ANSI">
 <group>
 <path matrix="1 0 0 1 0 -4" stroke="black">
@@ -1753,6 +1759,7 @@ h
 </path>
 </group>
 </symbol>
+
 <symbol name="Logic/AND_2_ANSI">
 <group>
 <path matrix="1 0 0 1 0 -8" stroke="black">
@@ -1781,6 +1788,7 @@ h
 </path>
 </group>
 </symbol>
+
 <symbol name="Logic/OR_2_ANSI">
 <group>
 <path matrix="1 0 0 1 0 -8" stroke="black">
@@ -1807,6 +1815,7 @@ h
 </path>
 </group>
 </symbol>
+
 <symbol name="Logic/XOR_2_ANSI">
 <group>
 <path matrix="1 0 0 1 0 -8" stroke="black">
@@ -1837,6 +1846,7 @@ h
 </path>
 </group>
 </symbol>
+
 <symbol name="Logic/XNOR_2_ANSI">
 <group>
 <path stroke="black">
@@ -1870,6 +1880,7 @@ h
 </path>
 </group>
 </symbol>
+
 <symbol name="Logic/NOR_2_ANSI">
 <group>
 <path stroke="black">
@@ -1899,6 +1910,7 @@ h
 </path>
 </group>
 </symbol>
+
 <symbol name="Logic/NAND_2_ANSI">
 <group>
 <path stroke="black">
@@ -1930,6 +1942,7 @@ h
 </path>
 </group>
 </symbol>
+
 <symbol name="Logic/SR_FF">
 <group>
 <path matrix="1 0 0 1 0 -4" stroke="black">
