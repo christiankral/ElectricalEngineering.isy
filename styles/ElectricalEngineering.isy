@@ -1944,40 +1944,40 @@ h
 </symbol>
 
 <symbol name="Logic/SR_FF">
-<group>
-<path matrix="1 0 0 1 0 -4" stroke="black">
-1 0 0 1 17 -4 e
-</path>
-<path matrix="1 0 0 1 0 -8" stroke="black">
-3 8 m
-4 8 l
-0 8 l
-</path>
-<path matrix="1 0 0 1 0 -12" stroke="black">
-0 4 m
-4 4 l
-</path>
-<path matrix="0.5 0 0 1 10 -16" stroke="black">
-17 8 m
-16 8 l
-20 8 l
-</path>
-<path stroke="black">
-4 4 m
-4 -11 l
-16 -11 l
-16 4 l
-h
-</path>
-<text matrix="1 0 0 1 1 1" transformations="translations" pos="6 -1" stroke="black" type="label" width="2.481" height="3.245" depth="0.09" halign="center" valign="center" size="tiny">S</text>
-<text matrix="1 0 0 1 1 -7" transformations="translations" pos="6 -1" stroke="black" type="label" width="2.949" height="3.243" depth="0" halign="center" valign="center" size="tiny">R</text>
-<path matrix="1 0 0 1 0 -8" stroke="black">
-17 8 m
-16 8 l
-20 8 l
-</path>
-<text matrix="1 0 0 1 7 1" transformations="translations" pos="6 -1" stroke="black" type="label" width="3.492" height="3.25" depth="0.88" halign="center" valign="center" size="tiny">Q</text>
-</group>
+  <group matrix="1 0 0 1 -36 -44">
+  <path matrix="1 0 0 1 36 40" stroke="black">
+  1 0 0 1 17 -4 e
+  </path>
+  <path matrix="1 0 0 1 36 36" stroke="black">
+  3 8 m
+  4 8 l
+  0 8 l
+  </path>
+  <path matrix="1 0 0 1 36 32" stroke="black">
+  0 4 m
+  4 4 l
+  </path>
+  <path matrix="0.5 0 0 1 46 28" stroke="black">
+  17 8 m
+  16 8 l
+  20 8 l
+  </path>
+  <path matrix="1 0 0 1.06667 36 43.7333" stroke="black">
+  4 4 m
+  4 -11 l
+  16 -11 l
+  16 4 l
+  h
+  </path>
+  <text matrix="1 0 0 1 37 45" transformations="translations" pos="6 -1" stroke="black" type="label" width="2.481" height="3.245" depth="0.09" halign="center" valign="center" size="tiny">S</text>
+  <text matrix="1 0 0 1 37 37" transformations="translations" pos="6 -1" stroke="black" type="label" width="2.949" height="3.243" depth="0" halign="center" valign="center" size="tiny">R</text>
+  <path matrix="1 0 0 1 36 36" stroke="black">
+  17 8 m
+  16 8 l
+  20 8 l
+  </path>
+  <text matrix="1 0 0 1 43 45" transformations="translations" pos="6 -1" stroke="black" type="label" width="3.492" height="3.25" depth="0.88" halign="center" valign="center" size="tiny">Q</text>
+  </group>
 </symbol>
 
 <symbol name="Mechanics/Pinned support">
