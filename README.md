@@ -1,10 +1,10 @@
 # Purpose
 
 The file `styles/ElectricalEngineering.isy` provides electrical engineering circuits components for
-[IPE](http://ipe.otfried.org/). The additional customization file `ipelets/customize.lua` enables the following additional shortcuts:  
+[IPE](http://ipe.otfried.org/). The additional customization file `ipelets/customize.lua` enables the following additional shortcuts:
 
 - `Shift+S` to add symbols
-- `Alt+Ctrl+I` to add splines  
+- `Alt+Ctrl+I` to add splines
 
 # Installation
 
@@ -59,6 +59,9 @@ to (note the double backslashes)
 
 # Circuit components
 
+- Arrows
+  - Current arrows
+  - Curved arrow line
 - Basic
   - Capacitor
   - Diode
@@ -75,9 +78,15 @@ to (note the double backslashes)
   - Transistor NPN
   - Transistor PNP
   - Windings
-- Arrows
-  - Current arrows
-  - Curved arrow line
+- Logic
+  - ANSI compliant symbols
+  - DIN compliant symbols
+- Machines
+  - DC machine
+  - Three phase
+  - Transformer
+- Mechanics
+  - Supports
 - Sensors
   - Current sensor
   - Voltage sensor
@@ -86,7 +95,3 @@ to (note the double backslashes)
 - Sources
   - Current source
   - Voltage source
-- Machines
-  - DC machine
-  - Three phase
-  - Transformer
