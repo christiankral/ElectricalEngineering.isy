@@ -1,33 +1,58 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipestyle SYSTEM "ipe.dtd">
 <ipestyle name="ElectricalEngineering">
-
-  <color name="red" value="1 0 0"/>
-  <color name="green" value="0 1 0"/>
-  <color name="blue" value="0 0 1"/>
-  <color name="yellow" value="1 1 0"/>
-  <color name="orange" value="1 0.647 0"/>
-  <color name="gold" value="1 0.843 0"/>
-  <color name="purple" value="0.627 0.125 0.941"/>
-  <color name="gray" value="0.745 0.745 0.745"/>
-  <color name="brown" value="0.647 0.165 0.165"/>
-  <color name="navy" value="0 0 0.502"/>
-  <color name="pink" value="1 0.753 0.796"/>
-  <color name="seagreen" value="0.18 0.545 0.341"/>
-  <color name="turquoise" value="0.251 0.878 0.816"/>
-  <color name="violet" value="0.933 0.51 0.933"/>
-  <color name="darkblue" value="0 0 0.545"/>
-  <color name="darkcyan" value="0 0.545 0.545"/>
+  <color name="black" value="0 0 0 "/>
+  <color name="white" value="1 1 1"/>
+  <color name="gray40" value="0.4 0.4 0.4"/>
+  <color name="gray50" value="0.498 0.498 0.498"/>
+  <color name="gray60" value="0.6 0.6 0.6"/>
   <color name="darkgray" value="0.663 0.663 0.663"/>
-  <color name="darkgreen" value="0 0.392 0"/>
-  <color name="darkmagenta" value="0.545 0 0.545"/>
-  <color name="darkorange" value="1 0.549 0"/>
-  <color name="darkred" value="0.545 0 0"/>
-  <color name="lightblue" value="0.678 0.847 0.902"/>
-  <color name="lightcyan" value="0.878 1 1"/>
+  <color name="gray70" value="0.702 0.702 0.702"/>
+  <color name="gray" value="0.745 0.745 0.745"/>
+  <color name="gray80" value="0.8 0.8 0.8"/>
   <color name="lightgray" value="0.827 0.827 0.827"/>
+  <color name="gray90" value="0.898 0.898 0.898"/>
+  <color name="red" value="1 0 0"/>
+  <color name="somered" value="0.9372 0.1609 0.1609"/>
+  <color name="strongred" value="0.8 0 0.2"/>
+  <color name="palevioletred" value="0.804 0.408 0.537"/>
+  <color name="brown" value="0.647 0.165 0.165"/>
+  <color name="orange" value="1 0.647 0"/>
+  <color name="darkorange" value="1 0.549 0"/>
+  <color name="blue" value="0 0 1"/>
+  <color name="navy" value="0 0 0.502"/>
+  <color name="darkblue" value="0.1255 0.2902 0.5294"/>
+  <color name="dodgerblue" value="0.094 0.455 0.804"/>
+  <color name="steelblue" value="0.275 0.51 0.706"/>
+  <color name="steel1blue" value="0.388 0.722 1"/>
+  <color name="steelblue2" value="0.361 0.675 0.933"/>
+  <color name="steelblue3" value="0.31 0.58 0.804"/>
+  <color name="desaturatedblue" value="0.4471 0.6235 0.8118"/>
+  <color name="lightsteelblue" value="0.635 0.71 0.804"/>
+  <color name="lightskyblue" value="0.553 0.714 0.804"/>
+  <color name="lightblue" value="0.678 0.847 0.902"/>
+  <color name="slategray" value="0.624 0.714 0.804"/>
+  <color name="darkcyan" value="0 0.545 0.545"/>
+  <color name="lightcyan" value="0.878 1 1"/>
   <color name="lightgreen" value="0.565 0.933 0.565"/>
+  <color name="green" value="0 1 0"/>
+  <color name="chartreuse" value="0.4 0.804 0"/>
+  <color name="palegreen" value="0.486 0.804 0.486"/>
+  <color name="seagreen" value="0.18 0.545 0.341"/>
+  <color name="darkgreen" value="0 0.392 0"/>
+  <color name="darkolivegreen" value="0.635 0.804 0.353"/>
+  <color name="yellow" value="1 1 0"/>
   <color name="lightyellow" value="1 1 0.878"/>
+  <color name="gold" value="1 0.843 0"/>
+  <color name="pink" value="1 0.753 0.796"/>
+  <color name="violet" value="0.933 0.51 0.933"/>
+  <color name="pink-orchid" value="0.804 0.412 0.788"/>
+  <color name="purple" value="0.627 0.125 0.941"/>
+  <color name="darkmagenta" value="0.545 0 0.545"/>
+  <color name="deeppink" value="0.804 0.063 0.463"/>
+  <color name="pink-light" value="0.804 0.549 0.584"/>
+  <color name="purple" value="0.49 0.149 0.804"/>
+
   <dashstyle name="dashed" value="[3 1] 0"/>
   <dashstyle name="dashed long" value="[4 1] 0"/>
   <dashstyle name="dashed short" value="[2 1] 0"/>
