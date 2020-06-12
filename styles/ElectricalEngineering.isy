@@ -13,6 +13,7 @@
   <color name="lightgray" value="0.827 0.827 0.827"/>
   <color name="gray90" value="0.898 0.898 0.898"/>
   <color name="red" value="1 0 0"/>
+  <color name="darkred" value="0.7529 0 0"/>
   <color name="somered" value="0.9372 0.1609 0.1609"/>
   <color name="strongred" value="0.8 0 0.2"/>
   <color name="palevioletred" value="0.804 0.408 0.537"/>
