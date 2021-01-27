@@ -43,6 +43,7 @@
   <color name="darkgreen" value="0 0.392 0"/>
   <color name="darkolivegreen" value="0.635 0.804 0.353"/>
   <color name="yellow" value="1 1 0"/>
+  <color name="mediumyellow" value="1 1 0.678"/>
   <color name="lightyellow" value="1 1 0.878"/>
   <color name="gold" value="1 0.843 0"/>
   <color name="pink" value="1 0.753 0.796"/>
