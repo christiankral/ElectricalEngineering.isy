@@ -12,7 +12,7 @@ The file `styles/ElectricalEngineering.isy` provides electrical engineering circ
 
 ### Styles file
 
-Copy the styles file `styles/ElectricalEngineering.isy` into the user directory `~/.ipe/styles/` (`styles` may have have to be created first):
+Copy the styles file `styles/ElectricalEngineering.isy` into the user directory `~/.ipe/styles/` (`styles` may have have to be created first). You can either do these steps manually or use this script:
 
 ```bash
 mkdir -p ~/.ipe/styles
@@ -31,7 +31,7 @@ to the **absolute** path
 
 `prefs.styles = { "/home/user/.ipe/styles/ElectricalEngineering.isy" }`
 
-(where `user` is your user name):
+(where `user` is your user name). You can either do these steps manually or use this script:
 
 ```bash
 # Download, copy and configure customze.lua
