@@ -12,7 +12,14 @@ The file `styles/ElectricalEngineering.isy` provides electrical engineering circ
 
 ### Styles file
 
-Copy the styles file `styles/ElectricalEngineering.isy` into the user directory `~/.ipe/styles/` (`styles` may have have to be created first)
+Copy the styles file `styles/ElectricalEngineering.isy` into the user directory `~/.ipe/styles/` (`styles` may have have to be created first):
+
+```bash
+mkdir -p ~/.ipe/styles
+cd ~/.ipe/styles
+rm ElectricalEngineering.isy
+wget https://github.com/christiankral/ElectricalEngineering.isy/raw/master/styles/ElectricalEngineering.isy
+```
 
 ### Customization file
 
@@ -20,9 +27,20 @@ Copy the customization file `ipelets/customze.lua` into the user directory `~/.i
 
 `prefs.styles = { "/path/to/ElectricalEngineering.isy" }`
 
-to
+to the **absolute** path
 
-`prefs.styles = { "~/.ipe/styles/ElectricalEngineering.isy" }`
+`prefs.styles = { "/home/user/.ipe/styles/ElectricalEngineering.isy" }`
+
+(where `user` is your user name):
+
+```bash
+# Download, copy and configure customze.lua
+mkdir -p ~/.ipe/ipelets/
+cd ~/.ipe/ipelets/
+rm customize.lua
+wget https://github.com/christiankral/ElectricalEngineering.isy/raw/master/ipelets/customize.lua
+sed -i 's@~@'"$HOME"'@g' customize.lua
+```
 
 ## Windows
 
