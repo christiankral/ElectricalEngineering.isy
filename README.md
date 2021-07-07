@@ -6,6 +6,8 @@ The file `styles/ElectricalEngineering.isy` provides electrical engineering circ
 - `Shift+S` to add symbols
 - `Alt+Ctrl+I` to add splines
 
+**German instructions** on installing and using Ipe can be found [here](https://gitea.com/christiankral/Ipe_Anleitung).
+
 # Installation
 
 ## Linux
