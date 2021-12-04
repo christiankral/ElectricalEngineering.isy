@@ -2154,4 +2154,43 @@ h
   </group>
 </symbol>
 
+<symbol name="Mechanics/Ceiling loop">
+  <group layer="alpha" matrix="1 0 0 1 -40 -94">
+  <path matrix="-1 0 -0 -1 72 118" stroke="black">
+  2 0 0 2 32 24 e
+  </path>
+  <path matrix="-1 0 -0 -1 72 118" stroke="black">
+  4 0 0 4 32 24 e
+  </path>
+  <path matrix="-1 0 -0 -1 80 146" stroke="black">
+  39 46 m
+  39 48 l
+  </path>
+  <path matrix="-1 0 -0 -1 80 146" stroke="black">
+  41 46 m
+  41 48 l
+  </path>
+  <path stroke="black">
+  36 100 m
+  44 100 l
+  </path>
+  <path stroke="black" pen="small" cap="1">
+  37 100 m
+  38 102 l
+  </path>
+  <path stroke="black" pen="small" cap="1">
+  39 100 m
+  40 102 l
+  </path>
+  <path stroke="black" pen="small" cap="1">
+  41 100 m
+  42 102 l
+  </path>
+  <path stroke="black" pen="small" cap="1">
+  43 100 m
+  44 102 l
+  </path>
+  </group>
+</symbol>
+
 </ipestyle>
