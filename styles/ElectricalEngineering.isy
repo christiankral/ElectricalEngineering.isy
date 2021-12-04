@@ -2306,4 +2306,30 @@ h
   </path>
 </symbol>
 
+<symbol name="Mechanics/Open loop">
+  <path layer="alpha" matrix="1 0 0 1 -280 -768" stroke="black" cap="1" join="2">
+  2 0 0 2 280 760 e
+  </path>
+  <path layer="alpha" matrix="1 0 0 0.158494 -280 -123.723" stroke="black" cap="1" join="2">
+  278 768 m
+  278 752 l
+  </path>
+  <path layer="alpha" matrix="1 0 0 0.158494 -280 -123.723" stroke="black" cap="1" join="2">
+  282 768 m
+  282 752 l
+  </path>
+  <path layer="alpha" matrix="1 0 0 1 -280 -768" stroke="black" cap="1" join="2">
+  282 763.464 m
+  4 0 0 -4 280 760 278 763.464 a
+  </path>
+  <path layer="alpha" matrix="1 0 0 1 -280 -768" stroke="black">
+  278 766 m
+  278 768 l
+  </path>
+  <path layer="alpha" matrix="1 0 0 1 -280 -768" stroke="black">
+  282 766 m
+  282 768 l
+  </path>
+</symbol>
+
 </ipestyle>
