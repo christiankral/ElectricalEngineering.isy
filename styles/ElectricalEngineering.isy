@@ -2154,6 +2154,69 @@ h
   </group>
 </symbol>
 
+<symbol name="Mechanics/Ceiling hook">
+  <group layer="alpha" matrix="1 0 0 1 -252 -504">
+  <path stroke="black">
+  250 504 m
+  250.039 502.142
+  250.325 500.873
+  250.25 499.5
+  247.75 498
+  245.888 496.414
+  244.75 494
+  244.75 491.5
+  246.25 489
+  247.75 488
+  249.75 487
+  252.25 487
+  254.75 488
+  256.25 489.5
+  257.25 491.5
+  257.916 494.009
+  258.25 495.5
+  258.25 496
+  257.75 496.5
+  257.25 496.5
+  256.75 496
+  256.25 495.5
+  254.75 493
+  253.25 491
+  251.224 490.86
+  250.174 491.472
+  249.3 492.434
+  249.387 493.921
+  249.956 495.059
+  251.25 496.5
+  252.75 498
+  253.75 499
+  254.108 500.095
+  254 502
+  254.004 503.153
+  254 504 c
+  </path>
+  <path stroke="black">
+  248 504 m
+  256 504 l
+  </path>
+  <path stroke="black" pen="small" cap="1">
+  250 506 m
+  249 504 l
+  </path>
+  <path stroke="black" pen="small" cap="1">
+  252 506 m
+  251 504 l
+  </path>
+  <path stroke="black" pen="small" cap="1">
+  254 506 m
+  253 504 l
+  </path>
+  <path stroke="black" pen="small" cap="1">
+  256 506 m
+  255 504 l
+  </path>
+  </group>
+</symbol>
+
 <symbol name="Mechanics/Ceiling loop">
   <group layer="alpha" matrix="1 0 0 1 -40 -94">
   <path matrix="-1 0 -0 -1 72 118" stroke="black">
