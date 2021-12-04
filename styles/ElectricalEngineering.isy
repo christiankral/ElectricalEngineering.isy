@@ -2218,40 +2218,49 @@ h
 </symbol>
 
 <symbol name="Mechanics/Ceiling loop">
-  <group layer="alpha" matrix="1 0 0 1 -40 -94">
-  <path matrix="-1 0 -0 -1 72 118" stroke="black">
-  2 0 0 2 32 24 e
+  <group layer="alpha" matrix="1 0 0 1 -15 -22">
+  <path matrix="1 0 0 1 -265 -746" stroke="black" cap="1" join="2">
+  2 0 0 2 280 760 e
   </path>
-  <path matrix="-1 0 -0 -1 72 118" stroke="black">
-  4 0 0 4 32 24 e
+  <path matrix="1 0 0 0.158494 -265 -101.723" stroke="black" cap="1" join="2">
+  278 768 m
+  278 752 l
   </path>
-  <path matrix="-1 0 -0 -1 80 146" stroke="black">
-  39 46 m
-  39 48 l
+  <path matrix="1 0 0 0.158494 -265 -101.723" stroke="black" cap="1" join="2">
+  282 768 m
+  282 752 l
   </path>
-  <path matrix="-1 0 -0 -1 80 146" stroke="black">
-  41 46 m
-  41 48 l
+  <path matrix="1 0 0 1 -265 -746" stroke="black" cap="1" join="2">
+  282 763.464 m
+  4 0 0 -4 280 760 278 763.464 a
   </path>
-  <path stroke="black">
-  36 100 m
-  44 100 l
+  <path matrix="1 0 0 1 -265 -746" stroke="black">
+  278 766 m
+  278 768 l
   </path>
-  <path stroke="black" pen="small" cap="1">
-  37 100 m
-  38 102 l
+  <path matrix="1 0 0 1 -265 -746" stroke="black">
+  282 766 m
+  282 768 l
   </path>
-  <path stroke="black" pen="small" cap="1">
-  39 100 m
-  40 102 l
+  <path matrix="1 0 0 1 -265 -746" stroke="black">
+  276 768 m
+  284 768 l
   </path>
-  <path stroke="black" pen="small" cap="1">
-  41 100 m
-  42 102 l
+  <path matrix="1 0 0 1 -265 -746" stroke="black" pen="small" cap="1">
+  277 768 m
+  278 770 l
   </path>
-  <path stroke="black" pen="small" cap="1">
-  43 100 m
-  44 102 l
+  <path matrix="1 0 0 1 -265 -746" stroke="black" pen="small" cap="1">
+  279 768 m
+  280 770 l
+  </path>
+  <path matrix="1 0 0 1 -265 -746" stroke="black" pen="small" cap="1">
+  281 768 m
+  282 770 l
+  </path>
+  <path matrix="1 0 0 1 -265 -746" stroke="black" pen="small" cap="1">
+  283 768 m
+  284 770 l
   </path>
   </group>
 </symbol>
