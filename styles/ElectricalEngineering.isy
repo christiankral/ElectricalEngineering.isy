@@ -2378,7 +2378,61 @@ h
   </group>
 </symbol>
 
-<symbol name="Mechanics/Gear">
+<symbol name="Mechanics/Gear aligned">
+  <group layer="alpha" matrix="1 0 0 1 -80 -40">
+  <path stroke="black" fill="white">
+  80 42 m
+  84 42 l
+  </path>
+  <path matrix="1 0 0 1 0 2" stroke="black" fill="white">
+  80 36 m
+  84 36 l
+  </path>
+  <path stroke="black" fill="white">
+  100 42 m
+  104 42 l
+  </path>
+  <path matrix="1 0 0 1 0 2" stroke="black" fill="white">
+  100 36 m
+  104 36 l
+  </path>
+  <path stroke="black" fill="white">
+  84 44 m
+  84 36 l
+  88 34 l
+  88 46 l
+  h
+  </path>
+  <path stroke="black" fill="white">
+  100 36 m
+  100 44 l
+  96 46 l
+  96 34 l
+  h
+  </path>
+  <path matrix="1 0 0 0.666667 0 13.3333" stroke="black" fill="white">
+  88 52 m
+  88 28 l
+  96 28 l
+  96 52 l
+  h
+  </path>
+  <path matrix="1 0 0 1 0 4" stroke="black" fill="white">
+  86 20 m
+  86 24 l
+  88 24 l
+  90 32 l
+  94 32 l
+  96 24 l
+  98 24 l
+  98 20 l
+  92 20 l
+  h
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Mechanics/Gear wheels">
   <group layer="alpha" matrix="1 0 0 1 -100 -76">
   <group>
   <path matrix="1 0 0 1 -96 -624" stroke="black">
