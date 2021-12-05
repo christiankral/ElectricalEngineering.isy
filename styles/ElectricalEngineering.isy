@@ -2378,4 +2378,345 @@ h
   </group>
 </symbol>
 
+<symbol name="Mechanics/Gear">
+  <group layer="alpha" matrix="1 0 0 1 -100 -76">
+  <group>
+  <path matrix="1 0 0 1 -96 -624" stroke="black">
+  196 702 m
+  200 702 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black">
+  196 698 m
+  200 698 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" fill="white">
+  200 704 m
+  200 696 l
+  204 696 l
+  204 704 l
+  h
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 696.766 m
+  201 696.766 l
+  202 696.766 l
+  203 696.766 l
+  204 696.766 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 698.771 m
+  201 698.771 l
+  202 698.771 l
+  203 698.771 l
+  204 698.771 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 701.246 m
+  201 701.246 l
+  202 701.246 l
+  203 701.246 l
+  204 701.246 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 703.244 m
+  201 703.244 l
+  202 703.244 l
+  203 703.244 l
+  204 703.244 l
+  </path>
+  </group>
+  <group>
+  <path matrix="1 0 0 1 -96 -624" stroke="black">
+  200 704 m
+  200 728 l
+  204 728 l
+  204 704 l
+  h
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black">
+  204 718 m
+  208 718 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black">
+  204 714 m
+  208 714 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 705.04 m
+  201 705.04 l
+  202 705.04 l
+  203 705.04 l
+  204 705.04 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 706.298 m
+  201 706.298 l
+  202 706.298 l
+  203 706.298 l
+  204 706.298 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 707.981 m
+  201 707.981 l
+  202 707.981 l
+  203 707.981 l
+  204 707.981 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 710.015 m
+  201 710.015 l
+  202 710.015 l
+  203 710.015 l
+  204 710.015 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 712.312 m
+  201 712.312 l
+  202 712.312 l
+  203 712.312 l
+  204 712.312 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 714.77 m
+  201 714.77 l
+  202 714.77 l
+  203 714.77 l
+  204 714.77 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 717.282 m
+  201 717.282 l
+  202 717.282 l
+  203 717.282 l
+  204 717.282 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 719.738 m
+  201 719.738 l
+  202 719.738 l
+  203 719.738 l
+  204 719.738 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 722.03 m
+  201 722.03 l
+  202 722.03 l
+  203 722.03 l
+  204 722.03 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 724.058 m
+  201 724.058 l
+  202 724.058 l
+  203 724.058 l
+  204 724.058 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 725.732 m
+  201 725.732 l
+  202 725.732 l
+  203 725.732 l
+  204 725.732 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 726.981 m
+  201 726.981 l
+  202 726.981 l
+  203 726.981 l
+  204 726.981 l
+  </path>
+  </group>
+  </group>
+</symbol>
+
+<symbol name="Mechanics/Gear wheel small">
+  <group layer="alpha" matrix="1 0 0 1 -100 -76">
+  <path matrix="1 0 0 1 -96 -624" stroke="black">
+  196 702 m
+  200 702 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black">
+  196 698 m
+  200 698 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" fill="white">
+  200 704 m
+  200 696 l
+  204 696 l
+  204 704 l
+  h
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 696.766 m
+  201 696.766 l
+  202 696.766 l
+  203 696.766 l
+  204 696.766 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 698.771 m
+  201 698.771 l
+  202 698.771 l
+  203 698.771 l
+  204 698.771 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 701.246 m
+  201 701.246 l
+  202 701.246 l
+  203 701.246 l
+  204 701.246 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 703.244 m
+  201 703.244 l
+  202 703.244 l
+  203 703.244 l
+  204 703.244 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Mechanics/Gear wheel big">
+  <group layer="alpha" matrix="-1 0 -0 -1 112 92">
+  <path matrix="1 0 0 1 -96 -624" stroke="black">
+  200 704 m
+  200 728 l
+  204 728 l
+  204 704 l
+  h
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black">
+  204 718 m
+  208 718 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black">
+  204 714 m
+  208 714 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 705.04 m
+  201 705.04 l
+  202 705.04 l
+  203 705.04 l
+  204 705.04 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 706.298 m
+  201 706.298 l
+  202 706.298 l
+  203 706.298 l
+  204 706.298 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 707.981 m
+  201 707.981 l
+  202 707.981 l
+  203 707.981 l
+  204 707.981 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 710.015 m
+  201 710.015 l
+  202 710.015 l
+  203 710.015 l
+  204 710.015 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 712.312 m
+  201 712.312 l
+  202 712.312 l
+  203 712.312 l
+  204 712.312 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 714.77 m
+  201 714.77 l
+  202 714.77 l
+  203 714.77 l
+  204 714.77 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 717.282 m
+  201 717.282 l
+  202 717.282 l
+  203 717.282 l
+  204 717.282 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 719.738 m
+  201 719.738 l
+  202 719.738 l
+  203 719.738 l
+  204 719.738 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 722.03 m
+  201 722.03 l
+  202 722.03 l
+  203 722.03 l
+  204 722.03 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 724.058 m
+  201 724.058 l
+  202 724.058 l
+  203 724.058 l
+  204 724.058 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 725.732 m
+  201 725.732 l
+  202 725.732 l
+  203 725.732 l
+  204 725.732 l
+  </path>
+  <path matrix="1 0 0 1 -96 -624" stroke="black" pen="small">
+  200 726.981 m
+  201 726.981 l
+  202 726.981 l
+  203 726.981 l
+  204 726.981 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Mechanics/Motor">
+  <group layer="alpha">
+  <path matrix="2 0 0 2 -236 -1448" stroke="black" fill="white">
+  104 728 m
+  104 720 l
+  116 720 l
+  116 728 l
+  h
+  </path>
+  <path matrix="1 0 0 1.14286 -196 -760" stroke="black" fill="gray">
+  168 672 m
+  168 658 l
+  160 658 l
+  160 672 l
+  h
+  </path>
+  <path matrix="1 0 0 1 -288 -696" stroke="black" fill="white">
+  256 680 m
+  280 680 l
+  280 684 l
+  276 684 l
+  272 692 l
+  264 692 l
+  260 684 l
+  256 684 l
+  h
+  </path>
+  <path matrix="1 0 0 1 -196 -664" stroke="black" fill="gray">
+  192 666 m
+  196 666 l
+  </path>
+  <path matrix="1 0 0 1 -196 -664" stroke="black" fill="gray">
+  192 662 m
+  196 662 l
+  </path>
+  </group>
+</symbol>
+
 </ipestyle>
