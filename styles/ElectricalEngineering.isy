@@ -2155,110 +2155,99 @@ h
 </symbol>
 
 <symbol name="Mechanics/Ceiling hook">
-  <group layer="alpha" matrix="1 0 0 1 -252 -504">
-  <path stroke="black">
-  250 504 m
-  250.039 502.142
-  250.325 500.873
-  250.25 499.5
-  247.75 498
-  245.888 496.414
-  244.75 494
-  244.75 491.5
-  246.25 489
-  247.75 488
-  249.75 487
-  252.25 487
-  254.75 488
-  256.25 489.5
-  257.25 491.5
-  257.916 494.009
-  258.25 495.5
-  258.25 496
-  257.75 496.5
-  257.25 496.5
-  256.75 496
-  256.25 495.5
-  254.75 493
-  253.25 491
-  251.224 490.86
-  250.174 491.472
-  249.3 492.434
-  249.387 493.921
-  249.956 495.059
-  251.25 496.5
-  252.75 498
-  253.75 499
-  254.108 500.095
-  254 502
-  254.004 503.153
-  254 504 c
+  <group layer="alpha">
+  <path matrix="1 0 0 1 -16 -32" stroke="black">
+  14.512 32 m
+  14.4951 30.9789
+  14.7167 30.082
+  14.6667 29.1667
+  13 28.1667
+  11.7587 27.1093
+  11 25.5
+  11 23.8333
+  11.9355 21.7642
+  13.6665 20.5897
+  16.7108 20.2595
+  18.5533 21.4264
+  19.5311 22.9098
+  20.1232 24.5011
+  20.3452 25.6113
+  20.2712 26.3514
+  19.8907 26.6642
+  19.4132 26.4781
+  18.9065 25.8639
+  18.108 24.5895
+  16.9021 23.0852
+  15.3656 23.1443
+  14.616 23.8147
+  14.1431 24.5508
+  14.0913 25.4473
+  14.4707 26.206
+  15.3333 27.1667
+  16.3333 28.1667
+  17 28.8333
+  17.3137 29.578
+  17.2631 30.4725
+  17.0268 31.2489
+  17 32 c
   </path>
-  <path stroke="black">
-  248 504 m
-  256 504 l
+  <path matrix="1 0 0 1 -280 -768" stroke="black">
+  276 768 m
+  284 768 l
   </path>
-  <path stroke="black" pen="small" cap="1">
-  250 506 m
-  249 504 l
+  <path matrix="1 0 0 1 -280 -768" stroke="black" pen="small" cap="1">
+  277 768 m
+  278 770 l
   </path>
-  <path stroke="black" pen="small" cap="1">
-  252 506 m
-  251 504 l
+  <path matrix="1 0 0 1 -280 -768" stroke="black" pen="small" cap="1">
+  279 768 m
+  280 770 l
   </path>
-  <path stroke="black" pen="small" cap="1">
-  254 506 m
-  253 504 l
+  <path matrix="1 0 0 1 -280 -768" stroke="black" pen="small" cap="1">
+  281 768 m
+  282 770 l
   </path>
-  <path stroke="black" pen="small" cap="1">
-  256 506 m
-  255 504 l
+  <path matrix="1 0 0 1 -280 -768" stroke="black" pen="small" cap="1">
+  283 768 m
+  284 770 l
   </path>
   </group>
 </symbol>
 
 <symbol name="Mechanics/Ceiling loop">
-  <group layer="alpha" matrix="1 0 0 1 -15 -22">
-  <path matrix="1 0 0 1 -265 -746" stroke="black" cap="1" join="2">
+  <group layer="alpha">
+  <path matrix="1 0 0 1 -280 -767" stroke="black" cap="1" join="2">
   2 0 0 2 280 760 e
   </path>
-  <path matrix="1 0 0 0.158494 -265 -101.723" stroke="black" cap="1" join="2">
+  <path matrix="1 0 0 0.220994 -280 -169.723" stroke="black" cap="1" join="2">
   278 768 m
   278 752 l
   </path>
-  <path matrix="1 0 0 0.158494 -265 -101.723" stroke="black" cap="1" join="2">
+  <path matrix="1 0 0 0.220994 -280 -169.723" stroke="black" cap="1" join="2">
   282 768 m
   282 752 l
   </path>
-  <path matrix="1 0 0 1 -265 -746" stroke="black" cap="1" join="2">
+  <path matrix="1 0 0 1 -280 -767" stroke="black" cap="1" join="2">
   282 763.464 m
   4 0 0 -4 280 760 278 763.464 a
   </path>
-  <path matrix="1 0 0 1 -265 -746" stroke="black">
-  278 766 m
-  278 768 l
-  </path>
-  <path matrix="1 0 0 1 -265 -746" stroke="black">
-  282 766 m
-  282 768 l
-  </path>
-  <path matrix="1 0 0 1 -265 -746" stroke="black">
+  <path matrix="1 0 0 1 -280 -768" stroke="black">
   276 768 m
   284 768 l
   </path>
-  <path matrix="1 0 0 1 -265 -746" stroke="black" pen="small" cap="1">
+  <path matrix="1 0 0 1 -280 -768" stroke="black" pen="small" cap="1">
   277 768 m
   278 770 l
   </path>
-  <path matrix="1 0 0 1 -265 -746" stroke="black" pen="small" cap="1">
+  <path matrix="1 0 0 1 -280 -768" stroke="black" pen="small" cap="1">
   279 768 m
   280 770 l
   </path>
-  <path matrix="1 0 0 1 -265 -746" stroke="black" pen="small" cap="1">
+  <path matrix="1 0 0 1 -280 -768" stroke="black" pen="small" cap="1">
   281 768 m
   282 770 l
   </path>
-  <path matrix="1 0 0 1 -265 -746" stroke="black" pen="small" cap="1">
+  <path matrix="1 0 0 1 -280 -768" stroke="black" pen="small" cap="1">
   283 768 m
   284 770 l
   </path>
@@ -2266,70 +2255,61 @@ h
 </symbol>
 
 <symbol name="Mechanics/Open hook">
-  <path layer="alpha" matrix="1 0 0 1 -252 -504" stroke="black">
-  250 504 m
-  250.039 502.142
-  250.325 500.873
-  250.25 499.5
-  247.75 498
-  245.888 496.414
-  244.75 494
-  244.75 491.5
-  246.25 489
-  247.75 488
-  249.75 487
-  252.25 487
-  254.75 488
-  256.25 489.5
-  257.25 491.5
-  257.916 494.009
-  258.25 495.5
-  258.25 496
-  257.75 496.5
-  257.25 496.5
-  256.75 496
-  256.25 495.5
-  254.75 493
-  253.25 491
-  251.224 490.86
-  250.174 491.472
-  249.3 492.434
-  249.387 493.921
-  249.956 495.059
-  251.25 496.5
-  252.75 498
-  253.75 499
-  254.108 500.095
-  254 502
-  254.004 503.153
-  254 504 c
+  <path layer="alpha" matrix="1 0 0 1 -16 -32" stroke="black">
+  14.512 32 m
+  14.4951 30.9789
+  14.7167 30.082
+  14.6667 29.1667
+  13 28.1667
+  11.7587 27.1093
+  11 25.5
+  11 23.8333
+  11.9355 21.7642
+  13.6665 20.5897
+  16.7108 20.2595
+  18.5533 21.4264
+  19.5311 22.9098
+  20.1232 24.5011
+  20.3452 25.6113
+  20.2712 26.3514
+  19.8907 26.6642
+  19.4132 26.4781
+  18.9065 25.8639
+  18.108 24.5895
+  16.9021 23.0852
+  15.3656 23.1443
+  14.616 23.8147
+  14.1431 24.5508
+  14.0913 25.4473
+  14.4707 26.206
+  15.3333 27.1667
+  16.3333 28.1667
+  17 28.8333
+  17.3137 29.578
+  17.2631 30.4725
+  17.0268 31.2489
+  17 32 c
   </path>
 </symbol>
 
 <symbol name="Mechanics/Open loop">
-  <path layer="alpha" matrix="1 0 0 1 -280 -768" stroke="black" cap="1" join="2">
+  <group layer="alpha">
+  <path matrix="1 0 0 1 -280 -767" stroke="black" cap="1" join="2">
   2 0 0 2 280 760 e
   </path>
-  <path layer="alpha" matrix="1 0 0 0.158494 -280 -123.723" stroke="black" cap="1" join="2">
+  <path matrix="1 0 0 0.220994 -280 -169.723" stroke="black" cap="1" join="2">
   278 768 m
   278 752 l
   </path>
-  <path layer="alpha" matrix="1 0 0 0.158494 -280 -123.723" stroke="black" cap="1" join="2">
+  <path matrix="1 0 0 0.220994 -280 -169.723" stroke="black" cap="1" join="2">
   282 768 m
   282 752 l
   </path>
-  <path layer="alpha" matrix="1 0 0 1 -280 -768" stroke="black" cap="1" join="2">
+  <path matrix="1 0 0 1 -280 -767" stroke="black" cap="1" join="2">
   282 763.464 m
   4 0 0 -4 280 760 278 763.464 a
   </path>
-  <path layer="alpha" matrix="1 0 0 1 -280 -768" stroke="black">
-  278 766 m
-  278 768 l
-  </path>
-  <path layer="alpha" matrix="1 0 0 1 -280 -768" stroke="black">
-  282 766 m
-  282 768 l
-  </path>
+  </group>
 </symbol>
 
 </ipestyle>
