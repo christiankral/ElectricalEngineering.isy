@@ -2719,4 +2719,56 @@ h
   </group>
 </symbol>
 
+<symbol name="Mechanics/Cable drum">
+  <group layer="alpha" matrix="1 0 0 1 -32 -16">
+  <group>
+  <path matrix="0.875 0 0 1 8 0" stroke="black" fill="white">
+  32 24 m
+  32 8 l
+  64 8 l
+  64 24 l
+  h
+  </path>
+  <path matrix="2 0 0 1 -32 0" stroke="black" fill="white">
+  32 18 m
+  34 18 l
+  </path>
+  <path matrix="2 0 0 1 -32 -4" stroke="black" fill="white">
+  32 18 m
+  34 18 l
+  </path>
+  </group>
+  <group>
+  <path matrix="1 0 0 0.9 0 1.6" stroke="black" fill="white" pen="ultrafat" cap="1">
+  48 26 m
+  48 6 l
+  </path>
+  <path stroke="black" fill="white" pen="ultrafat" cap="1">
+  50 25 m
+  51 7 l
+  </path>
+  <path matrix="1 0 0 1 2 0" stroke="black" fill="white" pen="ultrafat" cap="1">
+  50 25 m
+  51 7 l
+  </path>
+  <path matrix="1 0 0 1 4 0" stroke="black" fill="white" pen="ultrafat" cap="1">
+  50 25 m
+  51 7 l
+  </path>
+  <path matrix="1 0 0 1 6 0" stroke="black" fill="white" pen="ultrafat" cap="1">
+  50 25 m
+  51 7 l
+  </path>
+  <path matrix="1 0 0 1 8 0" stroke="black" fill="white" pen="ultrafat" cap="1">
+  50 25 m
+  51 7 l
+  </path>
+  <path matrix="1 0 0 1 10 0" stroke="black" fill="white" pen="ultrafat" cap="1">
+  50 25 m
+  51 7 l
+  </path>
+  </group>
+  </group>
+</symbol>
+
 </ipestyle>
