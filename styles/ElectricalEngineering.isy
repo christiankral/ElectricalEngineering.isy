@@ -2104,6 +2104,76 @@ h
   </group>
 </symbol>
 
+<symbol name="Mechanics/Fixed">
+  <group layer="alpha">
+  <path matrix="-1 0 -0 -1 280 768" stroke="black">
+  276 768 m
+  284 768 l
+  </path>
+  <path matrix="-1 0 -0 -1 280 768" stroke="black" pen="small" cap="1">
+  277 768 m
+  278 770 l
+  </path>
+  <path matrix="-1 0 -0 -1 280 768" stroke="black" pen="small" cap="1">
+  279 768 m
+  280 770 l
+  </path>
+  <path matrix="-1 0 -0 -1 280 768" stroke="black" pen="small" cap="1">
+  281 768 m
+  282 770 l
+  </path>
+  <path matrix="-1 0 -0 -1 280 768" stroke="black" pen="small" cap="1">
+  283 768 m
+  284 770 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Mechanics/Fixed long">
+  <group layer="alpha">
+  <path matrix="-1 0 -0 -1 284 768" stroke="black">
+  276 768 m
+  284 768 l
+  </path>
+  <path matrix="-1 0 -0 -1 284 768" stroke="black" pen="small" cap="1">
+  277 768 m
+  278 770 l
+  </path>
+  <path matrix="-1 0 -0 -1 284 768" stroke="black" pen="small" cap="1">
+  279 768 m
+  280 770 l
+  </path>
+  <path matrix="-1 0 -0 -1 284 768" stroke="black" pen="small" cap="1">
+  281 768 m
+  282 770 l
+  </path>
+  <path matrix="-1 0 -0 -1 284 768" stroke="black" pen="small" cap="1">
+  283 768 m
+  284 770 l
+  </path>
+  <path matrix="-1 0 -0 -1 276 768" stroke="black">
+  276 768 m
+  284 768 l
+  </path>
+  <path matrix="-1 0 -0 -1 276 768" stroke="black" pen="small" cap="1">
+  277 768 m
+  278 770 l
+  </path>
+  <path matrix="-1 0 -0 -1 276 768" stroke="black" pen="small" cap="1">
+  279 768 m
+  280 770 l
+  </path>
+  <path matrix="-1 0 -0 -1 276 768" stroke="black" pen="small" cap="1">
+  281 768 m
+  282 770 l
+  </path>
+  <path matrix="-1 0 -0 -1 276 768" stroke="black" pen="small" cap="1">
+  283 768 m
+  284 770 l
+  </path>
+  </group>
+</symbol>
+
 <symbol name="Mechanics/Hook">
   <group layer="alpha" matrix="1 0 0 1 -171.75 -73">
   <path matrix="0.5 0 0 0.5 103.75 29" stroke="black">
