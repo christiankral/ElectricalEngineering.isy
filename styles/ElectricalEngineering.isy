@@ -2825,4 +2825,31 @@ h
   </group>
 </symbol>
 
+<symbol name="Mechanics/Scissors">
+  <group layer="alpha" matrix="1 0 0 1 -108.006 -804.002">
+  <path matrix="0.965926 0.258819 -0.258819 0.965926 211.771 -0.556821" stroke="black">
+  100 804 m
+  114 804 l
+  </path>
+  <path matrix="0.724444 0.194114 -0.194114 0.724444 206.112 206.018" stroke="black">
+  88 804
+  92 804
+  92 808
+  84 808
+  84 804 u
+  </path>
+  <path matrix="0.965926 -0.258819 -0.258819 -0.965926 211.771 1608.56" stroke="black">
+  100 804 m
+  114 804 l
+  </path>
+  <path matrix="0.724444 -0.194114 -0.194114 -0.724444 206.112 1401.98" stroke="black">
+  88 804
+  92 804
+  92 808
+  84 808
+  84 804 u
+  </path>
+  </group>
+</symbol>
+
 </ipestyle>
