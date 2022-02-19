@@ -147,6 +147,12 @@
   <symbol name="arrow/fnormal(spx)">
   <path pen="sym-pen" stroke="sym-stroke" fill="white">
   0 0 m -1.0 0.333 l -1.0 -0.333 l h</path></symbol>
+  <symbol name="arrow/fnormal semi 1(spx)">
+  <path pen="sym-pen" stroke="sym-stroke" fill="white">
+  0 0 m -1.0 0.333 l -1.0 0 l h</path></symbol>
+  <symbol name="arrow/fnormal semi 2(spx)">
+  <path pen="sym-pen" stroke="sym-stroke" fill="white">
+  0 0 m -1.0 0 l -1.0 -0.333 l h</path></symbol>
   <symbol name="arrow/pointed(spx)">
   <path pen="sym-pen" stroke="sym-stroke" fill="sym-stroke">
   0 0 m -1.0 0.333 l -0.8 0 l -1.0 -0.333 l h</path></symbol>
@@ -161,6 +167,12 @@
   0 0 m -1.0 0.333 l -1.0 -0.333 l h
   -1 0 m -2.0 0.333 l -2.0 -0.333 l h
   </path></symbol>
+  <symbol name="arrow/normal semi 1(spx)">
+  <path pen="sym-pen" stroke="sym-stroke" fill="sym-stroke">
+  0 0 m -1.0 0.333 l -1.0 0 l h</path></symbol>
+  <symbol name="arrow/normal semi 2(spx)">
+  <path pen="sym-pen" stroke="sym-stroke" fill="sym-stroke">
+  0 0 m -1.0 0 l -1.0 -0.333 l h</path></symbol>
   <symbol name="arrow/double(spx)">
   <path pen="sym-pen" stroke="sym-stroke" fill="sym-stroke">
   0 0 m -1.0 0.333 l -1.0 -0.333 l h
