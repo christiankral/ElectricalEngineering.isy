@@ -964,6 +964,28 @@
   </group>
 </symbol>
 
+<symbol name="Arrows/S curve">
+  <path layer="alpha" matrix="1 0 0 1 -192 -48" stroke="black" pen="small">
+  192 48 m
+  192 42
+  192 38
+  190 42
+  190 38
+  190 32 c
+  </path>
+</symbol>
+
+<symbol name="Arrows/S curve long">
+  <path layer="alpha" matrix="1 0 0 1 -200 -48" stroke="black" pen="small">
+  200 48 m
+  200 34
+  200 30
+  198 34
+  198 30
+  198 24 c
+  </path>
+</symbol>
+
 <symbol name="Arrows/S curve fdisk">
   <group layer="alpha" matrix="1 0 0 1 -72 -40">
   <path matrix="0.5 0 0 0.5 36 20" stroke="black" fill="black" pen="small">
