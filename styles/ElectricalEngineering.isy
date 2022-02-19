@@ -3,6 +3,7 @@
 <ipestyle name="ElectricalEngineering">
   <color name="black" value="0 0 0 "/>
   <color name="white" value="1 1 1"/>
+  <color name="gray25" value="0.25 0.25 0.25"/>
   <color name="gray40" value="0.4 0.4 0.4"/>
   <color name="gray50" value="0.498 0.498 0.498"/>
   <color name="gray60" value="0.6 0.6 0.6"/>
