@@ -728,6 +728,59 @@
   </group>
 </symbol>
 
+<symbol name="Basic/Winding core 8pt top" snap="0 0 0 -16">
+  <group layer="alpha" matrix="1 0 0 1 -56 -48">
+  <path matrix="-1 0 0 -0.5 200 380" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="1 0 0 0.5 -72 -286" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Basic/Winding core 8pt intermediate" snap="0 0 0 -16">
+  <group layer="alpha" matrix="1 0 0 0.5 -128 -332">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Basic/Winding core 8pt bottom" snap="0 0 0 -16">
+  <group layer="alpha" matrix="1 0 0 1 -56 -20">
+  <group matrix="1 0 0 0.5 -72 -312">
+  <path matrix="1 0 0 1 -8 -4" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  <path matrix="0.666667 0 0 1 45.3333 -8" stroke="black">
+  124 668 m
+  136 668 l
+  </path>
+  <path matrix="-1 0 0 -1 272 1324" stroke="black">
+  136 668 m
+  2 0 0 2 136 666 136 664 a
+  </path>
+  </group>
+  <path matrix="1 0 0 1 -104 -636" stroke="black">
+  160 652 m
+  156 652 l
+  </path>
+  </group>
+</symbol>
+
 <symbol name="Basic/Winding core 16pt" snap="0 0 0 -16">
   <group matrix="1 0 0 1 -16.0003 -32.0002">
   <path matrix="0.333333 0 0 0.57143 -25.333 -349.715" stroke="black">
