@@ -68,6 +68,7 @@
   <pen name="heavier" value="1.0"/>
   <pen name="fat" value="1.2"/>
   <pen name="ultrafat" value="1.5"/>
+  <pen name="ultraultrafat" value="2.4"/>
   <textsize name="large" value="\large"/>
   <textsize name="Large" value="\Large"/>
   <textsize name="LARGE" value="\LARGE"/>
