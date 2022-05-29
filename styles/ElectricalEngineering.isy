@@ -14,6 +14,42 @@
   <color name="lightgray" value="0.827 0.827 0.827"/>
   <color name="gray90" value="0.898 0.898 0.898"/>
   <color name="lightgray Hanser" value="0.90196 0.90196 0.90196"/>
+  <color name="Tab20bc blue 1" value="0.192 0.51 0.741"/>
+  <color name="Tab20bc blue 2" value="0.42 0.682 0.839"/>
+  <color name="Tab20bc blue 3" value="0.62 0.792 0.882"/>
+  <color name="Tab20bc blue 4" value="0.776 0.859 0.937"/>
+  <color name="Tab20bc brown 1" value="0.549 0.427 0.192"/>
+  <color name="Tab20bc brown 2" value="0.741 0.62 0.224"/>
+  <color name="Tab20bc brown 3" value="0.906 0.729 0.322"/>
+  <color name="Tab20bc brown 4" value="0.906 0.796 0.58"/>
+  <color name="Tab20bc darkpurple 1" value="0.224 0.231 0.475"/>
+  <color name="Tab20bc darkpurple 2" value="0.322 0.329 0.639"/>
+  <color name="Tab20bc darkpurple 3" value="0.42 0.431 0.812"/>
+  <color name="Tab20bc darkpurple 4" value="0.612 0.62 0.871"/>
+  <color name="Tab20bc gray 1" value="0.388 0.388 0.388"/>
+  <color name="Tab20bc gray 2" value="0.588 0.588 0.588"/>
+  <color name="Tab20bc gray 3" value="0.741 0.741 0.741"/>
+  <color name="Tab20bc gray 4" value="0.851 0.851 0.851"/>
+  <color name="Tab20bc green 1" value="0.192 0.639 0.329"/>
+  <color name="Tab20bc green 2" value="0.549 0.635 0.322"/>
+  <color name="Tab20bc green 3" value="0.71 0.812 0.42"/>
+  <color name="Tab20bc green 4" value="0.78 0.914 0.753"/>
+  <color name="Tab20bc magenta 1" value="0.482 0.255 0.451"/>
+  <color name="Tab20bc magenta 2" value="0.647 0.318 0.58"/>
+  <color name="Tab20bc magenta 3" value="0.808 0.427 0.741"/>
+  <color name="Tab20bc magenta 4" value="0.871 0.62 0.839"/>
+  <color name="Tab20bc orange 1" value="0.902 0.333 0.051"/>
+  <color name="Tab20bc orange 2" value="0.992 0.553 0.235"/>
+  <color name="Tab20bc orange 3" value="0.992 0.682 0.42"/>
+  <color name="Tab20bc orange 4" value="0.992 0.816 0.635"/>
+  <color name="Tab20bc purple 1" value="0.459 0.42 0.694"/>
+  <color name="Tab20bc purple 2" value="0.62 0.604 0.784"/>
+  <color name="Tab20bc purple 3" value="0.737 0.741 0.863"/>
+  <color name="Tab20bc purple 4" value="0.855 0.855 0.922"/>
+  <color name="Tab20bc red 1" value="0.518 0.235 0.224"/>
+  <color name="Tab20bc red 2" value="0.678 0.286 0.29"/>
+  <color name="Tab20bc red 3" value="0.839 0.38 0.42"/>
+  <color name="Tab20bc red 4" value="0.906 0.588 0.612"/>
   <color name="red" value="1 0 0"/>
   <color name="darkred" value="0.7529 0 0"/>
   <color name="somered" value="0.9372 0.1609 0.1609"/>
