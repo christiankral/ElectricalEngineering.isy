@@ -976,9 +976,9 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/Arrow in small(sp)">
+<symbol name="Arrows/Arrow in small(sfp)">
   <group>
-  <path stroke="sym-stroke" fill="white">
+  <path stroke="sym-stroke" fill="sym-fill">
   2 0 0 2 0 0 e
   </path>
   <path stroke="sym-stroke">
@@ -992,9 +992,9 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/Arrow in normal(sp)">
+<symbol name="Arrows/Arrow in normal(sfp)">
   <group>
-  <path stroke="sym-stroke" fill="white">
+  <path stroke="sym-stroke" fill="sym-fill">
   3 0 0 3 0 0 e
   </path>
   <path stroke="sym-stroke">
@@ -1008,18 +1008,18 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/Arrow out small(sp)">
+<symbol name="Arrows/Arrow out small(sfp)">
   <group>
-  <path stroke="sym-stroke" fill="white">
+  <path stroke="sym-stroke" fill="sym-fill">
   2 0 0 2 0 0 e
   </path>
   <use name="mark/disk(sx)" size="normal" stroke="sym-stroke"/>
   </group>
 </symbol>
 
-<symbol name="Arrows/Arrow out normal(sp)">
+<symbol name="Arrows/Arrow out normal(sfp)">
   <group>
-  <path stroke="sym-stroke" fill="white">
+  <path stroke="sym-stroke" fill="sym-fill">
   3 0 0 3 0 0 e
   </path>
   <use name="mark/disk(sx)" size="normal" stroke="sym-stroke"/>
@@ -1048,9 +1048,9 @@
   </path>
 </symbol>
 
-<symbol name="Arrows/S curve fdisk(sp)">
+<symbol name="Arrows/S curve fdisk(sfp)">
   <group layer="alpha" matrix="1 0 0 1 -72 -40">
-  <path matrix="0.5 0 0 0.5 36 20" stroke="sym-stroke" fill="black" pen="small">
+  <path matrix="0.5 0 0 0.5 36 20" stroke="sym-stroke" fill="sym-fill" pen="small">
   1 0 0 1 72 40 e
   </path>
   <path matrix="1 0 0 1 -120 -8" stroke="sym-stroke" pen="small">
@@ -1064,7 +1064,7 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/S curve long fdisk(sp)">
+<symbol name="Arrows/S curve long fdisk(sfp)">
   <group layer="alpha" matrix="1 0 0 1 -80 -40">
   <path matrix="1 0 0 1 -120 -8" stroke="sym-stroke" pen="small">
   200 48 m
@@ -1074,7 +1074,7 @@
   198 30
   198 24 c
   </path>
-  <path matrix="0.5 0 0 0.5 44 20" stroke="sym-stroke" fill="black" pen="small">
+  <path matrix="0.5 0 0 0.5 44 20" stroke="sym-stroke" fill="sym-fill" pen="small">
   1 0 0 1 72 40 e
   </path>
   </group>
