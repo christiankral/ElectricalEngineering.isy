@@ -1552,16 +1552,16 @@
   </group>
 </symbol>
 
-<symbol name="Machines/DC Machine(s)" snap="0 16 0 -16 0 0">
+<symbol name="Machines/DC Machine(sf)" snap="0 16 0 -16 0 0">
   <group>
-  <path stroke="sym-stroke" fill="black">
+  <path stroke="sym-stroke" fill="sym-stroke">
   -2 10 m
   -2 -10 l
   2 -10 l
   2 10 l
   h
   </path>
-  <path stroke="sym-stroke" fill="white">
+  <path stroke="sym-stroke" fill="sym-fill">
   8 0 0 8 0 0 e
   </path>
   <path stroke="sym-stroke" cap="2" join="0">
