@@ -1580,7 +1580,7 @@
 <path matrix="1 0 0 1 16 0" stroke="sym-stroke">
 11.3137 0 0 11.3137 112 56 e
 </path>
-<path stroke="sym-stroke" cap="2">
+<path stroke="sym-stroke" cap="3">
 112 64 m
 120 64 l
 </path>
@@ -1588,7 +1588,7 @@
 112 56 m
 120 56 l
 </path>
-<path stroke="sym-stroke" cap="2">
+<path stroke="sym-stroke" cap="3">
 112 48 m
 120 48 l
 </path>
