@@ -1010,19 +1010,23 @@
 
 <symbol name="Arrows/Arrow out small(sfp)">
   <group>
-  <path stroke="sym-stroke" fill="sym-fill">
-  2 0 0 2 0 0 e
+  <path matrix="1 0 0 1 -64 -666" stroke="sym-stroke" fill="sym-fill">
+  2 0 0 2 64 666 e
   </path>
-  <use name="mark/disk(sx)" size="normal" stroke="sym-stroke"/>
+  <path matrix="0.5 0 0 0.5 -32 -330" stroke="sym-stroke" fill="sym-stroke">
+  1 0 0 1 64 660 e
+  </path>
   </group>
 </symbol>
 
 <symbol name="Arrows/Arrow out normal(sfp)">
-  <group>
-  <path stroke="sym-stroke" fill="sym-fill">
-  3 0 0 3 0 0 e
+  <group matrix="1 0 0 1 -24 -8">
+  <path matrix="1 0 0 1 8 0" stroke="sym-stroke" fill="sym-fill">
+  3 0 0 3 16 8 e
   </path>
-  <use name="mark/disk(sx)" size="normal" stroke="sym-stroke"/>
+  <path stroke="sym-stroke" fill="sym-stroke">
+  1 0 0 1 24 8 e
+  </path>
   </group>
 </symbol>
 
