@@ -976,6 +976,14 @@
   </group>
 </symbol>
 
+<symbol name="Arrows/Current no line(sp)">
+  <path layer="alpha" matrix="0.666667 0 0 1 -42.7333 -640" stroke="sym-stroke" arrow="normal/normal">
+  62 640 m
+  68 640 l
+  </path>
+</symbol>
+
+
 <symbol name="Arrows/Arrow in small(sfp)">
   <group>
   <path stroke="sym-stroke" fill="sym-fill">
