@@ -572,26 +572,26 @@
 </symbol>
 
 <symbol name="Basic/Thyristor(s)" snap="16 8 16 -8 0 0 0 4">
-<group>
-<path stroke="sym-stroke">
-0 1.43333 m
-0 4 l
-</path>
-<path matrix="1 0 0 1 0 -16" stroke="sym-stroke">
--8 16 m
-8 16 l
-</path>
-<path matrix="1 0 0 1 -2 -16" stroke="sym-stroke">
-4 12 m
-4 20 l
-</path>
-<path matrix="1 0 0 1 -2 -16" stroke="sym-stroke">
-4 16 m
--2 20 l
--2 12 l
-4 16 l
-</path>
-</group>
+  <group>
+  <path matrix="1 0 0 1 1 0" stroke="sym-stroke">
+  0 1.43333 m
+  0 4 l
+  </path>
+  <path matrix="1 0 0 1 0 -16" stroke="sym-stroke">
+  -8 16 m
+  8 16 l
+  </path>
+  <path matrix="1 0 0 1 -1 -16" stroke="sym-stroke">
+  4 12 m
+  4 20 l
+  </path>
+  <path matrix="1 0 0 1 -1 -16" stroke="sym-stroke">
+  4 16 m
+  -2 20 l
+  -2 12 l
+  4 16 l
+  </path>
+  </group>
 </symbol>
 
 <symbol name="Basic/Transistor NPN(s)" snap="-8 0 8 8 8 -8 0 0">
