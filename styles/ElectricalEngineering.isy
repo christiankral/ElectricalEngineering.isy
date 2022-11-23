@@ -1129,7 +1129,7 @@
 
 <symbol name="Arrows/Coordinate system xyz(sp)">
   <group matrix="1 0 0 1 -80 -720">
-  <use name="Arrows/Arrow out small" pos="80 720"/>
+  <use name="Arrows/Arrow out small(sfp)" pos="80 720"/>
   <path stroke="sym-stroke" arrow="normal/normal">
   82 720 m
   96 720 l
