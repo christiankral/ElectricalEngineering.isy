@@ -1587,24 +1587,24 @@
   </group>
 </symbol>
 
-<symbol name="Machines/Three phase(s)" snap="0 -16 0 -32">
-<group matrix="1 0 0 1 -112 -64">
-<path matrix="1 0 0 1 16 0" stroke="sym-stroke">
-11.3137 0 0 11.3137 112 56 e
-</path>
-<path stroke="sym-stroke" cap="3">
-112 64 m
-120 64 l
-</path>
-<path matrix="0.625 0 0 1 42 0" stroke="sym-stroke">
-112 56 m
-120 56 l
-</path>
-<path stroke="sym-stroke" cap="3">
-112 48 m
-120 48 l
-</path>
-</group>
+<symbol name="Machines/Three phase(s)" snap="0 0 0 -8 0 -16">
+  <group matrix="1 0 0 1 16 -8">
+  <path matrix="1 0 0 1 -128 -608" stroke="sym-stroke">
+  112 616 m
+  119.056 616 l
+  </path>
+  <path matrix="1 0 0 1 -128 -608" stroke="sym-stroke">
+  112 608 m
+  116 608 l
+  </path>
+  <path matrix="1 0 0 1 -128 -608" stroke="sym-stroke">
+  112 600 m
+  119.056 600 l
+  </path>
+  <path matrix="1 0 0 1 -128 -608" stroke="sym-stroke">
+  12 0 0 12 128 608 e
+  </path>
+  </group>
 </symbol>
 
 <symbol name="Machines/Transformer OO(s)">
