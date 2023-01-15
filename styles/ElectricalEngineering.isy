@@ -229,7 +229,7 @@
   <textstyle name="item" begin="\begin{itemize}\item{}"
   end="\end{itemize}"/>
 
-<preamble>\usepackage{fourier,inconsolata,amsmath}</preamble>
+<preamble>\usepackage{fourier,inconsolata,amsmath}\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n}</preamble>
 
 <symbol name="Basic/Capacitor(s)" snap="-16 0 16 0 0 0">
   <group matrix="1 0 0 1 -48 -44">
