@@ -73,6 +73,8 @@ This script fixes compatibility issues. If you encounter any conversion problems
 Run `update1.sh File.ipe` or `update1.sh "*.ipe"` to apply the conversion to a the files of the current directory.
 This script converts the Ipe file to ElectricalEngineering version v1.X.X.
 
+Please note, that the conversion script works only, if the style sheet update has been applied in Ipe prior to running the script.
+
 # Example
 
 ## Induction machine
