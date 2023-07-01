@@ -1660,7 +1660,7 @@
   </group>
 </symbol>
 
-  <symbol name="Logic/AND_2_DIN(s)">
+<symbol name="Logic/AND_2_DIN(s)">
 <group>
 <path matrix="1.33333 0 0 1.33333 4 -12" stroke="sym-stroke">
 0 12 m
