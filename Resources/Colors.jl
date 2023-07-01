@@ -60,4 +60,15 @@ for format in [1,2]
   conv("Tab20bc red 2",colorant"#AD494A",format)
   conv("Tab20bc red 3",colorant"#D6616B",format)
   conv("Tab20bc red 4",colorant"#E7969C",format)
+  
+  # Single hue scale
+  conv("Hanser blue 1",colorant"#204786",format)
+  conv("Hanser blue 2",colorant"#405b97",format)
+  conv("Hanser blue 3",colorant"#5a70a8",format)
+  conv("Hanser blue 4",colorant"#7485b9",format)
+  conv("Hanser blue 5",colorant"#8d9bca",format)
+  conv("Hanser blue 6",colorant"#a6b2db",format)
+  conv("Hanser blue 7",colorant"#bfc9ed",format)
+  conv("Hanser blue 8",colorant"#d9e1ff",format)
+  conv("Hanser blue light",colorant"#d4d5e9",format)
 end
