@@ -67,7 +67,7 @@ to (note the double backslashes)
 Ipe files created with ElectricalEngineering versions before and after v0.5.0 are not compatible.
 If a style sheet update (CTRL+SHIFT+U) is performed the updated file will be corruped.
 However, store the modified Ipe file after updating the style sheet.
-Then it is required to run the (Linux) update script `update1.sh`, which is located in the `Resources` directory.
+Then it is required to run the (Linux) update script `Resources/update1.sh`.
 This script fixes compatibility issues. If you encounter any conversion problems, please file an issue.
 
 Run `update1.sh File.ipe` or `update1.sh "*.ipe"` to apply the conversion to a the files of the current directory.
