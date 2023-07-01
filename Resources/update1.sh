@@ -11,7 +11,7 @@ echo "update1.sh 1.0.0 (C) Christian Kral 2023-07-01"
 if test $# -eq 0
 then 
 echo ""
-echo "update1.sh \"*
+echo "update1.sh"
 echo ""
 echo "    Converts one file or more IPE files based on ElectricalEngineering 0.X"
 echo "    to ElectricalEngineering 1.X" 
@@ -23,15 +23,15 @@ for file in $(find . -maxdepth 1 -name "$1"); do
   echo "Processing "$file
   # Remove 'horizontal' and 'vertical'
   sed -i 's!"Basic/Capacitor"!"Basic/Capacitor(s)"!g' $file
-  sed -i 's!"Basic/Diode!Basic/Diode(s)"!g' $file
-  sed -i 's!"Basic/Inductor!Basic/Inductor(s)"!g' $file
-  sed -i 's!"Basic/Inductor coil!Basic/Inductor coil(s)"!g' $file
-  sed -i 's!"Basic/Lamp!Basic/Lamp(s)"!g' $file
-  sed -i 's!"Basic/Fuse!/Basic/Fuse(s)"!g' $file
-  sed -i 's!"Basic/Ground!Basic/Ground(s)"!g' $file
-  sed -i 's!"Basic/IGBT!Basic/IGBT(s)"!g' $file
-  sed -i 's!"Basic/NMOS!Basic/NMOS(s)"!g' $file
-  sed -i 's!"Basic/PMOS!Basic/PMOS(s)"!g' $file
+  sed -i 's!"Basic/Diode"!"Basic/Diode(s)"!g' $file
+  sed -i 's!"Basic/Inductor"!"Basic/Inductor(s)"!g' $file
+  sed -i 's!"Basic/Inductor coil"!"Basic/Inductor coil(s)"!g' $file
+  sed -i 's!"Basic/Lamp"!"Basic/Lamp(s)"!g' $file
+  sed -i 's!"Basic/Fuse"!"/Basic/Fuse(s)"!g' $file
+  sed -i 's!"Basic/Ground"!"Basic/Ground(s)"!g' $file
+  sed -i 's!"Basic/IGBT"!"Basic/IGBT(s)"!g' $file
+  sed -i 's!"Basic/NMOS"!"Basic/NMOS(s)"!g' $file
+  sed -i 's!"Basic/PMOS"!"Basic/PMOS(s)"!g' $file
   sed -i 's!"Basic/Resistor"!"Basic/Resistor(s)"!g' $file
   sed -i 's!"Basic/Resistor variable"!"Basic/Resistor variable(s)"!g' $file
   sed -i 's!"Basic/Switch open"!"Basic/Switch open(s)"!g' $file
