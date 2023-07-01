@@ -963,15 +963,15 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/Current(sp)" snap="-8 0 0 8 0 0">
-  <group matrix="1 0 0 1 -192 -64">
-  <path matrix="1 0 0 1 168 48" stroke="sym-stroke">
-  16 16 m
-  32 16 l
+<symbol name="Arrows/Current(sp)" snap="-8 0 8 0 0 0">
+  <group>
+  <path stroke="black">
+  8 0 m
+  -8 0 l
   </path>
-  <path matrix="0.125 0 0 1 191.5 48" stroke="sym-stroke" arrow="normal/normal">
-  20 16 m
-  28 16 l
+  <path matrix="1 0 0 1 -9 -8" stroke="sym-stroke" arrow="normal/normal">
+  8 8 m
+  12 8 l
   </path>
   </group>
 </symbol>
