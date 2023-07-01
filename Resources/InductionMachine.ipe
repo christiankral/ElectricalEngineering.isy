@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
-<ipe version="70206" creator="Ipe 7.2.11">
-<info created="D:20190327143248" modified="D:20190327145308"/>
-<ipestyle name="EE">
+<ipe version="70218" creator="Ipe 7.2.27">
+<info created="D:20190327143248" modified="D:20230701183551"/>
+<ipestyle name="ElectricalEngineering">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
 0 0 m
