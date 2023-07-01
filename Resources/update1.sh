@@ -27,7 +27,7 @@ for file in $(find . -maxdepth 1 -name "$1"); do
   sed -i 's!"Basic/Inductor"!"Basic/Inductor(s)"!g' $file
   sed -i 's!"Basic/Inductor coil"!"Basic/Inductor coil(s)"!g' $file
   sed -i 's!"Basic/Lamp"!"Basic/Lamp(s)"!g' $file
-  sed -i 's!"Basic/Fuse"!"/Basic/Fuse(s)"!g' $file
+  sed -i 's!"Basic/Fuse"!"Basic/Fuse(s)"!g' $file
   sed -i 's!"Basic/Ground"!"Basic/Ground(s)"!g' $file
   sed -i 's!"Basic/IGBT"!"Basic/IGBT(s)"!g' $file
   sed -i 's!"Basic/NMOS"!"Basic/NMOS(s)"!g' $file
