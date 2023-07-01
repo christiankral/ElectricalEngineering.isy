@@ -677,7 +677,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Winding core 8pt(s)" snap="0 0 0 -16">
+<symbol name="Basic/Winding core 8pt(s)" snap="0 0 4 0 4 -16 0 -16">
   <group matrix="1 0 0 1.14286 -24 -36.5714">
   <group matrix="1 0 0 0.5 -100 -302">
   <path matrix="1 0 0 1 -8 -4" stroke="sym-stroke">
@@ -846,7 +846,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Winding core big(s)">
+<symbol name="Basic/Winding core big(s)" snap="0 0 4 0 0 -32 4 -32">
   <group matrix="1 0 0 1.06667 -64 -51.2">
   <group matrix="1 0 0 0.857143 24 6.85714">
   <group matrix="1 0 0 0.571429 -84 -333.714">
