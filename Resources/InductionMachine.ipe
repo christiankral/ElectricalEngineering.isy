@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.27">
-<info created="D:20190327143248" modified="D:20230701184001"/>
+<info created="D:20190327143248" modified="D:20230701184843"/>
 <ipestyle name="ElectricalEngineering">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -2979,15 +2979,15 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<use layer="alpha" matrix="1 0 0 1 -8 0" name="Basic/Resistor(s)" pos="128 704"/>
-<use name="Current(sp)" pos="112 704"/>
-<use matrix="1 0 0 1 -8 0" name="Basic/Inductor(s)" pos="152 704"/>
-<use matrix="1 0 0 1 -8 0" name="Arrows/Current(sp)" pos="184 704"/>
-<use matrix="1 0 0 1 -8 0" name="Basic/Inductor(s)" pos="184 696"/>
-<use matrix="1 0 0 1 24 0" name="Basic/Inductor(s)" pos="152 704"/>
-<use matrix="1 0 0 1 72 0" name="Basic/Resistor(s)" pos="128 704"/>
-<use matrix="1 0 0 1 -8 0" name="Arrows/Current(sp)" pos="232 704"/>
-<path matrix="0.941176 0 0 1 6.58824 0" stroke="black">
+<use layer="alpha" matrix="1 0 0 1 8 0" name="Arrows/Current(sp)" pos="112 704"/>
+<use matrix="1 0 0 1 8 0" name="Basic/Resistor(s)" pos="128 704"/>
+<use matrix="1 0 0 1 8 0" name="Basic/Inductor(s)" pos="152 704"/>
+<use matrix="-0 -1 1 -0 -528 880" name="Arrows/Current(sp)" pos="184 704"/>
+<use matrix="0 1 -1 0 872 496" name="Basic/Inductor(s)" pos="184 696"/>
+<use matrix="1 0 0 1 40 0" name="Basic/Inductor(s)" pos="152 704"/>
+<use matrix="1 0 0 1 88 0" name="Basic/Resistor(s)" pos="128 704"/>
+<use name="Arrows/Current(sp)" pos="232 704"/>
+<path matrix="0.941176 0 0 1 6.58835 0" stroke="black">
 112 664 m
 248 664 l
 248 704 l
