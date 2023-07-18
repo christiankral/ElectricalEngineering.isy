@@ -13,12 +13,13 @@ then
   echo ""
   echo "update1.sh FILE EE"
   echo ""
-  echo "    Converts one file or more IPE files based on ElectricalEngineering 0.X"
+  echo "    Converts one file or more IPE files"
+  echo "    based on ElectricalEngineering 0.X"
   echo "    to ElectricalEngineering 1.X"
   echo ""
   echo "    FILE   File to be converted or file pattern, e.g. \"*.ipe\""
   echo "    EE     Optional location of the file ElectricalEngineering.isy"
-  echo "           to be updated to. If not specified, file is taken from:"
+  echo "           to be updated to. If not specified, the file is taken from:"
   echo "               ~/.ipe/styles/ElectricalEngineering.isy"
   exit
 fi
