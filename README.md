@@ -65,15 +65,18 @@ to (note the double backslashes)
 # Version handling
 
 Ipe files created with ElectricalEngineering versions before and after v0.5.0 are not compatible.
-If a style sheet update (CTRL+SHIFT+U) is performed the updated file will be corruped.
-However, store the modified Ipe file after updating the style sheet.
-Then it is required to run the (Linux) update script `Resources/update1.sh`.
-This script fixes compatibility issues. If you encounter any conversion problems, please file an issue.
 
-Run `update1.sh File.ipe` or `update1.sh "*.ipe"` to apply the conversion to a the files of the current directory.
-This script converts the Ipe file to ElectricalEngineering version v1.X.X.
+Older files can be updated under Linux using the script `Resources/update1.sh`.
+This script inserts an updated version of ElectricalEngineering.isy into an ipe file and
+fixes compatibility issues caused be new component names. If you encounter any conversion problems, please file an issue.
 
-Please note, that the conversion script works only, if the style sheet update has been applied in Ipe prior to running the script.
+This script converts one or more Ipe file to ElectricalEngineering version v1.X.X.
+
+## Conversion Examples
+
+- `update1.sh File.ipe` updates `File.ipe` by inserting `~/.ipe/styles/ElectricalEngineering.isy`
+- `update1.sh "*.ipe"` updates all files `*.ipe` by inserting `~/.ipe/styles/ElectricalEngineering.isy`
+- `update1.sh "*.ipe" /work/ElectricalEngineering.isy` updates all files `*.ipe` by inserting `/work/ElectricalEngineering.isy`
 
 # Example
 
