@@ -25,7 +25,7 @@ wget https://github.com/christiankral/ElectricalEngineering.isy/raw/master/style
 
 ### Customization file
 
-Copy the customization file `ipelets/customze.lua` into the user directory `~/.ipe/ipelets/` (`ipelets` may have have to be created first). You have to [change](https://github.com/christiankral/ElectricalEngineering.isy/issues/1)
+Copy the customization file `ipelets/customize.lua` into the user directory `~/.ipe/ipelets/` (`ipelets` may have have to be created first). You have to [change](https://github.com/christiankral/ElectricalEngineering.isy/issues/1)
 
 `prefs.styles = { "/path/to/ElectricalEngineering.isy" }`
 
@@ -36,7 +36,7 @@ to the **absolute** path
 (where `user` is your user name). You can either do these steps manually or use this script:
 
 ```bash
-# Download, copy and configure customze.lua
+# Download, copy and configure customize.lua
 mkdir -p ~/.ipe/ipelets/
 cd ~/.ipe/ipelets/
 rm customize.lua
@@ -54,7 +54,7 @@ Copy the styles file `styles/ElectricalEngineering.isy` into the Windows directo
 
 ### Customization file
 
-Copy the customization file `ipelets/customze.lua` into the user directory `C:\bin\Ipe\ipelets/` (`ipelets` may have have to be created first). You have to [change](https://github.com/christiankral/ElectricalEngineering.isy/issues/1)
+Copy the customization file `ipelets/customize.lua` into the user directory `C:\bin\Ipe\ipelets\` (`ipelets` may have have to be created first). You have to [change](https://github.com/christiankral/ElectricalEngineering.isy/issues/1)
 
 `prefs.styles = { "/path/to/ElectricalEngineering.isy" }`
 
