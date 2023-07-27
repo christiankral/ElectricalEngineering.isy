@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # ---------------------------------------------------------------------
-# update 1.1.0 (C) Christian Kral 2023-07-18
+# update 1.1.1 (C) Christian Kral 2023-07-27
 #     Update older IPE files based on versions 0.X
 #     to new libraray ElectricalEngineering 1.X
 # ---------------------------------------------------------------------
 
-echo "update1.sh 1.1.0 (C) Christian Kral 2023-07-18"
+echo "update1.sh 1.1.1 (C) Christian Kral 2023-07-27"
 
 if test $# -eq 0
 then
@@ -41,16 +41,16 @@ fi
 
 echo "Updating to ${EE}"
 # Copy $EE to local folder and modify it for being inserted
-cp "${HOME}/.ipe/styles/ElectricalEngineering.isy" "E.ins"
-sed -i '/<ipestyle name=\"ElectricalEngineering\">/d' E.ins
-sed -i '/<?xml version=\"1.0\"?>/d' E.ins
-sed -i '/<!DOCTYPE ipestyle SYSTEM \"ipe.dtd\">/d' E.ins
-sed -i '/<\/ipestyle>/d' E.ins
+cp "${EE}" ".ins"
+sed -i '/<ipestyle name=\"ElectricalEngineering\">/d' .ins
+sed -i '/<?xml version=\"1.0\"?>/d' .ins
+sed -i '/<!DOCTYPE ipestyle SYSTEM \"ipe.dtd\">/d' .ins
+sed -i '/<\/ipestyle>/d' .ins
 
 for file in $(find . -maxdepth 1 -name "$1"); do
   echo "Processing ${file}"
+  sed -i -ne '/<ipestyle name=\"ElectricalEngineering\">/ {p; r .ins' -e ':a; n; /<\/ipestyle>/ {p; b}; ba}; p' "${file}"
   # Remove 'horizontal' and 'vertical'
-  sed -i -ne '/<ipestyle name=\"ElectricalEngineering\">/ {p; r E.ins' -e ':a; n; /<\/ipestyle>/ {p; b}; ba}; p' "${file}"
   sed -i 's!"Basic/Capacitor"!"Basic/Capacitor(s)"!g' "${file}"
   sed -i 's!"Basic/Diode"!"Basic/Diode(s)"!g' "${file}"
   sed -i 's!"Basic/Inductor"!"Basic/Inductor(s)"!g' "${file}"
@@ -162,4 +162,4 @@ for file in $(find . -maxdepth 1 -name "$1"); do
   sed -i 's!"Arrows/Current up"!"Arrows/Current(sp)"!g' "${file}"
   sed -i 's!"Arrows/Current down"!"Arrows/Current(sp)"!g' "${file}"
 done
-rm E.ins
+rm .ins
