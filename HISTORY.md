@@ -2,11 +2,10 @@
 
 ### v1.2.0, 2023-08-09
 
-- Add sym-fill color to Diode(sf)
-- Add sym-fill color to Fuse(sf)
-- Add sym-fill color to Lamp(sf)
-- Add sym-fill color to Resistor(sf)
-- Improve `update1.sh` to match changes
+- Add sym-fill color to Diode filled(sf)
+- Add sym-fill color to Fuse filled(sf)
+- Add sym-fill color to Lamp filled(sf)
+- Add sym-fill color to Resistor filled(sf)
 - Add `HISTORY.md`
 
 ### v1.1.1, 2023-07-27
