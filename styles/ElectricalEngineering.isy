@@ -252,7 +252,26 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Diode(sf)" snap="-8 0 8 0 0 0">
+<symbol name="Basic/Diode(s)" snap="-8 0 8 0 0 0">
+  <group>
+  <path matrix="1 0 0 1 -63 -748" stroke="sym-stroke" cap="1">
+  60 744 m
+  60 752 l
+  66 748 l
+  60 744 l
+  </path>
+  <path matrix="1 0 0 1 -63 -748" stroke="sym-stroke" cap="1">
+  66 752 m
+  66 744 l
+  </path>
+  <path matrix="1 0 0 1 -64 -748" stroke="sym-stroke">
+  56 748 m
+  72 748 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Basic/Diode filled(sf)" snap="-8 0 8 0 0 0">
   <group>
   <path matrix="1 0 0 1 -63 -748" stroke="sym-stroke" fill="sym-fill" cap="1">
   60 744 m
@@ -321,7 +340,31 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Lamp(sf)" snap="-16 0 16 0 0 0">
+<symbol name="Basic/Lamp(s)" snap="-16 0 16 0 0 0">
+  <group>
+  <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke">
+  6 0 0 6 80 88 e
+  </path>
+  <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke" cap="2">
+  64 88 m
+  74 88 l
+  </path>
+  <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke" cap="2">
+  86 88 m
+  96 88 l
+  </path>
+  <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke">
+  76 84 m
+  84 92 l
+  </path>
+  <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke">
+  76 92 m
+  84 84 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Basic/Lamp filled(sf)" snap="-16 0 16 0 0 0">
   <group>
   <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke" fill="sym-fill">
   6 0 0 6 80 88 e
@@ -345,7 +388,23 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Fuse(sf)" snap="0 -16 0 16 0 0">
+<symbol name="Basic/Fuse(s)" snap="0 -16 0 16 0 0">
+  <group>
+  <path matrix="1 0 0 1 0 -14.1" stroke="sym-stroke">
+  -8 16 m
+  -8 12 l
+  8 12 l
+  8 16 l
+  h
+  </path>
+  <path matrix="4 0 0 1 48 -16" stroke="sym-stroke" cap="2">
+  -16 16 m
+  -8 16 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Basic/Fuse filled(sf)" snap="0 -16 0 16 0 0">
   <group>
   <path matrix="1 0 0 1 0 -14.1" stroke="sym-stroke" fill="sym-fill">
   -8 16 m
@@ -488,7 +547,27 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Resistor(sf)" snap="-16 0 16 0 0">
+<symbol name="Basic/Resistor(s)" snap="-16 0 16 0 0">
+  <group>
+  <path matrix="1 0 0 1 0 -14.1" stroke="sym-stroke">
+  -8 16 m
+  -8 12 l
+  8 12 l
+  8 16 l
+  h
+  </path>
+  <path matrix="1 0 0 1 0 -16" stroke="sym-stroke" cap="2">
+  -16 16 m
+  -8 16 l
+  </path>
+  <path matrix="1 0 0 1 0 -16" stroke="sym-stroke" cap="2">
+  8 16 m
+  16 16 l
+  </path>
+  </group>
+</symbol>
+
+<symbol name="Basic/Resistor filled(sf)" snap="-16 0 16 0 0">
   <group>
   <path matrix="1 0 0 1 0 -14.1" stroke="sym-stroke" fill="sym-fill">
   -8 16 m
