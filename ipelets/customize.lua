@@ -1,6 +1,9 @@
 ----------------------------------------------------------------------
 -- Customized ipelet: customize.lua
 ----------------------------------------------------------------------
+
+-- Optionally set autosave interval
+-- prefs.autosave_interval = 10
 prefs.max_zoom = 100
 shortcuts.ipelet_1_symbols = "Shift+S"
 shortcuts.mode_splines = "Alt+Ctrl+I"
