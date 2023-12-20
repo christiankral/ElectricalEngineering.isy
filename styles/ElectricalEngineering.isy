@@ -723,7 +723,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Winding air(s)" snap="0 0 0 8">
+<symbol name="Basic/Winding air(s)" snap="0 0 8 0">
   <group matrix="1 0 0 1 -16 -32">
   <path stroke="sym-stroke" cap="1">
   16 32 m
@@ -741,7 +741,7 @@
   </group>
 </symbol>
 
-<symbol name="Basic/Winding air overlap(s)" snap="0 0 0 8">
+<symbol name="Basic/Winding air overlap(s)" snap="0 0 8 0">
   <group matrix="1 0 0 1 -28 -20">
   <path matrix="1 0 0 1 -122 -708" stroke="sym-stroke">
   150 728 m
