@@ -1117,7 +1117,7 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/S curve(sp)">
+<symbol name="Arrows/S curve(sp)" snap="0 0 -2 -16">
   <path layer="alpha" matrix="1 0 0 1 -192 -48" stroke="sym-stroke" pen="small">
   192 48 m
   192 42
@@ -1128,7 +1128,7 @@
   </path>
 </symbol>
 
-<symbol name="Arrows/S curve long(sp)">
+<symbol name="Arrows/S curve long(sp)" snap="0 0 -2 -24">
   <path layer="alpha" matrix="1 0 0 1 -200 -48" stroke="sym-stroke" pen="small">
   200 48 m
   200 34
@@ -1139,11 +1139,8 @@
   </path>
 </symbol>
 
-<symbol name="Arrows/S curve fdisk(sfp)">
+<symbol name="Arrows/S curve fdisk(sfp)" snap="0 0 -2 -16">
   <group layer="alpha" matrix="1 0 0 1 -72 -40">
-  <path matrix="0.5 0 0 0.5 36 20" stroke="sym-stroke" fill="sym-fill" pen="small">
-  1 0 0 1 72 40 e
-  </path>
   <path matrix="1 0 0 1 -120 -8" stroke="sym-stroke" pen="small">
   192 48 m
   192 42
@@ -1152,10 +1149,13 @@
   190 38
   190 32 c
   </path>
+  <path matrix="0.5 0 0 0.5 36 20" stroke="sym-stroke" fill="sym-fill" pen="small">
+  1 0 0 1 72 40 e
+  </path>
   </group>
 </symbol>
 
-<symbol name="Arrows/S curve long fdisk(sfp)">
+<symbol name="Arrows/S curve long fdisk(sfp)" snap="0 0 -2 -24">
   <group layer="alpha" matrix="1 0 0 1 -80 -40">
   <path matrix="1 0 0 1 -120 -8" stroke="sym-stroke" pen="small">
   200 48 m
@@ -1171,7 +1171,7 @@
   </group>
 </symbol>
 
-<symbol name="Arrows/S curve arrow(sp)">
+<symbol name="Arrows/S curve arrow(sp)" snap="0 0 -2 -16">
   <path layer="alpha" matrix="1 0 0 1 -192 -48" stroke="sym-stroke" pen="small" rarrow="normal/tiny">
   192 48 m
   192 42
@@ -1182,7 +1182,7 @@
   </path>
 </symbol>
 
-<symbol name="Arrows/S curve long arrow(sp)">
+<symbol name="Arrows/S curve long arrow(sp)" snap="0 0 -2 -24">
   <path layer="alpha" matrix="1 0 0 1 -200 -48" stroke="sym-stroke" pen="small" rarrow="normal/tiny">
   200 48 m
   200 34
