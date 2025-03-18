@@ -1398,7 +1398,7 @@
 <symbol name="Sensors/Oscilloscope horizontal(s)" snap="-8 0 8 0 0 0">
   <group matrix="1 0 0 1 -8 0">
   <group matrix="1 0 0 1 8 0">
-  <path matrix="0 -1 1 0 -24 16" stroke="sym-stroke" fill="white">
+  <path matrix="0 -1 1 0 -24 16" stroke="sym-stroke"> 
   6 0 0 6 16 24 e
   </path>
   <path matrix="1 0 0 1 -32 -16" stroke="sym-stroke">
@@ -1424,7 +1424,7 @@
 <symbol name="Sensors/Oscilloscope vertical(s)" snap="0 8 0 -8 0 0">
   <group>
   <group>
-  <path matrix="0 -1 1 0 -24 16" stroke="sym-stroke" fill="white">
+  <path matrix="0 -1 1 0 -24 16" stroke="sym-stroke">
   6 0 0 6 16 24 e
   </path>
   <path matrix="1 0 0 1 -32 -16" stroke="sym-stroke">
