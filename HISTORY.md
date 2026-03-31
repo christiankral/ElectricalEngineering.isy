@@ -1,5 +1,10 @@
 # History
 
+### v1.3.0, 2026-03-31
+
+- Add dash styles 'dashed equal'
+- Add dash styles 'dashed equal long'
+
 ### v1.2.0, 2023-08-09
 
 - Add sym-fill color to Diode filled(sf)

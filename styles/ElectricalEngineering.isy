@@ -96,6 +96,8 @@
   <dashstyle name="dashed" value="[3 1] 0"/>
   <dashstyle name="dashed long" value="[4 1] 0"/>
   <dashstyle name="dashed short" value="[2 1] 0"/>
+  <dashstyle name="dashed equal" value="[4 4] 0"/>
+  <dashstyle name="dashed equal long" value="[8 8] 0"/>
   <dashstyle name="dotted" value="[1 1] 0"/>
   <dashstyle name="dash dotted" value="[4 1 1 1] 0"/>
   <dashstyle name="dash dot dotted" value="[4 1 1 1 1 1] 0"/>
