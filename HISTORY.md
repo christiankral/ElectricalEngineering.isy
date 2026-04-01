@@ -1,9 +1,13 @@
 # History
 
-### v1.3.0, 2026-03-31
+### v1.3.0, 2026-04-01
 
 - Add dash styles 'dashed equal'
 - Add dash styles 'dashed equal long'
+- Add Wiring diagram/3 way switch
+- Add Wiring diagram/4 way switch
+- Add Wiring diagram/Lamp
+- Add Wiring diagram/Outlet
 
 ### v1.2.0, 2023-08-09
 
