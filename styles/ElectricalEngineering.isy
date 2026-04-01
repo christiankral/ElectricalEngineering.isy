@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipestyle SYSTEM "ipe.dtd">
 <ipestyle name="ElectricalEngineering">
-  <color name="sym-stroke" value="0 0 0 "/>
+  <color name="black" value="0 0 0 "/>
   <color name="white" value="1 1 1"/>
   <color name="gray25" value="0.25 0.25 0.25"/>
   <color name="gray40" value="0.4 0.4 0.4"/>
@@ -3488,6 +3488,7 @@ h
 h
 </path>
 </group>
+</symbol>
 
 <symbol name="Wiring diagram/Class III(s)" snap="0 0">
 <group layer="alpha">
@@ -3511,4 +3512,6 @@ h
 24 649 l
 </path>
 </group>
+</symbol>
+
 </ipestyle>
