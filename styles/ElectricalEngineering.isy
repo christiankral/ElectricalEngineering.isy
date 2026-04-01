@@ -3447,4 +3447,68 @@ h
 </group>
 </symbol>
 
+<symbol name="Wiring diagram/Class I(s)" snap="0 0">
+<group layer="alpha">
+<path matrix="0.8 0 0 0.6 -57.6 -420" stroke="sym-stroke" pen="small">
+72 704 m
+72 700 l
+</path>
+<path matrix="1.2 0 0 0.8 -86.4 -560" stroke="sym-stroke" pen="small">
+70 700 m
+74 700 l
+</path>
+<path matrix="0.8 0 0 0.8 -57.6 -559.6" stroke="sym-stroke" pen="small">
+70 698 m
+74 698 l
+</path>
+<path matrix="0.8 0 0 0.8 -57.6 -559.2" stroke="sym-stroke" pen="small">
+71 696 m
+73 696 l
+</path>
+<path matrix="1 0 0 1 -72 -700" stroke="sym-stroke">
+4 0 0 4 72 700 e
+</path>
+</group>
+</symbol>
+
+<symbol name="Wiring diagram/Class II(s)" snap="0 0">
+<group layer="alpha">
+<path matrix="1 0 0 1 -24 -664" stroke="sym-stroke">
+20 668 m
+20 660 l
+28 660 l
+28 668 l
+h
+</path>
+<path matrix="1 0 0 1 -24 -664" stroke="sym-stroke">
+22 666 m
+22 662 l
+26 662 l
+26 666 l
+h
+</path>
+</group>
+
+<symbol name="Wiring diagram/Class III(s)" snap="0 0">
+<group layer="alpha">
+<path matrix="0.707107 0.707107 -0.707107 0.707107 452.548 -486.489" stroke="sym-stroke">
+20 668 m
+20 660 l
+28 660 l
+28 668 l
+h
+</path>
+<path matrix="1 0 0 1 -24 -651.5" stroke="sym-stroke" pen="small">
+24 654 m
+24 649 l
+</path>
+<path matrix="1 0 0 1 -22.5 -651.5" stroke="sym-stroke" pen="small">
+24 654 m
+24 649 l
+</path>
+<path matrix="1 0 0 1 -25.5 -651.5" stroke="sym-stroke" pen="small">
+24 654 m
+24 649 l
+</path>
+</group>
 </ipestyle>
