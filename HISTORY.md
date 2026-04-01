@@ -1,5 +1,9 @@
 # History
 
+### v1.3.1, 2026-04-01
+
+- Change naming of 3 and 4 way switches
+
 ### v1.3.0, 2026-04-01
 
 - Add dash styles 'dashed equal'
