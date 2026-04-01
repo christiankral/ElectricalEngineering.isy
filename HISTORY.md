@@ -4,9 +4,9 @@
 
 - Add dash styles 'dashed equal'
 - Add dash styles 'dashed equal long'
-- Add Wiring diagram/3 way switch X
-- Add Wiring diagram/4 way switch X
-- Add Wiring diagram/Lamp
+- Add Wiring diagram/3 way switch X (with stroke and fill color option)
+- Add Wiring diagram/4 way switch X (with stroke and fill color option)
+- Add Wiring diagram/Lamp (with stroke and fill color option)
 - Add Wiring diagram/Outlet X
 - Add Wiring diagram/Class X
 - Add Wiring diagram/Ground

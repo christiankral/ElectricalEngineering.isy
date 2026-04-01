@@ -3026,184 +3026,169 @@ h
   </group>
 </symbol>
 
-<symbol name="Wiring diagram/3 way switch 1(s)" snap="0 0 16 0 0 -16  16 -16">
-<group layer="alpha" matrix="1 0 0 1 -88 -224">
-<use matrix="1 0 0 1 -72 -512" name="mark/fdisk(sfx)" pos="176 736" size="normal" stroke="sym-stroke" fill="white"/>
-<path matrix="1 0 0 1 -72 -512" stroke="sym-stroke" cap="2">
+<symbol name="Wiring diagram/3 way switch 1(sf)" snap="0 0 16 0 0 -16  16 -16">
+<group layer="alpha">
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="176 736" size="normal" stroke="black" fill="white"/>
+<path matrix="1 0 0 1 -160 -736" stroke="sym-fill" cap="2">
 160 720 m
 160 724 l
 </path>
-<path matrix="1 0 0 1 -72 -512" stroke="sym-stroke" cap="2">
+<path matrix="1 0 0 1 -160 -736" stroke="sym-stroke" cap="2">
 160 736 m
 160 732 l
 </path>
-<path matrix="1 0 0 1 -72 -512" stroke="sym-stroke" cap="2">
+<path matrix="1 0 0 1 -160 -736" stroke="sym-stroke" cap="2">
 160 732 m
 168 732 l
 </path>
-<path matrix="1 0 0 1 -72 -512" stroke="sym-stroke">
+<path matrix="1 0 0 1 -160 -736" stroke="sym-fill">
 160 724 m
 167 724 l
 </path>
-<path stroke="sym-stroke" cap="2" join="0">
+<path matrix="1 0 0 1 -88 -224" stroke="sym-stroke" cap="2" join="0">
 97 212 m
 104 212 l
 104 208 l
 </path>
-<use matrix="1 0 0 1 -72 -512" name="mark/fdisk(sfx)" pos="160 720" size="normal" stroke="sym-stroke" fill="white"/>
-<use matrix="1 0 0 1 -72 -512" name="mark/fdisk(sfx)" pos="176 720" size="normal" stroke="sym-stroke" fill="white"/>
-<use matrix="1 0 0 1 -72 -512" name="mark/fdisk(sfx)" pos="160 736" size="normal" stroke="sym-stroke" fill="white"/>
-<path stroke="sym-stroke" cap="2">
-96 220 m
-97 211 l
-</path>
-<use matrix="1 0 0 1 -72 -512" name="mark/disk(sx)" pos="168 732" size="small" stroke="sym-stroke"/>
-<path matrix="1 0 0 1 -72 -512" stroke="sym-stroke">
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="160 720" size="normal" stroke="black" fill="white"/>
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="176 720" size="normal" stroke="black" fill="white"/>
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="160 736" size="normal" stroke="black" fill="white"/>
+<use matrix="1 0 0 1 -160 -736" name="mark/disk(sx)" pos="168 732" size="small" stroke="sym-stroke"/>
+<path matrix="1 0 0 1 -160 -736" stroke="black">
 152 726 m
 152 730 l
 </path>
-<group matrix="1 0 0 1 0 16">
-<path matrix="1 0 0 1 -41 -16" stroke="sym-stroke" cap="1">
+<group matrix="1 0 0 1 -88 -208">
+<path matrix="1 0 0 1 -41 -16" stroke="black" cap="1">
 127 216 m
 128 214 l
 129 216 l
 </path>
-<path matrix="1 0 0 1 -1 -16" stroke="sym-stroke">
+<path matrix="1 0 0 1 -1 -16" stroke="black">
 91 216 m
 89 216 l
 </path>
-<path matrix="1 0 0 1 -1 -16" stroke="sym-stroke">
+<path matrix="1 0 0 1 -1 -16" stroke="black">
 87 216 m
 85 216 l
 </path>
-<path matrix="1 0 0 1 0 4" stroke="sym-stroke">
+<path matrix="1 0 0 1 0 4" stroke="black">
 83 196 m
 80 196 l
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="sym-stroke">
+<path matrix="1 0 0 1 0 -16" stroke="black">
 96.4444 216 m
 95 216 l
 </path>
-<path matrix="1 0 0 1 0 4" stroke="sym-stroke">
+<path matrix="1 0 0 1 0 4" stroke="black">
 94 196 m
 91 196 l
 </path>
 </group>
+<path matrix="1 0 0 1 -88 -224" stroke="sym-stroke" cap="2">
+96 220 m
+97 211 l
+</path>
 </group>
 </symbol>
 
-<symbol name="Wiring diagram/3 way switch 2(s)" snap="0 0 16 0 0 -16  16 -16">
-<group layer="alpha" matrix="1 0 0 1 -88 -184">
-<use matrix="1 0 0 1 -72 -552" name="mark/fdisk(sfx)" pos="176 736" size="normal" stroke="sym-stroke" fill="white"/>
-<path matrix="1 0 0 1 -72 -552" stroke="sym-stroke" cap="2">
+<symbol name="Wiring diagram/3 way switch 2(sf)" snap="0 0 16 0 0 -16  16 -16">
+<group layer="alpha">
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="176 736" size="normal" stroke="black" fill="white"/>
+<path matrix="1 0 0 1 -160 -736" stroke="sym-stroke" cap="2">
 160 720 m
 160 724 l
 </path>
-<path matrix="1 0 0 1 -72 -552" stroke="sym-stroke" cap="2">
+<path matrix="1 0 0 1 -160 -736" stroke="sym-stroke" cap="2">
 160 736 m
 160 732 l
 </path>
-<path matrix="1 0 0 1 -72 -552" stroke="sym-stroke" cap="2">
+<path matrix="1 0 0 1 -160 -736" stroke="sym-stroke" cap="2">
 160 732 m
 168 732 l
 </path>
-<path matrix="1 0 0 1 -72 -552" stroke="sym-stroke">
+<path matrix="1 0 0 1 -160 -736" stroke="sym-stroke">
 160 724 m
 167 724 l
 </path>
-<path matrix="1 0 0 1 -72 -552" stroke="sym-stroke" cap="2" join="0">
+<path matrix="1 0 0 1 -160 -736" stroke="sym-fill" cap="2" join="0">
 170 724 m
 176 724 l
 176 720 l
 </path>
-<use matrix="1 0 0 1 -72 -552" name="mark/fdisk(sfx)" pos="160 720" size="normal" stroke="sym-stroke" fill="white"/>
-<use matrix="1 0 0 1 -72 -552" name="mark/fdisk(sfx)" pos="176 720" size="normal" stroke="sym-stroke" fill="white"/>
-<use matrix="1 0 0 1 -72 -552" name="mark/fdisk(sfx)" pos="160 736" size="normal" stroke="sym-stroke" fill="white"/>
-<path stroke="sym-stroke" cap="2">
-96 180 m
-95 171 l
-</path>
-<use matrix="1 0 0 1 -72 -552" name="mark/disk(sx)" pos="168 732" size="small" stroke="sym-stroke"/>
-<path matrix="1 0 0 1 -72 -552" stroke="sym-stroke">
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="160 720" size="normal" stroke="black" fill="white"/>
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="176 720" size="normal" stroke="black" fill="white"/>
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="160 736" size="normal" stroke="black" fill="white"/>
+<use matrix="1 0 0 1 -160 -736" name="mark/disk(sx)" pos="168 732" size="small" stroke="sym-stroke"/>
+<path matrix="1 0 0 1 -160 -736" stroke="black">
 152 726 m
 152 730 l
 </path>
-<path matrix="1 0 0 1 -41 -40" stroke="sym-stroke" cap="1">
+<path matrix="1 0 0 1 -129 -224" stroke="black" cap="1">
 127 216 m
 128 214 l
 129 216 l
 </path>
-<path matrix="1 0 0 1 -1 -40" stroke="sym-stroke">
+<path matrix="1 0 0 1 -89 -224" stroke="black">
 91 216 m
 89 216 l
 </path>
-<path matrix="1 0 0 1 -1 -40" stroke="sym-stroke">
+<path matrix="1 0 0 1 -89 -224" stroke="black">
 87 216 m
 85 216 l
 </path>
-<path matrix="1 0 0 1 0 -20" stroke="sym-stroke">
+<path matrix="1 0 0 1 -88 -204" stroke="black">
 83 196 m
 80 196 l
 </path>
-<path stroke="sym-stroke">
+<path matrix="1 0 0 1 -88 -184" stroke="black">
 95.5 176 m
 91 176 l
+</path>
+<path matrix="1 0 0 1 -88 -184" stroke="sym-stroke" cap="2">
+96 180 m
+95 171 l
 </path>
 </group>
 </symbol>
 
-<symbol name="Wiring diagram/4 way switch 1(s)" snap="0 0 16 0 0 -16  16 -16">
-<group layer="alpha" matrix="1 0 0 1 -128 -224">
-<path stroke="sym-stroke" cap="2" join="0">
+<symbol name="Wiring diagram/4 way switch 1(sf)" snap="0 0 16 0 0 -16  16 -16">
+<group layer="alpha">
+<path matrix="1 0 0 1 -128 -224" stroke="sym-fill" cap="2" join="0">
 139 220 m
 144 220 l
 144 224 l
 </path>
-<use matrix="1 0 0 1 -32 -512" name="mark/fdisk(sfx)" pos="176 736" size="normal" stroke="sym-stroke" fill="white"/>
-<path matrix="1 0 0 1 -32 -512" stroke="sym-stroke" cap="2">
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="176 736" size="normal" stroke="black" fill="white"/>
+<path matrix="1 0 0 1 -160 -736" stroke="sym-fill" cap="2">
 160 720 m
 160 724 l
 </path>
-<path matrix="1 0 0 1 -32 -512" stroke="sym-stroke" cap="2">
+<path matrix="1 0 0 1 -160 -736" stroke="sym-stroke" cap="2">
 160 736 m
 160 732 l
 </path>
-<path matrix="0.5 0 0 1 48 -512" stroke="sym-stroke" cap="2">
+<path matrix="0.5 0 0 1 -80 -736" stroke="sym-stroke" cap="2">
 160 732 m
 168 732 l
 </path>
-<path stroke="sym-stroke">
+<path matrix="1 0 0 1 -128 -224" stroke="sym-fill">
 128 212 m
 132 212 l
 </path>
-<use matrix="1 0 0 1 -32 -512" name="mark/fdisk(sfx)" pos="160 736" size="normal" stroke="sym-stroke" fill="white"/>
-<path stroke="sym-stroke" cap="2">
-133 220 m
-134 211 l
-</path>
-<use matrix="1 0 0 1 -35 -512" name="mark/disk(sx)" pos="168 732" size="small" stroke="sym-stroke"/>
-<path matrix="1 0 0 1 -32 -512" stroke="sym-stroke">
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="160 736" size="normal" stroke="black" fill="white"/>
+<use matrix="1 0 0 1 -163 -736" name="mark/disk(sx)" pos="168 732" size="small" stroke="sym-stroke"/>
+<path matrix="1 0 0 1 -160 -736" stroke="black">
 152 726 m
 152 730 l
 </path>
-<path stroke="sym-stroke" cap="2">
-139 220 m
-140 211 l
-</path>
-<use matrix="1 0 0 1 -29 -512" name="mark/disk(sx)" pos="168 732" size="small" stroke="sym-stroke"/>
-<path stroke="sym-stroke" join="0">
-138 212 m
-136 212 l
-136 208 l
-144 208 l
-</path>
-<path stroke="sym-stroke" join="0">
+<path matrix="1 0 0 1 -128 -224" stroke="sym-stroke" join="0">
 134 212 m
 136 212 l
 136 208 l
 137 208 l
 </path>
-<path stroke="sym-stroke" join="0">
+<path matrix="1 0 0 1 -128 -224" stroke="sym-fill" join="0">
 140 212 m
 142 212 l
 142 206 l
@@ -3211,89 +3196,100 @@ h
 132 208 l
 128 208 l
 </path>
-<use matrix="1 0 0 1 -81 -508" name="mark/disk(sx)" pos="217 720" size="small" stroke="sym-stroke"/>
-<use matrix="1 0 0 1 -32 -512" name="mark/fdisk(sfx)" pos="160 720" size="normal" stroke="sym-stroke" fill="white"/>
-<use matrix="1 0 0 1 -32 -512" name="mark/fdisk(sfx)" pos="176 720" size="normal" stroke="sym-stroke" fill="white"/>
-<path matrix="1 0 0 1 -1 0" stroke="sym-stroke" cap="1">
+<use matrix="1 0 0 1 -209 -732" name="mark/disk(sx)" pos="217 720" size="small" stroke="sym-stroke"/>
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="160 720" size="normal" stroke="black" fill="white"/>
+<path matrix="1 0 0 1 -129 -224" stroke="black" cap="1">
 127 216 m
 128 214 l
 129 216 l
 </path>
-<path matrix="1 0 0 1 39 0" stroke="sym-stroke">
+<path matrix="1 0 0 1 -89 -224" stroke="black">
 91 216 m
 89 216 l
 </path>
-<path matrix="1 0 0 1 39 0" stroke="sym-stroke">
+<path matrix="1 0 0 1 -89 -224" stroke="black">
 87 216 m
 85 216 l
 </path>
-<path matrix="1 0 0 1 40 20" stroke="sym-stroke">
+<path matrix="1 0 0 1 -88 -204" stroke="black">
 83 196 m
 80 196 l
 </path>
-<path stroke="sym-stroke">
+<path matrix="1 0 0 1 -128 -224" stroke="black">
 139.444 216 m
 135 216 l
 </path>
-<path matrix="1 0 0 1 40 20" stroke="sym-stroke">
+<path matrix="1 0 0 1 -88 -204" stroke="black">
 94 196 m
 91 196 l
 </path>
+<path matrix="1 0 0 1 -128 -224" stroke="sym-stroke" join="0">
+138 212 m
+136 212 l
+136 208 l
+144 208 l
+</path>
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="176 720" size="normal" stroke="black" fill="white"/>
+<path matrix="1 0 0 1 -128 -224" stroke="sym-stroke" cap="2">
+133 220 m
+134 211 l
+</path>
+<path matrix="1 0 0 1 -128 -224" stroke="sym-fill" cap="2">
+139 220 m
+140 211 l
+</path>
+<use matrix="1 0 0 1 -157 -736" name="mark/disk(sx)" pos="168 732" size="small" stroke="sym-fill"/>
 </group>
 </symbol>
 
-<symbol name="Wiring diagram/4 way switch 2(s)" snap="0 0 16 0 0 -16  16 -16">
-<group layer="alpha" matrix="1 0 0 1 -128 -184">
-<path matrix="1 0 0 1 -80 -552" stroke="sym-stroke" cap="2" join="0">
+<symbol name="Wiring diagram/4 way switch 2(sf)" snap="0 0 16 0 0 -16  16 -16">
+<group layer="alpha">
+<path matrix="1 0 0 1 -208 -736" stroke="sym-fill" cap="2" join="0">
 220 732 m
 224 732 l
 224 736 l
 </path>
-<use matrix="1 0 0 1 -32 -552" name="mark/fdisk(sfx)" pos="176 736" size="normal" stroke="sym-stroke" fill="white"/>
-<path matrix="1 0 0 1 -32 -552" stroke="sym-stroke" cap="2">
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="176 736" size="normal" stroke="black" fill="white"/>
+<path matrix="1 0 0 1 -160 -736" stroke="sym-stroke" cap="2">
 160 720 m
 160 724 l
 </path>
-<path matrix="1 0 0 1 -32 -552" stroke="sym-stroke" cap="2">
+<path matrix="1 0 0 1 -160 -736" stroke="sym-stroke" cap="2">
 160 736 m
 160 732 l
 </path>
-<path matrix="0.5 0 0 1 48 -552" stroke="sym-stroke" cap="2">
+<path matrix="0.5 0 0 1 -80 -736" stroke="sym-stroke" cap="2">
 160 732 m
 168 732 l
 </path>
-<path stroke="sym-stroke">
+<path matrix="1 0 0 1 -128 -184" stroke="sym-stroke">
 128 172 m
 132 172 l
 </path>
-<use matrix="1 0 0 1 -32 -552" name="mark/fdisk(sfx)" pos="160 736" size="normal" stroke="sym-stroke" fill="white"/>
-<path matrix="1 0 0 1 2 0" stroke="sym-stroke" cap="2">
-131 180 m
-130 171 l
-</path>
-<use matrix="1 0 0 1 -35 -552" name="mark/disk(sx)" pos="168 732" size="small" stroke="sym-stroke"/>
-<path matrix="1 0 0 1 -32 -552" stroke="sym-stroke">
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="160 736" size="normal" stroke="black" fill="white"/>
+<use matrix="1 0 0 1 -163 -736" name="mark/disk(sx)" pos="168 732" size="small" stroke="sym-stroke"/>
+<path matrix="1 0 0 1 -160 -736" stroke="black">
 152 726 m
 152 730 l
 </path>
-<path stroke="sym-stroke" cap="2">
+<path matrix="1 0 0 1 -128 -184" stroke="sym-fill" cap="2">
 139 180 m
 138 171 l
 </path>
-<use matrix="1 0 0 1 -29 -552" name="mark/disk(sx)" pos="168 732" size="small" stroke="sym-stroke"/>
-<path stroke="sym-stroke" join="0">
+<use matrix="1 0 0 1 -157 -736" name="mark/disk(sx)" pos="168 732" size="small" stroke="sym-fill"/>
+<path matrix="1 0 0 1 -128 -184" stroke="sym-fill" join="0">
 138 172 m
 136 172 l
 136 168 l
 144 168 l
 </path>
-<path stroke="sym-stroke" join="0">
+<path matrix="1 0 0 1 -128 -184" stroke="sym-fill" join="0">
 134 172 m
 136 172 l
 136 168 l
 137 168 l
 </path>
-<path stroke="sym-stroke" join="0">
+<path matrix="1 0 0 1 -128 -184" stroke="sym-stroke" join="0">
 140 172 m
 142 172 l
 142 166 l
@@ -3301,33 +3297,37 @@ h
 132 168 l
 128 168 l
 </path>
-<use matrix="1 0 0 1 -81 -548" name="mark/disk(sx)" pos="217 720" size="small" stroke="sym-stroke"/>
-<use matrix="1 0 0 1 -32 -552" name="mark/fdisk(sfx)" pos="160 720" size="normal" stroke="sym-stroke" fill="white"/>
-<use matrix="1 0 0 1 -32 -552" name="mark/fdisk(sfx)" pos="176 720" size="normal" stroke="sym-stroke" fill="white"/>
-<path matrix="1 0 0 1 -1 -40" stroke="sym-stroke" cap="1">
+<use matrix="1 0 0 1 -209 -732" name="mark/disk(sx)" pos="217 720" size="small" stroke="sym-fill"/>
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="160 720" size="normal" stroke="black" fill="white"/>
+<use matrix="1 0 0 1 -160 -736" name="mark/fdisk(sfx)" pos="176 720" size="normal" stroke="black" fill="white"/>
+<path matrix="1 0 0 1 -129 -224" stroke="black" cap="1">
 127 216 m
 128 214 l
 129 216 l
 </path>
-<path matrix="1 0 0 1 39 -40" stroke="sym-stroke">
+<path matrix="1 0 0 1 -89 -224" stroke="black">
 91 216 m
 89 216 l
 </path>
-<path matrix="1 0 0 1 39 -40" stroke="sym-stroke">
+<path matrix="1 0 0 1 -89 -224" stroke="black">
 87 216 m
 85 216 l
 </path>
-<path matrix="1 0 0 1 40 -20" stroke="sym-stroke">
+<path matrix="1 0 0 1 -88 -204" stroke="black">
 83 196 m
 80 196 l
 </path>
-<path stroke="sym-stroke">
+<path matrix="1 0 0 1 -128 -184" stroke="black">
 138.556 176 m
 135 176 l
 </path>
-<path matrix="1 0 0 1 40 -20" stroke="sym-stroke">
+<path matrix="1 0 0 1 -88 -204" stroke="black">
 94 196 m
 91 196 l
+</path>
+<path matrix="1 0 0 1 -126 -184" stroke="sym-stroke" cap="2">
+131 180 m
+130 171 l
 </path>
 </group>
 </symbol>
