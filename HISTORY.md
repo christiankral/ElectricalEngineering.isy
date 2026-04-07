@@ -1,5 +1,10 @@
 # History
 
+### v1.3.2, 2026-04-07
+
+- Improve existing Wiring diagram/Outlet X
+- Add Wiring diagram/Outlet 2
+
 ### v1.3.1, 2026-04-01
 
 - Change naming of 3 and 4 way switches
