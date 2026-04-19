@@ -1,5 +1,9 @@
 # History
 
+### v1.3.3, 2026-04-19
+
+- Fix anchor points of fuse models
+
 ### v1.3.2, 2026-04-07
 
 - Improve existing Wiring diagram/Outlet X
