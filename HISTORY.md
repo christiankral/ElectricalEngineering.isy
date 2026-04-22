@@ -1,5 +1,9 @@
 # History
 
+### v1.3.4, 2026-XX-XX
+
+- Improve wiring diagram symbols
+
 ### v1.3.3, 2026-04-19
 
 - Fix anchor points of fuse models
