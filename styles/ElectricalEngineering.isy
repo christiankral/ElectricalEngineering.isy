@@ -344,9 +344,6 @@
 
 <symbol name="Basic/Lamp(s)" snap="-16 0 16 0 0 0">
   <group>
-  <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke">
-  6 0 0 6 80 88 e
-  </path>
   <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke" cap="2">
   64 88 m
   74 88 l
@@ -355,11 +352,14 @@
   86 88 m
   96 88 l
   </path>
-  <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke">
+  <path matrix="1 0 0 1 -80 -88" stroke="black">
+  6 0 0 6 80 88 e
+  </path>
+  <path matrix="1 0 0 1 -80 -88" stroke="black">
   76 84 m
   84 92 l
   </path>
-  <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke">
+  <path matrix="1 0 0 1 -80 -88" stroke="black">
   76 92 m
   84 84 l
   </path>
@@ -368,9 +368,6 @@
 
 <symbol name="Basic/Lamp filled(sf)" snap="-16 0 16 0 0 0">
   <group>
-  <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke" fill="sym-fill">
-  6 0 0 6 80 88 e
-  </path>
   <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke" cap="2">
   64 88 m
   74 88 l
@@ -379,11 +376,14 @@
   86 88 m
   96 88 l
   </path>
-  <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke">
+  <path matrix="1 0 0 1 -80 -88" stroke="black" fill="sym-fill">
+  6 0 0 6 80 88 e
+  </path>
+  <path matrix="1 0 0 1 -80 -88" stroke="black">
   76 84 m
   84 92 l
   </path>
-  <path matrix="1 0 0 1 -80 -88" stroke="sym-stroke">
+  <path matrix="1 0 0 1 -80 -88" stroke="black">
   76 92 m
   84 84 l
   </path>
@@ -3349,8 +3349,8 @@ h
 <symbol name="Wiring diagram/Lamp(sf)" snap="0 0 16 0">
 <group layer="alpha">
 <use matrix="0.5 0 0 0.5 -12 -328" name="Basic/Lamp filled(sf)" pos="40 656" stroke="sym-stroke" fill="sym-fill"/>
-<use matrix="1 0 0 1 -232 -704" name="mark/fdisk(sfx)" pos="232 704" size="normal" stroke="sym-stroke"/>
-<use matrix="1 0 0 1 -233 -705" name="mark/fdisk(sfx)" pos="249 705" size="normal" stroke="sym-stroke" fill="white"/>
+<use matrix="1 0 0 1 -232 -704" name="mark/fdisk(sfx)" pos="232 704" size="normal" stroke="black"/>
+<use matrix="1 0 0 1 -233 -705" name="mark/fdisk(sfx)" pos="249 705" size="normal" stroke="black" fill="white"/>
 </group>
 </symbol>
 
