@@ -1,9 +1,13 @@
 # History
 
+### v1.4.0, 2026-10-15
+
+- Add two-way switch symbols
+
 ### v1.3.4, 2026-05-04
 
 - Improve wiring diagram symbols
-- Change wiring color of lamp for modulare use
+- Change wiring color of lamp for modular use
 
 ### v1.3.3, 2026-04-19
 
